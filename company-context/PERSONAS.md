@@ -1,479 +1,518 @@
-# TaskFlow User Personas
+# Accenture User Personas
 
-**Deep dive into who uses TaskFlow and why**
+**Deep dive into who uses your internal products and why**
 
 ---
 
 ## Overview
 
-TaskFlow serves three primary user personas across our customer base. Understanding these personas is critical for product decisions - every feature should serve at least one persona's core needs.
+Your products (AKX and ADH) serve three primary user personas across Accenture. Understanding these personas is critical for product decisions - every feature should address at least one persona's core needs while navigating enterprise constraints.
 
 ---
 
-## Persona 1: Sarah (Enterprise Admin)
+## Persona 1: Priya Sharma (Partner & Practice Lead)
 
 ### Quick Facts
 
-**Name:** Sarah Chen
-**Age:** 38
-**Role:** VP of IT Operations
-**Company:** TechCorp (800 employees, Series C)
-**Location:** Austin, TX (remote team across US)
-**TaskFlow Plan:** Enterprise
+**Name:** Priya Sharma
+**Age:** 47
+**Role:** Managing Director & Practice Lead, Financial Services Technology
+**Location:** New York, NY (travels 60% of time)
+**Tenure:** 18 years at Accenture
+**Team Size:** 450 consultants in her practice
+**Products Used:** AKX (primary), ADH (occasional)
 
 ### Background
 
-Sarah leads IT operations for a fast-growing SaaS company. Her team supports 800 employees across 15 tools. She reports to the CTO and owns IT budget ($2M annually).
+Priya leads the Financial Services Technology practice for North America. She's responsible for $180M in annual revenue, 450 consultants, and strategic relationships with 12 major financial institutions. Her days are split between client meetings, business development, and team leadership.
 
 **Career path:**
-- Started as IT support specialist
-- Grew to IT Manager
-- Now VP of IT Operations (6 direct reports)
-- 12 years in IT, 8 years at current company
+- Started as Analyst after MBA (Wharton)
+- Consultant → Manager → Senior Manager → Managing Director
+- Built the cloud migration practice from scratch
+- Promoted to Practice Lead 4 years ago
 
 **Education:**
-- BS in Information Systems
-- CISSP certified (security)
+- MBA, Wharton School of Business
+- BS in Computer Science, Georgia Tech
 
 ### Goals & Motivations
 
 **Primary goals:**
-1. **Reduce tool sprawl** - Currently using 25+ tools, want to consolidate to 10-12
-2. **Improve security posture** - Pass SOC 2 audit, meet enterprise customer requirements
-3. **Control costs** - $2M budget, need to show ROI on every tool
-4. **Enable teams** - Give employees good tools without compromising security
+1. **Win new business** - Need to staff winning teams quickly for proposals
+2. **Demonstrate expertise** - Show clients Accenture has done this before
+3. **Develop talent** - Grow and retain top performers in her practice
+4. **Hit revenue targets** - $180M annual target with 15% growth expectation
 
 **Success metrics:**
-- Number of tools in use (down)
-- Security incidents (zero)
-- Employee satisfaction with tools (up)
-- Tool cost per employee (down)
+- Revenue and margin for the practice
+- Win rate on proposals (currently 35%, target 45%)
+- Client satisfaction scores
+- Talent retention and development
 
 ### Pain Points & Frustrations
 
-**1. Tool sprawl is out of control**
-- Engineering uses Linear
-- Marketing uses Monday.com
-- Sales uses Salesforce + Asana
-- Design uses Notion
-- No central place to see what's happening
+**1. Can't find the right experts fast enough**
+- Client calls with urgent need - "Do you have anyone with blockchain experience in securities trading?"
+- Searches AKX, gets 500 results, none obviously relevant
+- Resorts to mass emails, "Who knows someone who..."
+- Competitor responds faster with a better-qualified team
 
-**2. Security nightmares**
-- Shadow IT (teams buying tools without approval)
-- No visibility into who has access to what
-- Former employees still have access to tools
-- Can't produce audit logs when asked
+**2. Recreating proposals from scratch**
+- Knows we've done similar work, can't find it
+- Every RFP response starts from blank page
+- Team spends 40 hours on proposals that should take 10
+- Inconsistent messaging across proposals
 
-**3. Onboarding/offboarding chaos**
-- New hire? Need to create 25 accounts manually
-- Someone leaves? Need to revoke 25 accesses
-- Takes 2 days to fully provision someone
+**3. No visibility into bench talent**
+- Someone's rolling off a project next week - who's available?
+- Checking ADH is tedious, data often stale
+- Ends up calling around to find who's free
+- Misses opportunities because mobilization takes too long
 
-**4. No visibility**
-- Can't see what teams are working on
-- Can't report up to executives
-- Can't forecast resource needs
+**4. Competitive intelligence gaps**
+- What are McKinsey/BCG doing in this space?
+- What accelerators do we have that they don't?
+- Hard to articulate our differentiation convincingly
 
 ### Jobs to be Done
 
 **When...**
-- ...a new employee joins → Provision all tool access in one place, automatically
-- ...someone leaves → Revoke all access instantly with confidence
-- ...auditors ask for logs → Provide comprehensive audit trail without scrambling
-- ...evaluating new tools → Ensure they meet security standards before buying
-- ...CFO asks about tool costs → Show ROI and usage metrics for every tool
-- ...security incident occurs → Identify scope of access and revoke immediately
+- ...preparing for a client pitch → Find similar past work and experts to reference within 30 minutes
+- ...responding to an RFP → Locate reusable proposals, case studies, and qualified team members
+- ...a client asks "Have you done this before?" → Immediately pull up relevant credentials
+- ...staffing a new engagement → Identify available consultants with right skills in hours, not days
+- ...onboarding a new client team member → Show them relevant past work and key contacts
 
-### TaskFlow Features They Care About
+### Product Features That Matter
 
-**Must-haves:**
-- ✅ SSO (Single Sign-On) via SAML - non-negotiable
-- ✅ Audit logs - who did what, when, why
-- ✅ Advanced permissions - role-based access control
-- ✅ Bulk user management - add/remove many users at once
-- ✅ Admin dashboard - org-wide visibility
+**AKX Must-haves:**
+- Fast, accurate search (not 500 irrelevant results)
+- Expert profiles with verifiable credentials
+- Case study library with client outcomes
+- Proposal templates and reusable content
+- Client relationship mapping (who knows whom)
 
-**Nice-to-haves:**
-- Custom user fields (department, location, cost center)
-- Usage analytics (who's using it, who's not)
-- Data export (own your data)
-- 99.9% uptime SLA
+**ADH Must-haves:**
+- Real-time bench availability
+- Skills-based search for staffing
+- Project pipeline visibility
+- Mobile access (for travel)
 
 **Don't care about:**
-- Fancy UI animations
+- Detailed time tracking (delegates this)
+- Training modules (her team handles)
 - Social features
-- Public boards
-- Mobile app (desktop-first role)
+- Gamification
 
 ### Behavior & Preferences
 
 **How they work:**
-- Deep focus: Blocks of focused work (no constant interruptions)
-- Communication: Email > Slack (prefers async)
-- Decision-making: Data-driven, risk-averse
-- Tools: Loves dashboards, reports, analytics
+- Always in back-to-back meetings
+- Checks email/tools between meetings (5-10 min windows)
+- Delegates research to team, reviews outputs
+- Makes decisions quickly, expects immediate action
+- Mobile-first (rarely at desk)
+
+**Tech savviness:** Moderate
+- Comfortable with standard tools (Outlook, PowerPoint, Teams)
+- Impatient with complex interfaces
+- Won't read instructions, expects intuitive design
+- Has executive assistant who helps with tools
+
+**Communication style:**
+- Direct and time-constrained
+- Expects executive summaries, not details
+- "Give me the answer, not the analysis"
+- Prefers 1-page summaries over long documents
+
+### Quotes
+
+*"I have 15 minutes before my next client call. Can I find someone with Kubernetes experience in capital markets? If not, I'm going to email my network and hope someone responds."*
+
+*"We've done this work 50 times before. Why is my team starting from scratch on every proposal?"*
+
+*"I shouldn't need to call six people to find out who's available next month."*
+
+*"The tools are there. The information is there. It just takes too long to find what I need."*
+
+---
+
+## Persona 2: Marcus Johnson (Senior Consultant)
+
+### Quick Facts
+
+**Name:** Marcus Johnson
+**Age:** 31
+**Role:** Senior Consultant, Technology Strategy
+**Location:** Chicago, IL (remote, travels to client sites 40%)
+**Tenure:** 5 years at Accenture
+**Current Project:** Digital transformation for a Fortune 500 retailer
+**Products Used:** AKX (daily), ADH (weekly for timesheets)
+
+### Background
+
+Marcus is a high-performing senior consultant specializing in technology strategy for retail and consumer goods clients. He spends most of his time on client sites or working remotely, developing strategies and managing workstreams. He's approaching Manager promotion and focused on building his expertise and visibility.
+
+**Career path:**
+- Joined as Consultant after MBA
+- Promoted to Senior Consultant after 3 years
+- Targeting Manager promotion in 12 months
+- Building expertise in AI/ML strategy
+
+**Education:**
+- MBA, Northwestern Kellogg
+- BS in Economics, University of Michigan
+
+### Goals & Motivations
+
+**Primary goals:**
+1. **Deliver great client work** - Build reputation through excellent deliverables
+2. **Get promoted** - Need documented thought leadership and client impact
+3. **Develop expertise** - Build deep skills in AI strategy
+4. **Efficient work** - Minimize time on admin, maximize impact
+
+**Success metrics:**
+- Client feedback scores (target: 4.5/5)
+- Utilization rate (target: 85%+)
+- Thought leadership contributions (articles, presentations)
+- Promotion readiness assessment
+
+### Pain Points & Frustrations
+
+**1. Recreating deliverables that already exist**
+- Knows someone has built this analysis before
+- Searches AKX, finds 200 outdated documents
+- Can't tell which are good vs. which are garbage
+- Ends up building from scratch anyway
+
+**2. Time wasted on administrative tasks**
+- Status reports for multiple stakeholders
+- Timesheet entry and expense reports
+- Finding and booking meeting rooms
+- Internal compliance training
+
+**3. Limited visibility into expertise and opportunities**
+- Want to build AI expertise - who are the experts I should learn from?
+- What internal projects could help me develop?
+- How do I get staffed on interesting work?
+
+**4. Information overload**
+- Gets 200+ emails per day
+- Multiple SharePoint sites, Teams channels
+- Hard to know what's important vs. noise
+- Searches return too many irrelevant results
+
+### Jobs to be Done
+
+**When...**
+- ...starting a new analysis → Find similar past work to use as a starting point
+- ...writing a presentation → Locate templates and examples that match Accenture standards
+- ...building expertise → Find internal experts, training, and communities
+- ...preparing for promotion → Document contributions and find visibility opportunities
+- ...staffed on new project → Quickly get up to speed on client context and past work
+
+### Product Features That Matter
+
+**AKX Must-haves:**
+- Quality-filtered search results (not every document ever created)
+- Templates and examples that are actually reusable
+- Expert directory with real contact info
+- Content ratings/freshness indicators
+- Integration with Office tools (use from PowerPoint, Word)
+
+**ADH Must-haves:**
+- Simple time entry (mobile)
+- Skills profile management
+- Project history and portfolio
+- Staffing request visibility
+
+**Nice-to-haves:**
+- Learning recommendations based on career goals
+- Internal mobility/project matching
+- Peer recognition for contributions
+
+**Don't care about:**
+- Executive dashboards
+- Resource planning views
+- Financial reporting
+- Complex workflow tools
+
+### Behavior & Preferences
+
+**How they work:**
+- Long stretches of focused work on deliverables
+- Client meetings scattered throughout day
+- Works across multiple devices (laptop, tablet, phone)
+- Prefers async communication when possible
+- Values efficiency - quick in, quick out
 
 **Tech savviness:** High
-- Comfortable with technical concepts
-- Reads security white papers
-- Evaluates tools rigorously
+- Power user of Office tools
+- Comfortable with cloud apps and mobile
+- Frustrated by slow, clunky enterprise tools
+- Compares everything to consumer-grade apps
+- Will find workarounds for bad tools
 
-**Buying process:**
-- Does extensive research (weeks)
-- Requires security review
-- Needs legal to review contracts
-- Pilot with 50 users before full rollout
-- Typical sales cycle: 3-6 months
+**Working hours:**
+- Flexible but often long (50-60 hours/week)
+- Peak productivity: Early morning (6-9am) or late evening
+- Client-facing time: 10am-5pm
+- Catches up on admin: Nights and weekends
 
 ### Quotes
 
-*"I need one place where I can see who has access to what, and revoke it instantly if needed."*
+*"I know this analysis exists somewhere. I've seen it before. But it's faster to just rebuild it than to find it."*
 
-*"Security isn't negotiable. If you don't have SSO and audit logs, we can't even consider you."*
+*"I don't need 500 search results. I need the 3 best documents that are actually relevant."*
 
-*"I'm tired of being the bottleneck for every tool evaluation. I need tools that just work and meet our standards."*
+*"The tools at work are 10 years behind what I use at home. Why can't enterprise software be as easy as consumer apps?"*
 
-*"When an employee leaves, I lose sleep wondering if we've revoked all their access. It shouldn't be this hard."*
+*"I want to build expertise in AI, but I don't know who to talk to or how to get on the right projects."*
 
 ---
 
-## Persona 2: Mike (IC Engineer)
+## Persona 3: Elena Rodriguez (Delivery Manager)
 
 ### Quick Facts
 
-**Name:** Mike Rodriguez
-**Age:** 29
-**Role:** Senior Software Engineer
-**Company:** GrowthLabs (150 employees, Series B)
-**Location:** Portland, OR (fully remote)
-**TaskFlow Plan:** Pro (company-wide)
+**Name:** Elena Rodriguez
+**Age:** 42
+**Role:** Delivery Manager, Technology Consulting
+**Location:** Atlanta, GA (remote, occasional travel)
+**Tenure:** 12 years at Accenture
+**Portfolio:** 8 active projects, 120 consultants
+**Products Used:** ADH (primary), AKX (occasional)
 
 ### Background
 
-Mike is a senior engineer focused on backend systems. He codes 6-8 hours per day, attends 2-3 meetings per week, works across 4 timezones with distributed team.
+Elena manages delivery for a portfolio of technology implementation projects across multiple clients. She's responsible for project health, resource allocation, status reporting, and escalation management. She doesn't do client-facing work herself but ensures her teams deliver successfully.
 
 **Career path:**
-- Bootcamp grad (2018)
-- Junior → Mid → Senior engineer (5 years)
-- Specializes in Node.js, PostgreSQL, AWS
+- Started as Business Analyst
+- Became Project Manager after 4 years
+- Moved to Delivery Management 5 years ago
+- Manages the largest portfolio in her practice
 
 **Education:**
-- Coding bootcamp (Hack Reactor)
-- Self-taught (before bootcamp)
+- BS in Information Systems, Georgia State
+- PMP Certified
+- Six Sigma Black Belt
 
 ### Goals & Motivations
 
 **Primary goals:**
-1. **Deep work** - Long, uninterrupted focus time to solve complex problems
-2. **Clear priorities** - Know exactly what to work on, no guessing
-3. **Minimize context switching** - Fewer tools, less jumping around
-4. **Ship quality code** - Pride in craftsmanship
+1. **Deliver projects on time and budget** - No surprises, no escalations
+2. **Optimize resource utilization** - Keep bench low, utilization high
+3. **Early warning on risks** - Identify issues before they become problems
+4. **Reduce administrative burden** - Less time on reports, more time on delivery
 
 **Success metrics:**
-- Features shipped per sprint
-- Bug count (low)
-- Code review turnaround time (fast)
-- Focus time (6+ hours daily)
+- Project delivery rate (target: 95% on-time, on-budget)
+- Team utilization (target: 88%)
+- Client satisfaction scores (target: 4.5/5)
+- Resource forecast accuracy (target: 90%)
 
 ### Pain Points & Frustrations
 
-**1. Priority confusion**
-- Multiple sources of truth (Slack, email, standup, task tool)
-- Conflicting priorities from different stakeholders
-- Unclear what "urgent" actually means
-- Time wasted asking "what should I work on?"
+**1. No single source of truth for project health**
+- Checking 5 different tools to get project status
+- PM self-reports are optimistic, reality often worse
+- By the time issues surface, they're critical
+- Can't see cross-project trends
 
-**2. Insufficient context**
-- Task title: "Fix login bug" (which bug? where? why?)
-- No technical detail in requirements
-- Product specs lack edge cases
-- Have to hunt for background information
+**2. Resource allocation is a nightmare**
+- Spreadsheets and emails to track who's available
+- Staffing requests via email chains
+- Skills matching is manual guesswork
+- Someone always ends up double-booked
 
-**3. Meeting overload**
-- Standups could be async
-- Status updates interrupt focus
-- Meetings scheduled during peak focus time
-- Time zones make scheduling worse
+**3. Status reporting takes forever**
+- 4+ hours per week compiling status updates
+- Different formats for different stakeholders
+- Copy-paste between tools
+- Data is stale by the time reports go out
 
-**4. Slow, bloated tools**
-- Page load times > 3 seconds
-- Heavy, laggy interfaces
-- Too many clicks to do simple things
-- Mobile web unusable
+**4. Forecasting is inaccurate**
+- Project timelines slip but no one updates the system
+- Can't predict future resource needs
+- Surprised by project extensions or early endings
+- Financial forecasts are often wrong
 
 ### Jobs to be Done
 
 **When...**
-- ...starting work → See highest priority tasks immediately, with full context
-- ...blocked on something → Communicate blocker without scheduling meeting
-- ...finishing a task → Know what's next without asking
-- ...reviewing PRs → See linked task context without leaving GitHub
-- ...planning capacity → See upcoming work and estimate effort
+- ...reviewing portfolio health → See all projects' status at a glance without asking anyone
+- ...staffing a new project → Find available consultants with right skills immediately
+- ...preparing status reports → Generate reports automatically from system data
+- ...forecasting resources → See upcoming demand and availability 3+ months out
+- ...escalating issues → Have data to support the escalation, not just opinions
 
-### TaskFlow Features They Care About
+### Product Features That Matter
 
-**Must-haves:**
-- ✅ Keyboard shortcuts - navigate without mouse (Cmd+K, j/k navigation)
-- ✅ Fast performance - sub-second page loads, no spinners
-- ✅ GitHub integration - PRs linked to tasks, auto-status updates
-- ✅ Rich markdown - code blocks, syntax highlighting
-- ✅ Context on tasks - clear "why," not just "what"
+**ADH Must-haves:**
+- Real-time project dashboard (health, status, risks)
+- Resource utilization and availability view
+- Automated status report generation
+- Skills-based staffing search
+- Forecasting and capacity planning
+
+**AKX Uses:**
+- Finding past project plans and templates
+- Best practices documentation
+- Lessons learned from similar projects
 
 **Nice-to-haves:**
-- Dark mode (late-night coding)
-- Offline mode (work on planes)
-- API access (automation)
-- CLI tool
+- Predictive alerts ("Project X trending red")
+- Integration with financial systems
+- Mobile access for quick checks
+- Client satisfaction tracking
 
 **Don't care about:**
-- Visual project boards (prefer list view)
-- Charts and graphs
-- Social features
-- Video calls
+- Detailed document search
+- Expert networking
+- Thought leadership
+- Career development features
 
 ### Behavior & Preferences
 
 **How they work:**
-- Deep focus: 2-3 hour blocks of uninterrupted coding
-- Communication: Async > real-time (Slack off during focus)
-- Decision-making: Technical merit, efficiency
-- Tools: Keyboard > mouse, CLI > GUI
+- Reviews dashboards first thing in the morning
+- Back-to-back meetings with PMs and stakeholders
+- Firefighting when issues arise
+- Weekly resource planning sessions
+- Friday status report preparation
 
-**Tech savviness:** Very high
-- Power user of developer tools
-- Writes scripts to automate workflows
-- Customizes everything
+**Tech savviness:** Moderate-High
+- Expert in Excel (pivot tables, complex formulas)
+- Comfortable with project management tools
+- Values reliability over features
+- Needs tools to work the first time, every time
 
-**Working hours:**
-- Flexible (remote)
-- Peak productivity: Morning (6am-12pm)
-- Avoids meetings before noon
-- Often works evenings if blocked earlier
-
-### Quotes
-
-*"Just tell me what to build, give me the context, and let me code. Don't make me hunt for information or sit in meetings."*
-
-*"If your tool is slow, I won't use it. I'll find a faster alternative or build my own."*
-
-*"I need keyboard shortcuts for everything. If I have to use my mouse, I'm already annoyed."*
-
-*"The best standups are the ones that don't happen. Just let me read the updates async."*
-
----
-
-## Persona 3: Alex (Team Lead)
-
-### Quick Facts
-
-**Name:** Alex Rivera
-**Age:** 35
-**Role:** Engineering Manager
-**Company:** DataFlow (200 employees, Series B)
-**Location:** San Francisco, CA (remote team across 5 timezones)
-**TaskFlow Plan:** Pro
-**Team size:** 8 engineers (3 senior, 5 mid-level)
-
-### Background
-
-Alex manages a distributed engineering team. Former senior engineer, promoted to manager 2 years ago. Still codes occasionally (~20% time) but primarily focuses on team productivity, hiring, and delivery.
-
-**Career path:**
-- Engineer (5 years)
-- Tech lead (2 years)
-- Engineering manager (2 years)
-- Goal: Director of Engineering
-
-**Education:**
-- BS in Computer Science
-- MBA (evening program, in progress)
-
-### Goals & Motivations
-
-**Primary goals:**
-1. **Team success** - Team delivers on time, with quality, without burnout
-2. **Clear visibility** - Know status without asking, identify blockers early
-3. **Balanced workload** - No one overloaded, no one underutilized
-4. **Career growth** - Develop team members, hire A-players, grow to Director
-
-**Success metrics:**
-- Sprint velocity (consistent, predictable)
-- Team happiness (retention, engagement)
-- On-time delivery rate
-- Code quality (low bug rate)
-
-### Pain Points & Frustrations
-
-**1. No visibility without asking**
-- Have to ping team members: "What's your status?"
-- Standups are status updates (should be async)
-- By the time blockers surface, they're critical
-- Can't see workload balance until it's too late
-
-**2. Constant context switching**
-- Checking 5 tools to understand status
-- GitHub (code), TaskFlow (tasks), Slack (communication), Figma (designs), Notion (docs)
-- Hard to get big picture
-- Time wasted aggregating information
-
-**3. Reporting up is painful**
-- Leadership asks: "Are we on track?"
-- Takes 2 hours to gather data and create update
-- By the time I report, data is stale
-- Manual work that should be automatic
-
-**4. Team balance issues**
-- Some engineers overloaded (working nights)
-- Others underutilized (waiting for tasks)
-- Hard to see capacity at a glance
-- Task assignment is guesswork
-
-### Jobs to be Done
-
-**When...**
-- ...planning a sprint → See team capacity, assign work fairly
-- ...someone is blocked → Identify blockers without daily standup
-- ...reporting to leadership → Show team progress clearly and quickly
-- ...1:1 with engineer → See their work in context, provide feedback
-- ...hiring need arises → Show leadership we're at capacity (need headcount)
-
-### TaskFlow Features They Care About
-
-**Must-haves:**
-- ✅ Team dashboard - everyone's tasks at a glance
-- ✅ Workload view - who's overloaded, who has capacity
-- ✅ Blocked task visibility - red flags, urgent attention
-- ✅ Sprint reports - velocity, burndown, predictability
-- ✅ Comment summaries - catch up on discussions without reading everything
-
-**Nice-to-haves:**
-- Predictive analytics ("team will finish 2 days late at current pace")
-- Historical velocity (compare sprints)
-- Individual performance tracking (for reviews)
-- Integration with calendar (see who's out, who's available)
-
-**Don't care about:**
-- Granular task details (trust team to handle)
-- Fancy animations
-- Social features
-
-### Behavior & Preferences
-
-**How they work:**
-- Management time: Meetings, 1:1s, planning (50%)
-- Coding time: Occasional IC work (20%)
-- Strategy time: Hiring, roadmap, team development (30%)
-- Communication: Mix of sync (1:1s) and async (updates)
-
-**Tech savviness:** High
-- Former engineer (understands technical details)
-- Comfortable with data and analytics
-- Appreciates automation
-
-**Working hours:**
-- Flexible (remote)
-- Meetings: 9am-5pm
-- Coding: Early morning or late evening (no interruptions)
-- Availability: Across timezones (some late calls)
+**Communication style:**
+- Data-driven, factual
+- Prefers charts and metrics over narrative
+- Direct about problems
+- Documents everything
 
 ### Quotes
 
-*"I need to know if my team is on track without asking them individually every day. That doesn't scale."*
+*"I shouldn't have to call five project managers to know if we're on track. That information should be in the system."*
 
-*"When I'm in back-to-back meetings all day, I need to catch up on team progress in 5 minutes, not 2 hours."*
+*"Status reporting shouldn't be a weekend activity. The system should generate these reports automatically."*
 
-*"I trust my team, but I need visibility. If someone's blocked and I don't know about it, that's on me."*
+*"I need to know who's going to be available in 60 days, not who's available today."*
 
-*"Reporting up shouldn't be a manual process. The data is there - just show it to me in a format I can share."*
+*"Every hour I spend on administrative work is an hour I'm not spending on actual delivery management."*
 
 ---
 
 ## Persona Comparison Matrix
 
-| Attribute | Sarah (Enterprise Admin) | Mike (IC Engineer) | Alex (Team Lead) |
+| Attribute | Priya (Partner) | Marcus (Consultant) | Elena (Delivery Manager) |
 | --- | --- | --- | --- |
-| **Primary goal** | Security & compliance | Deep work & shipping code | Team productivity & delivery |
-| **Success metric** | Zero security incidents | Features shipped | Sprint velocity |
-| **Key pain point** | Tool sprawl, no visibility | Context switching, unclear priorities | No team visibility |
-| **Communication style** | Email, formal | Async, minimal | Mix of sync/async |
-| **Tech savviness** | High (IT background) | Very high (engineer) | High (former engineer) |
-| **Decision-making** | Risk-averse, data-driven | Efficiency-first | Team-first, data-informed |
-| **TaskFlow priorities** | SSO, audit logs, permissions | Speed, keyboard shortcuts, GitHub | Dashboard, workload view, reports |
-| **Buying influence** | Final decision (budget owner) | Recommender (influences choice) | Influencer (needs to succeed) |
+| **Primary goal** | Win business, grow practice | Deliver great work, get promoted | On-time delivery, resource optimization |
+| **Success metric** | Revenue, win rate | Client feedback, utilization | Project delivery rate, utilization |
+| **Key pain point** | Can't find experts/content fast | Recreates existing work | No visibility into project health |
+| **Primary product** | AKX | AKX | ADH |
+| **Time on tools** | 5-10 min windows | Deep work sessions | Morning dashboard reviews |
+| **Tech savviness** | Moderate | High | Moderate-High |
+| **Communication style** | Executive summaries | Efficient, async | Data-driven, factual |
+| **Mobile importance** | Critical (always traveling) | Important (flexible work) | Useful (occasional) |
+| **Influence on adoption** | Sets expectations for team | Grassroots influencer | Enforces tool usage |
 
 ---
 
 ## How Personas Influence Product Decisions
 
-### Example: Dark Mode Feature
+### Example: AI-Powered Search
 
-**Sarah's perspective:**
-- Doesn't care (desktop-first role, works normal hours)
-- Not a blocker, but not a driver
+**Priya's perspective:**
+- **CRITICAL** - Needs to find experts in 5 minutes, not 50
+- If it works, will mandate adoption across her practice
+- If it fails, will loudly complain to executive sponsors
 
-**Mike's perspective:**
-- **LOVES IT** (codes late at night, reduces eye strain)
-- Would actively advocate for TaskFlow because of this
-- Differentiator vs competitors
+**Marcus's perspective:**
+- **HIGH VALUE** - Tired of wading through irrelevant results
+- Will adopt if it actually saves time
+- Will abandon if results are poor
 
-**Alex's perspective:**
-- Nice to have (some engineers work late)
-- Not critical for team success
-- Would make team happy
+**Elena's perspective:**
+- Useful for finding project templates
+- Not her primary use case
+- Nice to have, not critical
 
-**Decision:** Ship dark mode
-- High value for Mike persona (retention + advocacy)
-- Low cost to build
-- Positive signal to market (modern tool)
+**Decision:** Ship AI search with focus on expert discovery and proposal content - addresses Priya's critical need and Marcus's efficiency desire.
 
 ---
 
-### Example: Advanced Permissions
+### Example: Automated Status Reports
 
-**Sarah's perspective:**
-- **MUST HAVE** (can't buy without this)
-- Blocker for enterprise deals
-- Willing to pay premium
+**Priya's perspective:**
+- Receives these reports, doesn't generate them
+- Wants them to be accurate and timely
+- Nice to have, not directly valuable to her
 
-**Mike's perspective:**
-- Doesn't care (not their job)
-- As long as it doesn't slow down tool
+**Marcus's perspective:**
+- Has to contribute to status reports (tedious)
+- Would appreciate anything that reduces admin work
+- Moderate value
 
-**Alex's perspective:**
-- Useful (control what team sees)
-- Not critical
+**Elena's perspective:**
+- **MUST HAVE** - Spends 4+ hours per week on this
+- Would dramatically improve her productivity
+- Directly addresses her biggest pain point
 
-**Decision:** Ship advanced permissions
-- Blocker for enterprise segment (high revenue)
-- Table stakes feature
-- Required for upmarket expansion
+**Decision:** Prioritize automated status reports - high value for Elena (direct user), indirect benefits to Marcus (reduced admin), and improves report quality for Priya (receiver).
 
 ---
 
 ## Persona-Driven Roadmap Prioritization
 
-**Q1 2025 Priorities:**
+**Q1-Q2 Priorities:**
 
-1. **Mobile app** → All personas benefit
-  - Sarah: Team uses mobile for on-the-go
-  - Mike: Review tasks during commute
-  - Alex: Check team status while traveling
+1. **AI-powered search for AKX** → Priya & Marcus benefit
+   - Expert discovery in minutes, not hours
+   - Quality-filtered results
+   - Direct impact on win rates and productivity
 
-2. **SSO & enterprise features** → Sarah's blocker
-  - Critical for enterprise segment
-  - High revenue impact
-  - Competitive requirement
+2. **Automated status reporting for ADH** → Elena benefits
+   - Saves 4+ hours per week per delivery manager
+   - Improves data accuracy
+   - Reduces administrative burden
 
-3. **Activation improvements** → Mike's first experience
-  - Faster time to value
-  - Better onboarding
-  - Reduces churn
+3. **Mobile experience improvements** → Priya benefits
+   - Partners are always traveling
+   - Quick lookups between meetings
+   - Competitive requirement
 
-4. **Dark mode** → Mike's delight factor
-  - Highly requested
-  - Differentiation
-  - Engineering team morale
+4. **Skills-based staffing search** → Elena & Priya benefit
+   - Faster resource mobilization
+   - Better skills matching
+   - Reduces staffing time from days to hours
 
 ---
 
-**Use these personas throughout the course when writing PRDs, planning features, and making product decisions. Every decision should consider: "How does this serve our personas?"**
+## Adoption Challenges by Persona
+
+**Priya (Partner):**
+- Won't adopt if tool is slow or complicated
+- Needs to see immediate value in first use
+- Influenced by peer adoption (other MDs using it)
+- Will delegate to assistant if too complex
+
+**Marcus (Consultant):**
+- Compares to consumer apps (high bar)
+- Will find workarounds if tools are inadequate
+- Influenced by time savings
+- Active in sharing feedback (positive and negative)
+
+**Elena (Delivery Manager):**
+- Needs reliability above all
+- Will enforce adoption if tool is mandated
+- Values automation and efficiency
+- Provides detailed requirements
+
+---
+
+**Use these personas throughout the course when writing PRDs, analyzing data, and making product decisions. Always ask: "How does this serve our personas? Which persona is this solving for?"**

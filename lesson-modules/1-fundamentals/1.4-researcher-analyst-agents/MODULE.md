@@ -71,28 +71,29 @@ Researcher is your **AI research assistant**. It performs deep, multi-step resea
 
 | Use Researcher For | Don't Use For |
 |-------------------|---------------|
-| Competitive analysis | Quick facts |
-| Market research | Simple questions |
+| Competitive analysis (consulting firms) | Quick facts |
+| Industry best practices | Simple questions |
 | Multi-source synthesis | Single document analysis |
-| Trend analysis | Real-time data |
-| Strategic reports | Basic summaries |
+| Strategic reports for steering committees | Real-time data |
+| Change management research | Basic summaries |
 
-### Researcher Example: Competitive Analysis
+### Researcher Example: Competitive Intelligence
 
 **Prompt:**
 
 ```
-Research how our competitors (Asana, Linear, Monday.com, Jira) handle
-user onboarding. I need to understand:
+Research how major consulting firms (McKinsey, BCG, Deloitte) handle
+internal knowledge management and expert discovery. I need to understand:
 
-1. What does their onboarding flow look like?
-2. How long does it take for a new user to complete onboarding?
-3. What personalization do they offer?
-4. What are users saying about their onboarding (positive and negative)?
-5. What best practices can we learn from?
+1. What platforms/tools do they use?
+2. How do they approach content curation at scale?
+3. What AI/GenAI investments have they made in internal tools?
+4. What are their adoption rates (if publicly available)?
+5. What best practices can Accenture learn from?
 
-I'm the PM for onboarding at TaskFlow, a competing project management tool.
-Create a comprehensive report I can share with my team.
+I'm a Product Owner at Accenture responsible for AKX (our internal
+knowledge platform with 700,000+ users). Create a comprehensive
+competitive intelligence report I can share with our steering committee.
 ```
 
 **What happens:**
@@ -105,7 +106,7 @@ Create a comprehensive report I can share with my team.
 
 ## Exercise 1: Use Researcher
 
-Let's try a research task relevant to your TaskFlow PM role.
+Let's try a research task relevant to your Accenture PM role.
 
 **Do this now:**
 
@@ -113,18 +114,19 @@ Let's try a research task relevant to your TaskFlow PM role.
 2. Enter this prompt:
 
 ```
-Research best practices for improving SaaS activation rates.
-I'm a PM at a project management tool and our activation rate
-(users who complete first task within 24 hours) is 35%.
+Research best practices for driving adoption of internal enterprise tools.
+I'm a Product Owner at Accenture responsible for an internal knowledge
+management platform. Our weekly active users are stuck at 43% (target: 60%).
 
 I need:
-1. Industry benchmarks for activation rates
-2. Top strategies companies use to improve activation
-3. Case studies of companies that significantly improved activation
-4. Specific tactics we could implement
-5. Metrics we should track
+1. Industry benchmarks for internal tool adoption at large enterprises
+2. Top strategies companies use to drive adoption of internal platforms
+3. Case studies of companies that significantly improved internal tool usage
+4. Role of change management vs product improvements
+5. Metrics we should track beyond WAU
 
-Create a strategic report with actionable recommendations.
+Create a strategic report with actionable recommendations
+for our steering committee.
 ```
 
 3. Watch Researcher work (notice the "thinking" display)
@@ -154,43 +156,57 @@ Analyst is your **AI data scientist**. It uses reasoning models to solve complex
 
 | Use Analyst For | Don't Use For |
 |----------------|---------------|
-| Complex data interpretation | Simple sums/averages |
-| Statistical analysis | Basic charts |
+| Complex adoption funnel analysis | Simple sums/averages |
+| Statistical significance testing | Basic charts |
 | Multi-variable problems | Quick calculations |
 | Predictive insights | Real-time dashboards |
-| Hypothesis testing | Data cleaning |
+| ROI calculations for business cases | Data cleaning |
 
-### Analyst Example: Cohort Analysis
+### Analyst Example: Adoption Cohort Analysis
 
 **Prompt:**
 
 ```
-I'm analyzing our user cohorts. Here's the data:
+I'm analyzing AKX adoption cohorts at Accenture. Here's the data:
 
-January cohort: 500 signups, 175 activated (35%), 87 retained at 30 days
-February cohort: 550 signups, 220 activated (40%), 110 retained at 30 days
-March cohort: 600 signups, 270 activated (45%), 148 retained at 30 days
+September cohort (new hires):
+- 5,000 provisioned users
+- 3,400 logged in first week (68%)
+- 2,200 performed a search (44%)
+- 1,100 weekly active at 30 days (22%)
+
+October cohort (new hires):
+- 5,500 provisioned users
+- 3,850 logged in first week (70%)
+- 2,750 performed a search (50%)
+- 1,430 weekly active at 30 days (26%)
+
+November cohort (new hires):
+- 4,800 provisioned users
+- 3,600 logged in first week (75%)
+- 2,880 performed a search (60%)
+- 1,584 weekly active at 30 days (33%)
 
 Analyze this data and help me understand:
 1. What's the trend in activation and retention?
 2. Is the improvement statistically significant?
-3. What might be driving the improvement?
-4. What should we project for April if the trend continues?
-5. What risks should I flag to leadership?
+3. Where's the biggest drop-off in the funnel?
+4. What should we project for December if the trend continues?
+5. What should I present to the steering committee?
 ```
 
 **What Analyst provides:**
 - Statistical analysis of trends
 - Significance calculations
+- Funnel analysis identifying bottlenecks
 - Projections with confidence levels
-- Risk assessment
 - Clear explanation of methodology
 
 ---
 
 ## Exercise 2: Use Analyst
 
-Let's try a data analysis task.
+Let's try a data analysis task relevant to enterprise internal tools.
 
 **Do this now:**
 
@@ -198,26 +214,28 @@ Let's try a data analysis task.
 2. Enter this prompt:
 
 ```
-Help me analyze this A/B test result:
+Help me analyze this A/B test result for AKX AI Search:
 
-Control group (old onboarding):
-- 1,000 users
-- 320 completed onboarding (32%)
-- 160 performed first action (16%)
-- 80 retained at day 7 (8%)
+Control group (old search):
+- 5,000 users in pilot
+- Average search time: 8.2 minutes
+- Search success rate: 67%
+- User satisfaction: 3.2/5
+- Time to find expert: 55 hours average
 
-Test group (new onboarding):
-- 1,000 users
-- 420 completed onboarding (42%)
-- 252 performed first action (25.2%)
-- 126 retained at day 7 (12.6%)
+Test group (AI-powered search):
+- 5,000 users in pilot
+- Average search time: 2.4 minutes
+- Search success rate: 82%
+- User satisfaction: 4.1/5
+- Time to find expert: 12 hours average
 
 Questions:
-1. Is this result statistically significant?
-2. What's the confidence level?
-3. Should we ship this to 100% of users?
-4. What additional data would strengthen this decision?
-5. Write a brief recommendation for my manager.
+1. Are these results statistically significant?
+2. What's the estimated time savings across 700,000 users?
+3. What's the ROI if average consultant billing rate is $300/hour?
+4. Should we roll out to 100% of users?
+5. Write a recommendation for the steering committee with ROI justification.
 ```
 
 3. Review Analyst's methodology and conclusions
@@ -225,7 +243,8 @@ Questions:
 **What to notice:**
 - Step-by-step reasoning
 - Statistical rigor
-- Clear recommendations
+- ROI calculations
+- Clear recommendations with business justification
 - Explains the "why" behind conclusions
 
 ---
@@ -242,16 +261,17 @@ Workflows is your **automation assistant**. It helps you create automated flows 
 4. Manage SharePoint files
 5. Connect to Planner and other M365 services
 
-### Example Workflow: Weekly Report
+### Example Workflow: Steering Committee Prep
 
 **Prompt:**
 
 ```
 Create a workflow that:
-1. Every Friday at 4pm
-2. Sends me an email reminder to write my weekly update
-3. Then on Monday at 9am
-4. Posts my update (once I've written it) to the Product team channel in Teams
+1. Every Thursday at 2pm
+2. Sends me an email reminder to update AKX metrics for steering committee
+3. On Friday at 9am, reminds me to finalize the steering committee deck
+4. Then on Monday at 8am (before the 9am meeting)
+5. Posts a reminder to my team's Teams channel that steering committee is today
 ```
 
 Workflows builds this automation without you needing to use Power Automate directly.
@@ -260,32 +280,35 @@ Workflows builds this automation without you needing to use Power Automate direc
 
 ## When to Use Each Tool
 
-Here's a decision framework:
+Here's a decision framework for enterprise PM tasks:
 
 ```
 Is it a quick question?
 ├── YES → Use regular Copilot Chat
 └── NO → Does it require deep research?
     ├── YES → Use Researcher (5-10 min)
+    │   Examples: Competitive intel, best practices, industry research
     └── NO → Does it require complex analysis?
         ├── YES → Use Analyst
+        │   Examples: Adoption analysis, ROI calc, statistical tests
         └── NO → Does it need automation?
             ├── YES → Use Workflows
+            │   Examples: Reminders, status updates, recurring tasks
             └── NO → Use regular Copilot Chat
 ```
 
-### Quick Reference
+### Quick Reference for Enterprise PMs
 
 | Task Type | Use This |
 |-----------|----------|
-| "What is X?" | Copilot Chat |
-| "Summarize this doc" | Copilot Chat |
-| "Research the market for X" | Researcher |
-| "Analyze our competitors' Y" | Researcher |
-| "Is this A/B test significant?" | Analyst |
-| "What does this data tell us?" | Analyst |
-| "Remind me every Friday to..." | Workflows |
-| "Post updates to Teams when..." | Workflows |
+| "What is McKinsey doing with their KM tools?" | Researcher |
+| "Summarize this steering committee doc" | Copilot Chat |
+| "Research enterprise adoption best practices" | Researcher |
+| "Analyze our adoption funnel for bottlenecks" | Analyst |
+| "Is this A/B test result significant?" | Analyst |
+| "What ROI can I present to sponsors?" | Analyst |
+| "Remind me every Friday to update metrics" | Workflows |
+| "Post updates to leadership channel when..." | Workflows |
 
 ---
 
@@ -296,13 +319,14 @@ Is it a quick question?
 - No limit on Workflows
 - No limit on regular Copilot Chat
 
-### Best Practices
+### Best Practices for Enterprise PMs
 
 1. **Save complex work for agents** - Don't waste queries on simple tasks
-2. **Be specific** - Better prompts = better results
-3. **Export important outputs** - Save to Word/OneDrive
+2. **Be specific about your enterprise context** - Include company size, industry, constraints
+3. **Export important outputs** - Save to Word/OneDrive for steering committee decks
 4. **Iterate in chat first** - Refine your question before using an agent
-5. **Track your usage** - 25 queries/month isn't many for power users
+5. **Include business context** - Mention ROI needs, stakeholder concerns, governance requirements
+6. **Track your usage** - 25 queries/month requires strategic use
 
 ---
 
@@ -310,10 +334,10 @@ Is it a quick question?
 
 You now know:
 - ✅ What Copilot agents are and how they differ from chat
-- ✅ How to use Researcher for deep research
-- ✅ How to use Analyst for complex data analysis
+- ✅ How to use Researcher for competitive and industry research
+- ✅ How to use Analyst for adoption analysis and ROI calculations
 - ✅ When to use each tool (chat vs agents)
-- ✅ How Workflows automates M365 tasks
+- ✅ How Workflows automates enterprise PM tasks
 
 ---
 
@@ -322,7 +346,7 @@ You now know:
 Continue to **Module 1.5: Persona Prompting for Different Perspectives**
 
 In Module 1.5, you'll learn how to:
-- Get feedback from different "perspectives" (engineer, exec, researcher)
+- Get feedback from enterprise stakeholder perspectives (Partners, Consultants, Sponsors)
 - Create reusable persona prompts
 - Use Copilot as your virtual advisory board
 
@@ -332,9 +356,9 @@ In Module 1.5, you'll learn how to:
 
 | Agent | Access | Best For |
 |-------|--------|----------|
-| Researcher | Left panel or @Researcher | Deep research, reports |
-| Analyst | Left panel or @Analyst | Data analysis, statistics |
-| Workflows | Left panel | M365 automation |
+| Researcher | Left panel or @Researcher | Competitive intel, best practices |
+| Analyst | Left panel or @Analyst | Adoption analysis, ROI, statistics |
+| Workflows | Left panel | Steering committee prep, reminders |
 
 ---
 

@@ -1,4 +1,4 @@
-# Module 2.1: Writing PRDs with Copilot
+# Module 2.1: Writing PRDs with Copilot (Enterprise Edition)
 
 **Duration:** 35 minutes
 **Prerequisites:** Level 1 completed
@@ -8,11 +8,34 @@
 ## What You'll Learn
 
 By the end of this module, you will:
-1. Use Copilot as a thinking partner (not ghostwriter) for PRDs
-2. Leverage templates and context for better PRDs
-3. Generate multiple strategic approaches
-4. Get multi-perspective feedback using persona prompts
-5. Create a complete PRD from research to final draft
+1. Use Copilot as a thinking partner (not ghostwriter) for enterprise PRDs
+2. Include business cases with ROI calculations
+3. Add governance sections (steering committee, stakeholders, RACI)
+4. Create change management considerations
+5. Get multi-perspective feedback from enterprise stakeholders
+
+---
+
+## Enterprise PRDs Are Different
+
+Internal enterprise PRDs require elements that external product PRDs don't:
+
+| Standard PRD | Enterprise Internal PRD |
+|--------------|------------------------|
+| Problem statement | Problem + Business case |
+| User stories | Stakeholder analysis |
+| Success metrics | Adoption metrics + ROI |
+| Technical requirements | Integration requirements |
+| Risks | Governance & change management |
+| Launch plan | Change management & communications |
+
+### Key Additions for Enterprise PRDs
+
+1. **Business Case with ROI** - Justify the investment
+2. **Stakeholder Analysis** - Who needs to approve, champion, or be informed
+3. **Governance** - Decision rights, steering committee alignment
+4. **Change Management** - How will 700,000 users adopt this?
+5. **RACI Matrix** - Clear accountability
 
 ---
 
@@ -20,323 +43,438 @@ By the end of this module, you will:
 
 **Important:** Copilot should help you think through your PRD, not write it for you.
 
-### Why This Matters
-
-- PRDs require YOUR judgment and product intuition
-- Copilot doesn't know your users like you do
-- The thinking process is as valuable as the output
-- Stakeholders need YOUR perspective, not AI's
-
 ### The Right Approach
 
 | Don't Do This | Do This Instead |
 |---------------|-----------------|
-| "Write a PRD for feature X" | "Help me think through the problem space for feature X" |
-| "Create requirements for me" | "What questions should I answer before defining requirements?" |
-| "Generate the full document" | "Let's structure this section by section" |
+| "Write a PRD for feature X" | "Help me build the business case for feature X" |
+| "Create requirements for me" | "What governance considerations should I address?" |
+| "Generate the full document" | "Let's structure the stakeholder analysis section" |
 
 ---
 
-## The PRD Writing Workflow
+## The Enterprise PRD Workflow
 
-### Phase 1: Research & Discovery
-- Gather context (user research, data, competitive info)
-- Define the problem clearly
-- Explore the solution space
+### Phase 1: Business Context
+- Define the business problem and opportunity
+- Build ROI case
+- Identify stakeholders and governance
 
-### Phase 2: Strategic Thinking
-- Generate multiple approaches
-- Evaluate tradeoffs
-- Choose direction
+### Phase 2: Solution & Impact
+- Explore solution options
+- Define success metrics
+- Plan change management
 
-### Phase 3: Document Structure
-- Use a proven template
-- Fill sections iteratively
-- Get multi-perspective feedback
+### Phase 3: Document & Governance
+- Structure the PRD with enterprise sections
+- Create RACI matrix
+- Prepare for steering committee
 
-### Phase 4: Refinement
-- Tighten language
-- Address gaps
-- Prepare for stakeholder review
+### Phase 4: Review & Alignment
+- Multi-perspective stakeholder review
+- Address governance concerns
+- Prepare for approval
 
 ---
 
-## Phase 1: Research & Discovery
+## Phase 1: Business Context
 
-Before writing, gather your inputs.
+### Step 1: Define Business Problem
 
-### Step 1: Upload Context
-
-Upload these files to Copilot:
-- User research findings
-- Data analysis results
-- Competitive research
-- Previous related PRDs
-
-### Step 2: Problem Definition
-
-Use this prompt to clarify the problem:
+Use this prompt to clarify the business context:
 
 ```
-I'm writing a PRD for TaskFlow's onboarding improvement.
+I'm writing an enterprise PRD for AKX's AI-powered search feature.
 
 Here's what I know:
-- Current signup-to-active rate: 35%
-- Target: 45%
-- Main drop-off: After creating first project, before inviting team
-- User feedback: "I didn't know what to do next"
+- Current AKX weekly active users: 43% (target: 60%)
+- Average search time: 8 minutes (target: 2 minutes)
+- Search satisfaction: 3.2/5 (target: 4.0/5)
+- Competitors (McKinsey, BCG) have better knowledge platforms
+- Lost $20M deal because we couldn't identify an expert in 48 hours
 
 Help me articulate:
-1. The core problem we're solving
-2. Who experiences this problem most acutely
-3. The impact of NOT solving this
-4. How we'll know if we've succeeded
+1. The business problem (not just user problem)
+2. Competitive implications
+3. Financial impact of NOT solving this
+4. How this aligns with company strategic priorities
 
 Ask me clarifying questions if needed.
 ```
 
-### Step 3: Explore Solution Space
+### Step 2: Build the Business Case
+
+This is critical for enterprise PRDs - you need to justify the investment.
 
 ```
-Based on this problem, help me brainstorm potential solutions.
+Help me build a business case for AI-powered search in AKX.
 
-For each solution idea, note:
-- What it would involve
-- Pros and cons
-- Rough complexity (S/M/L)
-- Who it helps most
+Investment context:
+- Development cost: ~$2M over 6 months
+- Ongoing cost: ~$500K/year
 
-Don't filter yet - let's get ideas on the table first.
+Potential benefits:
+- Time saved per consultant: 4+ hours/week
+- 300,000 potential weekly users
+- Average consultant billing rate: $300/hour
+- Faster expert discovery → more deals won
+- Reduced duplicate work → higher efficiency
+
+Please create:
+
+1. **ROI Calculation**
+   - Quantified time savings
+   - Productivity gain value
+   - Conservative, moderate, and optimistic scenarios
+
+2. **Strategic Value**
+   - Competitive positioning benefits
+   - Talent retention impact
+   - Revenue enablement potential
+
+3. **Risk-Adjusted Analysis**
+   - What could reduce ROI?
+   - What assumptions are we making?
+
+Format this for a steering committee business case presentation.
+```
+
+### Step 3: Stakeholder Analysis
+
+```
+Help me identify stakeholders for the AKX AI Search initiative.
+
+Known stakeholders:
+- Richard Thorne (CKO) - Executive Sponsor
+- Jennifer Walsh (VP Internal Digital Products) - Product Lead
+- David Kim (MD Technology Practice) - Business Champion
+- Sarah Mitchell (MD Strategy Practice) - Business Champion
+
+For a comprehensive stakeholder analysis, help me identify:
+
+1. **Decision Makers** - Who has approval authority?
+2. **Champions** - Who will actively promote this?
+3. **Influencers** - Who shapes opinions?
+4. **Users** - Who will use this daily?
+5. **Impacted Parties** - Who is affected even if not direct users?
+
+For each stakeholder group:
+- Their key interests/concerns
+- How to engage them
+- Risk if not aligned
+
+Format as a stakeholder map with engagement strategy.
 ```
 
 ---
 
-## Phase 2: Strategic Thinking
+## Phase 2: Solution & Impact
 
-Now evaluate approaches and choose direction.
-
-### Generate Multiple Approaches
+### Generate Strategic Approaches
 
 ```
-Let's develop 3 distinct strategic approaches for solving the
-onboarding drop-off problem:
+Let's develop 3 distinct approaches for AI-powered search in AKX:
 
-**Approach A: Guided Wizard**
-(Step-by-step guided experience)
+**Approach A: AI Search Only**
+(Semantic search with quality ranking)
 
-**Approach B: Contextual Hints**
-(In-context tooltips and suggestions)
+**Approach B: AI Search + Expert Matching**
+(Search plus automated expert recommendations)
 
-**Approach C: Personalized Paths**
-(Role-based onboarding flows)
+**Approach C: Full AI Knowledge Assistant**
+(Search + experts + personalized recommendations + content generation)
 
 For each approach, outline:
-1. What it involves
-2. Key features
-3. Success metrics
-4. Estimated effort
-5. Risks
-6. Best for which personas
+1. Scope and features
+2. Investment required
+3. Time to deliver
+4. Adoption complexity
+5. ROI potential
+6. Risk profile
+7. Steering committee appeal
+
+Include recommendation for which approach to pursue.
 ```
 
-### Evaluate Tradeoffs
+### Define Success Metrics (Enterprise)
 
 ```
-Compare these 3 approaches using a decision matrix:
+Help me define success metrics for AI Search that will satisfy:
 
-Criteria (rate 1-5):
-- Impact on activation rate
-- Implementation complexity
-- Time to launch
-- Scalability
-- User research support
-- Alignment with Q1 goals
+1. **Executive Sponsors** (Richard, CKO)
+   - Strategic metrics they'll report to the board
+   - Competitive positioning indicators
 
-Create a table and recommend which approach (or combination)
-we should pursue, with reasoning.
+2. **Business Champions** (David, Sarah - MDs)
+   - Practice-level impact metrics
+   - Revenue enablement indicators
+
+3. **Users** (Partners, Consultants)
+   - Daily experience metrics
+   - Time savings indicators
+
+4. **Product Team** (Jennifer, me)
+   - Leading indicators for product health
+   - Adoption and engagement metrics
+
+Create a metrics framework with:
+- Metric name and definition
+- Target value
+- How we'll measure
+- Who cares most about this metric
+- Reporting frequency
+```
+
+### Plan Change Management
+
+```
+AI Search is a major change for 700,000 users. Help me think through
+change management requirements.
+
+Questions to address:
+
+1. **Awareness**
+   - How will users know this exists?
+   - What channels reach different personas?
+
+2. **Desire**
+   - Users have tried AKX before and given up
+   - How do we rebuild trust?
+
+3. **Knowledge**
+   - What training is needed?
+   - How do we reach 700K users?
+
+4. **Ability**
+   - Is the product intuitive enough?
+   - What support will be needed?
+
+5. **Reinforcement**
+   - How do we keep users engaged?
+   - What ongoing communications are needed?
+
+Create a change management summary for the PRD.
 ```
 
 ---
 
-## Phase 3: Document Structure
+## Phase 3: Enterprise PRD Structure
 
-Now structure your PRD using a proven template.
-
-### Using PRD Templates
-
-We've included two templates in the course:
-- **Lenny's PRD Template** - Popular, comprehensive
-- **Carl's PRD Template** - Focused, startup-friendly
-
-### Step 1: Upload Your Template
-
-Upload your preferred PRD template to Copilot.
-
-### Step 2: Fill Section by Section
-
-**Don't ask Copilot to write the whole thing.** Instead, work section by section:
+### Enterprise PRD Template Sections
 
 ```
-Let's work through the PRD template section by section.
+Help me structure an enterprise PRD with these sections:
 
-Start with the PROBLEM STATEMENT section.
+## 1. Executive Summary
+(1 page for steering committee review)
 
-Based on our earlier discussion, draft this section. I'll review
-and refine before we move to the next section.
+## 2. Business Case
+- Problem statement (business impact)
+- ROI analysis
+- Strategic alignment
+
+## 3. Stakeholder Analysis
+- Key stakeholders
+- Engagement plan
+- RACI matrix
+
+## 4. Solution Overview
+- Approach description
+- Key features
+- What's NOT in scope
+
+## 5. Success Metrics
+- Business metrics
+- Product metrics
+- Adoption metrics
+
+## 6. Governance
+- Decision authority
+- Approval process
+- Escalation path
+
+## 7. Change Management
+- Communication plan
+- Training plan
+- Adoption targets by phase
+
+## 8. Risk Assessment
+- Technical risks
+- Adoption risks
+- Business risks
+- Mitigation strategies
+
+## 9. Implementation Plan
+- Timeline
+- Resource requirements
+- Dependencies
+
+## 10. Appendices
+- User research summary
+- Technical specifications
+- Detailed ROI model
+
+For each section, tell me what makes it "enterprise-grade" vs. a startup PRD.
 ```
 
-### Section-by-Section Prompts
+### Creating the RACI Matrix
 
-**For Problem Statement:**
 ```
-Draft the Problem Statement section. Include:
-- The user problem in their words
-- Data supporting the problem
-- Impact of not solving it
-Keep it concise - 3-4 sentences max.
-```
+Create a RACI matrix for the AI Search initiative.
 
-**For Goals & Success Metrics:**
-```
-Draft the Goals section with:
-- Primary goal (1 sentence)
-- 3-4 measurable success metrics
-- How we'll measure each
-- Target values
+Decisions/Activities:
+1. Feature prioritization
+2. Investment approval (> $500K)
+3. Technical architecture
+4. UX design direction
+5. Go-live decision
+6. Change management execution
+7. Adoption targets
+8. Post-launch optimization
 
-Base these on our 35% → 45% activation goal.
-```
+Stakeholders:
+- Richard Thorne (CKO, Sponsor)
+- Jennifer Walsh (VP, Product Lead)
+- David Kim (MD, Business Champion)
+- Me (Product Owner)
+- Raj Patel (Tech Lead)
+- Lisa Chen (Change Management)
+- Practice Leads (user representatives)
 
-**For Solution Overview:**
-```
-Draft the Solution Overview section:
-- High-level description of our approach
-- Key features (bullet points)
-- How it addresses each user persona's needs
-- What's explicitly NOT in scope
-```
-
-**For User Stories:**
-```
-Create user stories for our 3 personas:
-
-For each persona (Sarah, Mike, Alex):
-- As a [persona], I want [feature] so that [benefit]
-- Include 2-3 user stories each
-- Focus on the onboarding experience
+Create RACI matrix (Responsible, Accountable, Consulted, Informed)
+with notes on decision-making process.
 ```
 
 ---
 
 ## Phase 4: Multi-Perspective Review
 
-Before finalizing, get feedback from different perspectives.
-
-### Use Your Persona Prompts
+### Enterprise Stakeholder Review
 
 ```
-Review this PRD draft from THREE perspectives:
+Review this PRD draft from THREE enterprise perspectives:
 
-## As Senior Engineer (David)
-- Technical feasibility concerns?
-- Missing technical requirements?
-- Dependencies or risks?
+## As CKO (Richard - Executive Sponsor)
+- Is the business case compelling?
+- What would I need to present to the CEO?
+- Are risks adequately addressed?
 
-## As VP Product (Jennifer)
-- Strategic alignment?
-- Resource implications?
-- What will the board ask?
+## As MD (David - Business Champion)
+- Will this help my practice win deals?
+- Is the ROI realistic?
+- Will my team actually adopt this?
 
-## As User Researcher (Maria)
-- Evidence gaps?
-- User assumption risks?
-- Research we should do first?
+## As Senior Consultant (Marcus - User)
+- Will this save me time?
+- Is this better than my workarounds?
+- Will I actually use it?
 
 PRD DRAFT:
 [Paste your draft here]
 ```
 
-### Address Feedback
+### Steering Committee Readiness
 
 ```
-Based on this feedback, help me identify:
-1. Critical gaps I need to address
-2. Sections that need strengthening
-3. Questions I should answer before sharing
+Assess this PRD for steering committee readiness:
 
-Then help me revise the weak sections.
+1. **Business Case Strength**
+   - Is ROI clearly articulated?
+   - Are assumptions documented?
+   - Is competitive context clear?
+
+2. **Governance Clarity**
+   - Are decision rights clear?
+   - Is RACI complete?
+   - Is escalation path defined?
+
+3. **Risk Management**
+   - Are major risks identified?
+   - Are mitigations realistic?
+   - Are we being honest about challenges?
+
+4. **Executive Summary**
+   - Can sponsor present this in 5 minutes?
+   - Are key asks clear?
+   - Is approval path obvious?
+
+Provide a readiness score (1-5) and improvement suggestions.
 ```
 
 ---
 
-## Exercise: Complete PRD Workflow
+## Exercise: Complete Enterprise PRD Workflow
 
-Let's practice the full workflow.
+**Scenario:** Create a PRD for AKX's AI Search feature.
 
-**Scenario:** Create a PRD for TaskFlow's new onboarding wizard.
-
-### Step 1: Context Setup (5 min)
+### Step 1: Business Context (10 min)
 
 ```
-I'm writing a PRD for TaskFlow's Onboarding Wizard feature.
+I'm writing an enterprise PRD for AI-powered search in AKX.
 
 Context:
-- Company: TaskFlow, project management SaaS
-- Current activation rate: 35% (target: 45%)
-- Main drop-off: After first project, before team invite
-- Users: Sarah (Admin), Mike (Engineer), Alex (Team Lead)
-- Timeline: Q1 launch
+- Company: Accenture (700,000 employees)
+- Product: AKX (internal knowledge platform)
+- Current WAU: 43%, Target: 60%
+- Executive Sponsor: Richard Thorne (CKO)
+- Investment: ~$2M, Timeline: 6 months
 
-Help me structure my thinking for this PRD.
-What key questions should I answer first?
+Help me build the business case foundation.
+What questions should I answer for the steering committee?
 ```
 
-### Step 2: Problem & Solution (10 min)
+### Step 2: Stakeholder & Governance (10 min)
 
-Work through problem definition and solution exploration.
+Work through stakeholder analysis and RACI.
 
-### Step 3: Draft Sections (15 min)
+### Step 3: Draft Key Sections (10 min)
 
-Draft 3-4 key sections of the PRD.
+Draft the Executive Summary and Business Case sections.
 
-### Step 4: Review (5 min)
+### Step 4: Steering Committee Readiness (5 min)
 
-Get multi-perspective feedback and identify gaps.
+Get feedback and identify gaps before presenting.
 
 ---
 
-## PRD Quality Checklist
+## Enterprise PRD Quality Checklist
 
 Before considering your PRD done:
 
-### Clarity
-- [ ] Problem is clearly stated
-- [ ] Solution is understandable without prior context
-- [ ] Success metrics are measurable
-- [ ] Scope is explicitly defined
+### Business Justification
+- [ ] ROI clearly calculated with scenarios
+- [ ] Strategic alignment articulated
+- [ ] Competitive context included
+- [ ] Investment justified
 
-### Completeness
-- [ ] All personas addressed
-- [ ] Technical considerations included
-- [ ] Risks identified
-- [ ] Timeline realistic
+### Governance
+- [ ] Stakeholders identified and engaged
+- [ ] RACI complete
+- [ ] Decision authority clear
+- [ ] Escalation path defined
 
-### Stakeholder Ready
-- [ ] Engineering can estimate from this
-- [ ] Design knows the user problems
-- [ ] Leadership sees strategic alignment
-- [ ] No jargon or unclear acronyms
+### Change Management
+- [ ] Adoption targets by phase
+- [ ] Communication plan outlined
+- [ ] Training approach defined
+- [ ] Reinforcement strategy included
+
+### Steering Committee Ready
+- [ ] Executive summary stands alone
+- [ ] Sponsor can present in 5 minutes
+- [ ] Key asks are clear
+- [ ] Risks honestly addressed
 
 ---
 
 ## Module Complete!
 
 You now know:
-- ✅ How to use Copilot as a thinking partner
-- ✅ How to work through PRDs section by section
-- ✅ How to get multi-perspective feedback
-- ✅ The complete PRD writing workflow
-- ✅ Quality checks before sharing
+- ✅ How enterprise PRDs differ from startup PRDs
+- ✅ How to build business cases with ROI
+- ✅ How to create stakeholder analysis and RACI
+- ✅ How to plan change management in PRDs
+- ✅ How to prepare for steering committee review
 
 ---
 
@@ -345,22 +483,22 @@ You now know:
 Continue to **Module 2.2: Analyzing Product Data with Copilot**
 
 In Module 2.2, you'll learn:
-- Uploading and analyzing data files
-- Using Excel Copilot for spreadsheet analysis
-- Funnel analysis and A/B test interpretation
-- The Analyst agent for complex data reasoning
+- Analyzing adoption funnels and utilization data
+- Using Excel Copilot for enterprise metrics
+- Interpreting A/B tests for internal tools
+- ROI validation with data
 
 ---
 
-## Quick Reference: PRD Prompts
+## Quick Reference: Enterprise PRD Prompts
 
 | Phase | Prompt Starter |
 |-------|----------------|
-| Problem Definition | "Help me articulate the problem..." |
-| Solution Exploration | "Brainstorm potential solutions..." |
-| Strategic Options | "Develop 3 distinct approaches..." |
-| Section Draft | "Draft the [X] section based on..." |
-| Multi-Review | "Review this from 3 perspectives..." |
+| Business Case | "Help me build an ROI case for..." |
+| Stakeholder Analysis | "Identify stakeholders and create engagement strategy..." |
+| Governance | "Create a RACI matrix for..." |
+| Change Management | "Plan change management for 700K users..." |
+| Steering Committee | "Assess this PRD for steering committee readiness..." |
 
 ---
 

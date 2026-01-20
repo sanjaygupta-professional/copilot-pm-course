@@ -1,4 +1,4 @@
-# Module 2.2: Analyzing Product Data with Copilot
+# Module 2.2: Analyzing Product Data with Copilot (Enterprise Edition)
 
 **Duration:** 30 minutes
 **Prerequisites:** Module 2.1 completed
@@ -8,125 +8,176 @@
 ## What You'll Learn
 
 By the end of this module, you will:
-1. Upload and analyze CSV/Excel data in Copilot
-2. Use Excel Copilot for in-spreadsheet analysis
-3. Perform funnel analysis and find drop-offs
-4. Interpret A/B test results
-5. Use the Analyst agent for complex data reasoning
+1. Analyze enterprise adoption funnels and utilization data
+2. Use Excel Copilot for enterprise metrics analysis
+3. Interpret pilot test results for internal tools
+4. Calculate ROI for steering committee presentations
+5. Use the Analyst agent for complex business reasoning
 
 ---
 
-## Why PMs Need Data Analysis Skills
+## Why Enterprise PMs Need Data Analysis
 
-Data informs almost every PM decision:
+Enterprise internal product decisions require strong data support:
 
-- **Discovery:** What problems exist?
-- **Prioritization:** Which has biggest impact?
-- **Validation:** Did our solution work?
-- **Roadmap:** Where should we invest?
+| Decision Type | Data Needed |
+|--------------|-------------|
+| **Investment justification** | ROI calculations, productivity gains |
+| **Steering committee updates** | Adoption trends, utilization metrics |
+| **Change management** | Adoption funnel analysis, barrier identification |
+| **Portfolio prioritization** | Comparative feature impact, resource efficiency |
+| **Business case validation** | Pilot results, projected benefits |
 
-Copilot makes data analysis accessible without needing SQL or Python.
+Copilot makes enterprise data analysis accessible without needing SQL or Python.
 
 ---
 
-## Three Ways to Analyze Data
+## Enterprise Metrics That Matter
+
+Unlike external products focused on revenue and growth, enterprise internal tools track:
+
+### Adoption Metrics
+- **Weekly Active Users (WAU)** - Consistent platform usage
+- **Provisioned vs. Active** - How many with access actually use it
+- **Feature Adoption** - Which capabilities are being used
+- **Adoption by Role** - Partners vs. Consultants vs. Delivery Managers
+
+### Utilization Metrics
+- **Search Success Rate** - Finding what you need
+- **Time to Find Expert** - Expert discovery efficiency
+- **Content Quality Scores** - Relevance and freshness
+- **Workflow Completion** - End-to-end task completion
+
+### Business Impact Metrics
+- **Time Savings** - Hours saved per user per week
+- **Deals Won** - Impact on competitive wins
+- **Productivity Gain** - Billable hour efficiency
+- **Talent Retention** - Employee satisfaction correlation
+
+---
+
+## Three Ways to Analyze Enterprise Data
 
 | Method | Best For | How |
 |--------|----------|-----|
 | **Copilot Chat** | Quick analysis, summaries | Upload file to chat |
 | **Excel Copilot** | Spreadsheet work, formulas | Alt+I in Excel |
-| **Analyst Agent** | Complex reasoning, statistics | Left panel → Analyst |
+| **Analyst Agent** | Complex reasoning, ROI | Left panel → Analyst |
 
 ---
 
-## Method 1: Data Analysis in Copilot Chat
+## Method 1: Adoption Funnel Analysis
 
-### Uploading Data
+### Exercise 1: Analyze AKX Adoption Funnel
 
-1. Go to Copilot Chat (copilot.microsoft.com)
-2. Click the 📎 attachment icon
-3. Select your CSV or Excel file
-4. Copilot processes the data
+Let's analyze AKX's adoption funnel - a critical metric for internal tools.
 
-### Supported Formats
-- CSV files
-- Excel (.xlsx)
-- Google Sheets (export as CSV first)
-
-### Basic Analysis Prompts
-
-**Summarize the data:**
-```
-Analyze this data file and give me:
-1. What data is included (columns, rows)
-2. Key summary statistics
-3. Any patterns you notice
-4. Data quality issues (missing values, outliers)
-```
-
-**Ask specific questions:**
-```
-From this data:
-- What's the average conversion rate?
-- Which user segment has highest retention?
-- What's the trend over the last 6 months?
-```
-
----
-
-## Exercise 1: Funnel Analysis
-
-Let's analyze TaskFlow's activation funnel.
-
-**Sample Data (copy this if you don't have a file):**
+**Sample Data (or use `sample-files/data/adoption-funnel.csv`):**
 
 ```
-Stage,Users,Conversion_Rate
-Signup Started,10000,100%
-Signup Completed,7500,75%
-First Project Created,4500,60%
-First Task Created,3150,70%
-Invited Team Member,1260,40%
-Active at Day 7,756,60%
+Week,Provisioned_Users,Logged_In,Searched,Found_Useful,Returned_Next_Week,WAU_Rate
+Week 1,680000,340000,238000,166600,119952,17.6%
+Week 2,682000,347000,250000,175000,131250,19.2%
+Week 3,685000,356000,263000,189360,142020,20.7%
+Week 4,687000,370000,281000,210750,163000,23.7%
+...
+Week 24,700000,448000,358000,286000,294000,42.0%
 ```
 
 **Do this now:**
 
-1. Create a CSV file with this data (or paste directly)
-2. Upload to Copilot Chat
-3. Use this prompt:
+1. Upload the adoption funnel data to Copilot
+2. Use this prompt:
 
 ```
-Analyze this activation funnel data for TaskFlow.
+Analyze this AKX (Accenture Knowledge Exchange) adoption funnel data.
+
+Context: AKX is an internal knowledge management platform for 700,000 Accenture employees.
+Our target is 60% WAU. Current state shown in data.
 
 Please provide:
 
-1. **Funnel Visualization**
-   - Show the funnel with drop-off percentages
-
-2. **Biggest Problems**
+1. **Funnel Health Assessment**
+   - Current conversion rates at each stage
    - Where are the biggest drop-offs?
-   - What's the overall signup-to-active rate?
+   - What's the overall provisioned-to-WAU rate?
 
-3. **Benchmarking**
-   - How do these compare to typical SaaS benchmarks?
-   - Which stages are underperforming?
+2. **Trend Analysis**
+   - Is adoption improving over time?
+   - What's the weekly growth rate?
+   - Project when we'll hit 60% WAU at current trajectory
 
-4. **Opportunity Analysis**
-   - If we improved "Invited Team Member" from 40% to 50%, 
-     what would be the impact on Day 7 active users?
-   - Which improvement would have the biggest ROI?
+3. **Bottleneck Identification**
+   - Which funnel stage has the biggest opportunity?
+   - If we improve "Found Useful" from 70% to 80%, what's the impact on WAU?
+   - Quantify the opportunity for each stage
 
-5. **Hypotheses**
-   - What might be causing each major drop-off?
-   - What would you investigate first?
+4. **Segment Analysis**
+   - Any patterns in the data suggesting user segment differences?
+   - What would you want to slice by (role, practice, geography)?
+
+5. **Steering Committee Summary**
+   - 3-sentence summary for executive sponsors
+   - Key metric trend to highlight
+   - Primary recommendation
+
+Format as a report suitable for a steering committee update.
 ```
 
 ---
 
-## Method 2: Excel Copilot
+## Exercise 2: Utilization Data Analysis
 
-For working within spreadsheets, use Copilot directly in Excel.
+Internal tools also need to track productivity impact.
+
+**Sample Data (or use `sample-files/data/utilization-data.csv`):**
+
+```
+Practice,Consultants,AKX_Active_Users,Avg_Searches_Week,Avg_Search_Time_Min,Expert_Connections,Utilization_Rate
+Technology,85000,38250,12.5,2.8,1250,92%
+Strategy,35000,14000,8.2,3.4,890,89%
+Operations,45000,15750,6.1,4.2,450,87%
+Financial Services,55000,23100,10.8,2.1,980,91%
+Health & Public Service,40000,14000,7.5,3.8,560,88%
+```
+
+**Do this now:**
+
+Use this prompt:
+
+```
+Analyze this AKX utilization data by practice at Accenture.
+
+Please provide:
+
+1. **Practice Comparison**
+   - Which practices have highest/lowest AKX adoption?
+   - Correlation between AKX usage and practice utilization rate?
+   - Are high-utilization practices using AKX more?
+
+2. **Search Efficiency Analysis**
+   - Which practices have most efficient search (lowest time)?
+   - What might explain the differences?
+   - Benchmark: Target is 2 minutes average. Who's meeting it?
+
+3. **Expert Connection Analysis**
+   - Expert connections per active user by practice
+   - Which practices are getting most value from expert discovery?
+
+4. **ROI Estimation**
+   - If Technology practice saves 5 min/search vs. old system (8 min)
+   - Calculate weekly time savings across all 38,250 active users
+   - At $300/hour billing rate, what's the annual value?
+
+5. **Recommendations**
+   - Which practices need adoption support?
+   - What best practices from Technology should be shared?
+   - Priority actions for Change Management team
+```
+
+---
+
+## Method 2: Excel Copilot for Enterprise Data
 
 ### How to Access
 
@@ -134,61 +185,78 @@ For working within spreadsheets, use Copilot directly in Excel.
 2. Press **Alt+I** to open Copilot panel
 3. Or click the Copilot icon in the ribbon
 
-### What Excel Copilot Can Do
+### Enterprise-Specific Excel Tasks
 
 | Task | Example Prompt |
 |------|----------------|
-| Add formulas | "Add a column calculating conversion rate" |
-| Create charts | "Create a chart showing the funnel" |
-| Highlight patterns | "Highlight rows where conversion < 50%" |
-| Create pivot tables | "Create a pivot table by month and segment" |
-| Clean data | "Remove duplicate rows" |
-| Sort & filter | "Sort by conversion rate, lowest first" |
+| Add ROI formulas | "Add column calculating time savings value at $300/hour" |
+| Create adoption charts | "Create trend chart showing WAU over 24 weeks" |
+| Practice comparison | "Create pivot table by practice with average adoption" |
+| Highlight concerns | "Highlight practices where adoption < 30%" |
+| Forecast | "Project WAU for next 12 weeks based on trend" |
+| Executive summary | "Create summary statistics for steering committee" |
 
-### Exercise 2: Excel Copilot
+### Exercise 3: Excel Copilot for Enterprise Metrics
 
 **Do this now:**
 
-1. Open the funnel data in Excel
+1. Open utilization data in Excel
 2. Press Alt+I to open Copilot
 3. Try these prompts:
 
 ```
-Add a column showing the cumulative drop-off from signup
+Add a column calculating the ROI per practice assuming:
+- Time saved per search: 5 minutes
+- Billing rate: $300/hour
+- Formula: Active_Users × Avg_Searches_Week × 5/60 × $300 × 52 weeks
 ```
 
 ```
-Create a funnel chart visualizing the conversion at each stage
+Create a scatter chart showing relationship between AKX_Active_Users
+and Utilization_Rate by practice
 ```
 
 ```
-Highlight the stages where conversion rate is below 60%
+Create a pivot table summarizing total time savings by practice,
+sorted from highest to lowest
 ```
 
 ---
 
-## Method 3: Analyst Agent for Complex Analysis
+## Method 3: Analyst Agent for Business Cases
 
-For multi-step reasoning and statistical analysis, use the Analyst agent.
+For complex reasoning, ROI validation, and statistical analysis, use the Analyst agent.
 
-### When to Use Analyst
+### When to Use Analyst for Enterprise
 
-- Complex calculations
-- Statistical significance testing
+- Validating business case assumptions
+- Statistical significance of pilot results
 - Multi-variable analysis
-- Forecasting and projections
-- "What if" scenarios
+- ROI projections with scenarios
+- Pre/post comparisons
 
-### Exercise 3: A/B Test Analysis with Analyst
+### Exercise 4: Pilot Test Analysis
 
-**Scenario:** We ran an A/B test on the onboarding flow.
+**Scenario:** You ran a pilot of AI-powered search with the Technology practice.
 
-**Sample Data:**
+**Sample Data (or use `sample-files/data/expert-search-metrics.csv`):**
 
 ```
-Variant,Users,Completed_Onboarding,Conversion_Rate
-Control,5000,1750,35%
-New_Wizard,5000,2150,43%
+Control Group (Old Search):
+- 5,000 consultants in pilot
+- Average search time: 8.2 minutes
+- Search success rate: 67%
+- Time to find expert: 55 hours average
+- User satisfaction: 3.2/5
+- Weekly searches per user: 6.5
+
+Test Group (AI-Powered Search):
+- 5,000 consultants in pilot
+- Average search time: 2.4 minutes
+- Search success rate: 82%
+- Time to find expert: 12 hours average
+- User satisfaction: 4.1/5
+- Weekly searches per user: 9.2
 ```
 
 **Do this now:**
@@ -197,170 +265,234 @@ New_Wizard,5000,2150,43%
 2. Enter this prompt:
 
 ```
-Analyze this A/B test result for TaskFlow's onboarding:
+Analyze this pilot test result for AKX AI-Powered Search at Accenture.
 
-Control: 5000 users, 35% conversion (1750 completions)
-New Wizard: 5000 users, 43% conversion (2150 completions)
+Control Group (Old Search): 5,000 users
+- Average search time: 8.2 minutes
+- Search success rate: 67%
+- Time to find expert: 55 hours
+- User satisfaction: 3.2/5
+- Weekly searches: 6.5 per user
+
+Test Group (AI-Powered Search): 5,000 users
+- Average search time: 2.4 minutes
+- Search success rate: 82%
+- Time to find expert: 12 hours
+- User satisfaction: 4.1/5
+- Weekly searches: 9.2 per user
 
 Please provide:
 
 1. **Statistical Significance**
-   - Is this result statistically significant? (95% confidence)
-   - What's the p-value?
-   - Show your calculation
+   - Is the improvement in search time statistically significant?
+   - Is the improvement in satisfaction significant?
+   - Show your calculations
 
-2. **Effect Size**
-   - What's the absolute lift?
-   - What's the relative lift?
+2. **Efficiency Gains**
+   - Time saved per search: [calculate]
+   - Additional searches enabled per user per week
+   - Total time savings across 5,000 pilot users
 
-3. **Business Impact**
-   - If we get 10,000 signups/month, how many more 
-     activations would we get with New Wizard?
-   - Annualized impact?
+3. **ROI Projection for Full Rollout**
+   - If rolled out to all 300,000 potential weekly active users
+   - Average consultant billing rate: $300/hour
+   - Calculate annual productivity value
+   - Include conservative, moderate, and optimistic scenarios
 
-4. **Recommendation**
-   - Should we ship this?
-   - Any caveats or concerns?
+4. **Business Case Validation**
+   - Does this justify the $2M investment?
+   - What's the payback period?
+   - What's the ROI multiple?
 
-Show your reasoning step by step.
+5. **Steering Committee Recommendation**
+   - Should we proceed with full rollout?
+   - What metrics should we track post-rollout?
+   - Any risks or caveats to mention?
+
+Show your reasoning step by step. This will be presented to the CKO sponsor.
 ```
 
 ---
 
-## Common PM Data Analysis Scenarios
+## Common Enterprise Data Scenarios
 
-### Scenario 1: User Segmentation
-
-```
-Analyze this user data and identify distinct segments based on:
-- Usage patterns
-- Feature adoption
-- Engagement levels
-
-For each segment:
-- Name and describe the segment
-- Size (% of users)
-- Key characteristics
-- PM implications (what to build for them)
-```
-
-### Scenario 2: Feature Usage Analysis
+### Scenario 1: Adoption Cohort Analysis
 
 ```
-Analyze feature usage data:
-- Which features have highest adoption?
-- Which features have low adoption but high satisfaction?
-- Which features have high adoption but low satisfaction?
-- What does this suggest for our roadmap?
+Analyze adoption cohorts for new hires at Accenture:
+
+September cohort: 5,000 new hires
+- 68% logged in first week
+- 44% performed a search
+- 22% weekly active at 30 days
+
+October cohort: 5,500 new hires
+- 70% logged in first week
+- 50% performed a search
+- 26% weekly active at 30 days
+
+November cohort: 4,800 new hires
+- 75% logged in first week
+- 60% performed a search
+- 33% weekly active at 30 days
+
+Questions:
+1. Is the improvement trend significant?
+2. What's driving better activation for newer cohorts?
+3. Project December cohort performance
+4. What should we present to Change Management?
 ```
 
-### Scenario 3: Retention Analysis
+### Scenario 2: Practice Benchmarking
 
 ```
-Analyze this retention cohort data:
-- What's our 30/60/90 day retention?
-- Which cohorts retain best?
-- What's the typical churn point?
-- How does retention correlate with feature usage?
+Compare AKX performance across Accenture practices:
+
+For each practice, analyze:
+- Adoption rate vs. company average
+- Search efficiency metrics
+- Expert connection rates
+- Correlation with practice performance metrics
+
+Identify:
+- Best-in-class practices (what are they doing?)
+- Practices needing support
+- Recommendations for practice-specific interventions
 ```
 
-### Scenario 4: Survey Analysis
+### Scenario 3: Feature ROI Analysis
 
 ```
-Analyze these survey responses:
-- What are the top themes?
-- Sentiment breakdown (positive/negative/neutral)
-- Correlation between satisfaction and specific answers
-- Key quotes for each theme
+Analyze ROI of AKX features to inform roadmap prioritization:
+
+Features and usage data:
+- Basic Search: 85% of users, 3.5 satisfaction
+- Expert Finder: 35% of users, 4.2 satisfaction
+- Content Curation: 20% of users, 3.8 satisfaction
+- AI Recommendations: 15% of users (pilot), 4.5 satisfaction
+
+Questions:
+1. Which features drive the most value?
+2. What's the potential if we increased Expert Finder adoption?
+3. Should we expand AI Recommendations?
+4. Investment recommendations for steering committee?
+```
+
+### Scenario 4: Competitive Benchmark Analysis
+
+```
+Benchmark AKX against what we know about competitor platforms:
+
+Our metrics:
+- WAU: 43%
+- Search time: 3.5 minutes
+- Search satisfaction: 3.8/5
+- Expert discovery time: 18 hours
+
+Industry benchmarks (consulting firms):
+- McKinsey Knowledge Center: ~65% WAU (estimated)
+- BCG internal tools: ~55% WAU (estimated)
+- Deloitte knowledge platform: ~50% WAU (estimated)
+
+Analysis:
+1. How do we compare?
+2. What gap needs to close?
+3. What's the business impact of the gap?
+4. Recommendation for steering committee
 ```
 
 ---
 
-## Data Analysis Workflow for PMs
+## Data Analysis Workflow for Enterprise PMs
 
-### Step 1: Define Your Question
-Before analyzing, be clear:
-- What decision am I trying to make?
-- What would change my mind?
-- What data would answer this?
+### Step 1: Define the Business Question
+- What decision needs data support?
+- Who is the audience (steering committee, sponsors, change management)?
+- What would change our recommendation?
 
-### Step 2: Get the Data
-- Export from your analytics tool
-- Clean if necessary
-- Upload to Copilot
+### Step 2: Gather Enterprise Data
+- Export from internal analytics platforms
+- Combine multiple data sources if needed
+- Note data limitations and gaps
 
-### Step 3: Explore First
+### Step 3: Explore and Validate
 ```
 Summarize this data. What patterns do you see?
-What's interesting or surprising?
+Flag any data quality issues.
+What's surprising or concerning?
 ```
 
-### Step 4: Answer Specific Questions
+### Step 4: Answer Business Questions
 ```
-Based on this data, [specific question]?
+Based on this data:
+- Should we increase investment in AI Search?
+- Which practices need adoption support?
+- What's the ROI case for steering committee?
 ```
 
-### Step 5: Validate
-- Do the numbers make sense?
-- Cross-check with other sources
-- Consider what's NOT in the data
+### Step 5: Stress-Test Findings
+- Are sample sizes sufficient?
+- What assumptions are we making?
+- What would skeptics challenge?
 
-### Step 6: Decide
-- What does this mean for my decision?
-- What's the recommended action?
+### Step 6: Package for Stakeholders
+- Executive summary for steering committee
+- Detailed backup for questions
+- Clear recommendation with data support
 
 ---
 
-## Best Practices
+## Best Practices for Enterprise Data Analysis
 
 ### Do:
-- ✅ Start with clear questions
-- ✅ Use Analyst for complex reasoning
-- ✅ Ask Copilot to show its work
-- ✅ Validate surprising findings
-- ✅ Consider sample sizes and significance
+- ✅ Connect analysis to business outcomes (revenue, efficiency, talent)
+- ✅ Use Analyst for complex ROI calculations
+- ✅ Compare to industry benchmarks
+- ✅ Show confidence levels and scenarios
+- ✅ Prepare for steering committee questions
 
 ### Don't:
-- ❌ Trust numbers without validation
-- ❌ Skip statistical significance for A/B tests
-- ❌ Ignore what's NOT in the data
-- ❌ Over-complicate simple analyses
-- ❌ Make decisions on tiny sample sizes
+- ❌ Present data without business context
+- ❌ Skip statistical validation for pilots
+- ❌ Ignore practice/segment differences
+- ❌ Assume correlation means causation
+- ❌ Hide limitations or data gaps
 
 ---
 
 ## Module Complete!
 
 You now know:
-- ✅ How to upload and analyze data in Copilot Chat
-- ✅ How to use Excel Copilot for spreadsheet analysis
-- ✅ How to perform funnel analysis
-- ✅ How to interpret A/B test results with Analyst
-- ✅ The data analysis workflow for PMs
+- ✅ How to analyze enterprise adoption funnels
+- ✅ How to use Excel Copilot for utilization metrics
+- ✅ How to interpret pilot test results with statistical rigor
+- ✅ How to calculate ROI for steering committee presentations
+- ✅ The enterprise data analysis workflow
 
 ---
 
 ## Next Steps
 
-Continue to **Module 2.3: Product Strategy with Copilot**
+Continue to **Module 2.3: Enterprise Product Strategy with Copilot**
 
 In Module 2.3, you'll learn:
-- Strategic frameworks (SWOT, Porter's, etc.)
-- Competitive positioning analysis
-- Roadmap prioritization
-- Stakeholder communication of strategy
+- Enterprise portfolio strategy (vs. product-market fit)
+- Governance and steering committee alignment
+- Strategic frameworks for internal tools
+- Multi-stakeholder strategy communication
 
 ---
 
-## Quick Reference
+## Quick Reference: Enterprise Data Prompts
 
 | Analysis Type | Tool | Example Prompt |
 |---------------|------|----------------|
-| Quick summary | Copilot Chat | "Summarize this data" |
-| Formulas/charts | Excel Copilot | "Create a pivot table by..." |
-| Statistical analysis | Analyst | "Is this A/B test significant?" |
-| Complex reasoning | Analyst | "What's driving this trend?" |
+| Adoption funnel | Copilot Chat | "Analyze this adoption funnel data..." |
+| Utilization trends | Excel Copilot | "Create pivot table by practice..." |
+| Pilot validation | Analyst | "Is this pilot result significant?" |
+| ROI calculation | Analyst | "Calculate ROI for steering committee..." |
+| Practice benchmarking | Copilot Chat | "Compare performance across practices..." |
 
 ---
 
-**Ready for strategy? Let's go to Module 2.3!**
+**Ready for enterprise strategy? Let's go to Module 2.3!**

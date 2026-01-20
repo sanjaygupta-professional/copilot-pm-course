@@ -10,7 +10,7 @@
 By the end of this module, you will:
 1. Understand what Microsoft Copilot is and how it helps PMs
 2. Know how to access Copilot (browser, Windows app, M365 apps)
-3. Meet TaskFlow - the fictional company you'll work for throughout this course
+3. Meet Accenture's Internal Digital Products team - your role throughout this course
 4. Understand how this course is structured
 5. Feel confident that you can use Copilot without technical skills
 
@@ -22,9 +22,9 @@ Welcome to the Microsoft Copilot PM Course!
 
 You're about to learn how to use Microsoft Copilot - an AI assistant that can save you **10-20 hours per week** as a Product Manager. Unlike traditional tools, Copilot integrates directly into the Microsoft 365 apps you already use: Word, Excel, PowerPoint, Outlook, and Teams.
 
-Throughout this course, you'll work for a fictional company called **TaskFlow** - imagine Asana meets Jira, but built specifically for remote teams. It's a project management SaaS that's growing fast.
+Throughout this course, you'll work as a **Senior Product Owner** at **Accenture** - one of the world's largest consulting firms with 700,000+ employees globally. You'll own two internal products: **AKX** (Accenture Knowledge Exchange) and **ADH** (Accenture Delivery Hub).
 
-**What makes this course different:** All the files, documents, and context are already created for you. You're stepping into a real (fictional) PM role with active projects, real user personas, and actual work to do!
+**What makes this course different:** All the files, documents, and context are already created for you. You're stepping into a real (contextualized) PM role with active products, real user personas, and actual work to do!
 
 ---
 
@@ -93,58 +93,76 @@ If you see this, you're ready to continue!
 
 ---
 
-## Meet TaskFlow: Your Fictional Company
+## Your Role: Senior Product Owner at Accenture
 
-Throughout this course, you'll work as a **Senior Product Manager** at TaskFlow.
+Throughout this course, you'll work as a **Senior Product Owner** in Accenture's Internal Digital Products team.
 
 ### Company Overview
 
 | Attribute | Details |
 |-----------|---------|
-| **What it is** | Project management SaaS (Asana meets Jira) |
-| **Stage** | Series B startup, $20M raised |
-| **Team** | 50 employees |
-| **Your role** | Senior PM - Activation & Onboarding |
-| **Mission** | Empower remote teams to collaborate seamlessly |
-| **Metrics** | $2.5M ARR, 10,000 active users |
+| **Company** | Accenture - Global management & technology consulting firm |
+| **Employees** | 700,000+ globally |
+| **Revenue** | $64+ billion annually |
+| **Your team** | Internal Digital Products (25 people) |
+| **Your role** | Senior Product Owner - AKX & ADH |
+| **Report to** | Jennifer Walsh (VP Internal Digital Products) |
+| **Sponsors** | Richard Thorne (CKO), Maya Patel (CPO) |
+
+### Your Products
+
+**AKX (Accenture Knowledge Exchange)**
+- Internal knowledge management platform
+- Helps consultants find past work, methodologies, and experts
+- Current challenge: 43% weekly active users (target: 60%)
+
+**ADH (Accenture Delivery Hub)**
+- Project delivery and resource management platform
+- Helps delivery managers track projects and allocate resources
+- Current challenge: 67% utilization visibility (target: 95%)
 
 ### Your Users (3 Personas)
 
-You'll make product decisions for these users throughout the course:
+You'll make product decisions for these internal stakeholders throughout the course:
 
-**1. Sarah Chen - Enterprise Admin**
-- Needs: SSO, security, audit logs
-- Pain point: "I need enterprise-grade controls"
+**1. Priya Sharma - Partner & Practice Lead**
+- Needs: Fast expert discovery, proposal content, competitive intel
+- Pain point: "I can't find experts in 5 minutes, let alone 5 days"
 
-**2. Mike Rodriguez - IC Engineer**
-- Needs: Speed, keyboard shortcuts, GitHub integration
-- Pain point: "I want to stay in flow"
+**2. Marcus Johnson - Senior Consultant**
+- Needs: Reusable templates, frameworks, content that actually helps
+- Pain point: "I know this analysis exists somewhere, but I can't find it"
 
-**3. Alex Thompson - Team Lead**
-- Needs: Team visibility, workload balance, reporting
-- Pain point: "I need to see what everyone's working on"
+**3. Elena Rodriguez - Delivery Manager**
+- Needs: Real-time project health, resource visibility, automated reporting
+- Pain point: "I spend 4 hours a week on status reports that should be automated"
 
 ---
 
-## Exercise 2: Ask Copilot About TaskFlow
+## Exercise 2: Ask Copilot About Your Role
 
-Let's try your first Copilot interaction! We've provided TaskFlow company files that you can reference.
+Let's try your first Copilot interaction! We've provided company context files that you can reference.
 
 **Do this now:**
 
 1. In Copilot chat, type the following prompt:
 
 ```
-I'm a Senior Product Manager at a company called TaskFlow - a project management
-SaaS like Asana meets Jira, built for remote teams. We're a Series B startup
-with $2.5M ARR and 10,000 users.
+I'm a Senior Product Owner at Accenture - one of the world's largest consulting
+firms with 700,000+ employees. I own two internal products:
 
-My focus area is Activation & Onboarding. Our main user personas are:
-- Sarah (Enterprise Admin) - needs security & compliance
-- Mike (IC Engineer) - needs speed & integrations
-- Alex (Team Lead) - needs visibility & reporting
+1. AKX (Accenture Knowledge Exchange) - a knowledge management platform
+   helping consultants find past work and experts. Current WAU: 43%, Target: 60%
 
-What are 3 key questions I should be asking about our onboarding experience?
+2. ADH (Accenture Delivery Hub) - a project delivery and resource management
+   platform. Current utilization visibility: 67%, Target: 95%
+
+My main user personas are:
+- Priya (Partner) - needs fast expert discovery for client pitches
+- Marcus (Consultant) - needs to find templates and stop recreating work
+- Elena (Delivery Manager) - needs automated status reporting
+
+What are 3 key questions I should be asking about AKX adoption?
 ```
 
 2. Read Copilot's response
@@ -160,7 +178,7 @@ What are 3 key questions I should be asking about our onboarding experience?
 
 The course has **3 levels** with multiple modules each:
 
-**Level 1: Foundation (7 modules)**
+**Level 1: Foundation (10 modules)**
 - 1.1 Welcome (you are here!)
 - 1.2 Setting Up Your Workspace
 - 1.3 Your First PM Tasks
@@ -168,6 +186,9 @@ The course has **3 levels** with multiple modules each:
 - 1.5 Persona Prompting for Different Perspectives
 - 1.6 Building Context with Copilot Memory
 - 1.7 Copilot Across M365 Apps
+- 1.8 Teams Integration
+- 1.9 Outlook Integration
+- 1.10 SharePoint & Collaboration
 
 **Level 2: Advanced PM Workflows (3 modules)**
 - 2.1 Writing PRDs with Copilot
@@ -199,13 +220,34 @@ By the end of this course, you'll be able to:
 
 | Task | Without Copilot | With Copilot | Savings |
 |------|-----------------|--------------|---------|
-| Process meeting notes | 30 min | 2 min | 28 min |
-| Synthesize 8 user interviews | 2-3 hours | 5 min | ~2.5 hours |
-| Rewrite for 3 audiences | 45 min | 3 min | 42 min |
-| Competitive research | 45 min | 5 min | 40 min |
-| Draft PRD | 4 hours | 30 min | 3.5 hours |
+| Process steering committee notes | 45 min | 3 min | 42 min |
+| Synthesize 8 stakeholder interviews | 3-4 hours | 5 min | ~3.5 hours |
+| Write status updates for 3 audiences | 60 min | 5 min | 55 min |
+| Competitive research (consulting firms) | 90 min | 10 min | 80 min |
+| Draft PRD with business case | 6 hours | 45 min | 5+ hours |
 
-**Estimated weekly savings: 3-4 hours**
+**Estimated weekly savings: 5-8 hours**
+
+---
+
+## Enterprise PM vs. External Product PM
+
+This course focuses on **internal enterprise product management** - which differs from external B2B/B2C PM in important ways:
+
+| Aspect | External Product | Internal Enterprise Product |
+|--------|-----------------|----------------------------|
+| **Users** | Paying customers | Employees (no choice) |
+| **Success metric** | Revenue, retention | Adoption, efficiency, NPS |
+| **"Sales" process** | Marketing & sales | Change management & training |
+| **Competition** | Other products | Shadow IT, workarounds, status quo |
+| **Governance** | Product leadership | Steering committees, sponsors |
+| **Funding** | Revenue-driven | Budget allocation, business cases |
+
+Understanding this context will help you apply Copilot to enterprise-specific workflows like:
+- Preparing steering committee presentations
+- Writing business cases with ROI calculations
+- Managing change across diverse stakeholder groups
+- Navigating enterprise governance and decision-making
 
 ---
 
@@ -214,7 +256,7 @@ By the end of this course, you'll be able to:
 You now know:
 - ✅ What Microsoft Copilot is and how it helps PMs
 - ✅ How to access Copilot (browser, shortcuts, M365 apps)
-- ✅ What TaskFlow is (your fictional company)
+- ✅ Your role at Accenture (Senior Product Owner for AKX & ADH)
 - ✅ How this course is structured
 - ✅ That you just talk to Copilot in plain English
 

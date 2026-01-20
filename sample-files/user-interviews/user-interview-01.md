@@ -1,63 +1,68 @@
-# User Interview #1: Enterprise Admin Persona
+# Stakeholder Interview #1: Practice Lead Persona
 
-**Participant:** Rachel Kim
-**Role:** Director of IT Operations
-**Company:** FinanceTech Solutions (650 employees, Series C)
-**TaskFlow Plan:** Enterprise (pilot with 100 users)
-**Date:** October 5, 2024
-**Interviewer:** Senior PM
-**Duration:** 35 minutes
+**Participant:** Priya Sharma
+**Role:** Managing Director & Practice Lead, Financial Services Technology
+**Location:** New York, NY
+**Tenure:** 18 years at Accenture
+**Products Used:** AKX (primary), ADH (occasional)
+**Date:** February 3, 2025
+**Interviewer:** Senior Product Owner
+**Duration:** 40 minutes
 
 ---
 
 ## Background
 
-Rachel has been at FinanceTech for 4 years, leading IT operations. Her team manages 30+ tools across the organization. They're currently piloting TaskFlow with their product and engineering teams (100 users). Evaluating whether to roll out company-wide.
+Priya leads the Financial Services Technology practice for North America with 450 consultants under her leadership. She's responsible for $180M in annual revenue and strategic relationships with 12 major financial institutions. Known for being direct and time-pressed, she agreed to this interview between client calls.
 
 ---
 
 ## Interview
 
-**Q: Tell me about your current project management setup before TaskFlow.**
+**Q: Walk me through a typical day when you need to use AKX.**
 
-Rachel: "Oh boy. It's a mess, honestly. Engineering uses Linear, product team was on Asana, marketing uses Monday.com, and sales has their own thing in Salesforce. Everyone wanted something different. My team spends so much time just managing access and trying to get visibility into what's actually happening."
+Priya: "Honestly? I try to avoid it. Yesterday's a perfect example. Client calls at 9am, asks if we have blockchain expertise for their digital assets program. I have maybe 15 minutes before my next meeting. I go to AKX, type 'blockchain financial services,' get 500 results. Most are from 2019. I can't tell who's actually good. I give up after 5 minutes and send a mass email to my network. Three hours later, someone responds with a name. BCG would have had this in 30 minutes."
 
-**Q: What made you consider TaskFlow?**
+**Q: What happened with that deal specifically?**
 
-Rachel: "We needed to consolidate. Too many tools, too many logins, too much chaos. When someone leaves the company, we have to remember to revoke access in like 15 different places. It's a nightmare. TaskFlow's SSO integration was the main draw - we can provision and deprovision from our identity provider."
+Priya: "We lost it. Client wanted to see the team in two days. It took us four days to identify and mobilize someone. BCG showed up with their person in 48 hours. Done. We didn't even get a second chance. That's a $20 million engagement we lost because I couldn't find an expert fast enough."
 
-**Q: How's the pilot going so far?**
+**Q: How often does this happen?**
 
-Rachel: "Pretty good! The product and engineering teams are happy with it. They like the interface - it's clean, fast. But I need more from the admin side. The audit logs are basic - I need more detail. Like, who exported data? Who changed permissions? That kind of thing. Compliance team asks for this stuff."
+Priya: "Every week. Maybe not $20 million deals, but the pattern is constant. I need an expert in autonomous vehicles for a banking client exploring mobility partnerships. Someone with supply chain AI experience for trade finance. Cloud migration expertise in capital markets. Every time it's the same story - search AKX, get overwhelmed, give up, email my network."
 
-**Q: What would make you roll this out company-wide?**
+**Q: What would success look like for you?**
 
-Rachel: "Better admin controls. Right now I can see high-level usage, but I want to see exactly who's using it, who's not, what features they're using. Cost allocation too - we charge back to departments, so I need to know which team is using how much. Also, the permission system is good but we need more granularity. Like, read-only access for certain projects, or limit who can invite external users."
+Priya: "I want to search for 'blockchain capital markets 5+ years' and get back 10 names. Real experts, not everyone who once attended a blockchain webinar. With their actual availability - 'this person is free starting March 15.' With a way to contact them or their career counselor immediately. That's it. That's all I need. Five minutes from search to action."
 
-**Q: Any features you wish TaskFlow had?**
+**Q: Tell me about the expert profiles you do find.**
 
-Rachel: "Dark mode. Sounds silly, but our engineering team asks about it constantly. They work late, they want dark mode. Also, better mobile app - the mobile web version is okay but not great. Our field teams would use this if the mobile experience was better."
+Priya: "Half the time they're wrong. Someone's profile says they have AWS experience from a project 3 years ago. But that project was a tiny piece, they weren't the lead, and they've done nothing with AWS since. The data isn't trustworthy. So even when I find someone, I have to verify by calling around. Which defeats the purpose."
 
-**Q: What about the onboarding experience?**
+**Q: What about reusing past work - proposals, presentations?**
 
-Rachel: "Honestly? It's fine for power users but confusing for casual users. We had to create our own onboarding guide. Some kind of template library would help - like 'here's a pre-built project, start with this.' People stare at a blank screen and don't know what to do. We need to hold their hand more at the beginning."
+Priya: "Same problem. I know we've done a cloud migration proposal for a regional bank before. I've seen it in someone's slide deck. But can I find it in AKX? No. I search, I get 200 results, none of them are it. My team ends up rebuilding from scratch. We probably recreate the same proposal outline 50 times a year across the practice."
 
-**Q: How does TaskFlow compare to your previous tools?**
+**Q: How do McKinsey alumni on your team describe their experience?**
 
-Rachel: "Pricing is better than Asana - we're saving like 40%. Performance is way better than Monday.com - that thing is so slow. The SSO integration is easier than most tools. But enterprise features are still catching up. We need things like data residency options, more compliance certifications, custom contract terms. You're not quite ready for a Fortune 500 deployment yet."
+Priya: "They tell me McKinsey's knowledge center is light years ahead. You search, you find things. There are actual knowledge managers who curate content. Experts are tagged accurately because there's a process for it. It's not a dumping ground. One of my senior managers jokes that she found better content at McKinsey as a consultant than she can find here as an MD."
+
+**Q: What would make you actively promote AKX to your practice?**
+
+Priya: "Results. If AI search actually works - if I can find what I need in 5 minutes instead of 50 - I'll mandate it for my entire practice. I'll do a video testimonial. I'll make it part of our onboarding. But right now, recommending AKX would hurt my credibility. People try it, it fails them, they blame me for suggesting it."
 
 **Q: Anything else we should know?**
 
-Rachel: "The support team is responsive, that's great. The product updates frequently - that's good but also a little concerning. We need stability. Maybe a slower release cycle for enterprise customers? Or an LTS version? Also, documentation for admins could be better. I had to figure out a lot through trial and error."
+Priya: "Mobile is terrible. I'm in cars, airports, between meetings. I need to do a quick search on my phone. Current AKX on mobile takes 15 seconds to load, if it loads at all. That's eternity when a client is asking me a question and I need to look something up. Fix the mobile experience. Make it fast."
 
 ---
 
 ## Key Insights
-- SSO was primary driver for adoption
-- Needs more detailed audit logs for compliance
-- Permission system needs more granularity
-- Cost allocation/usage tracking important for enterprise
-- Dark mode highly requested by engineering team
-- Onboarding needs help (template library suggestion)
-- Mobile web experience not good enough
-- Enterprise customers need stability over rapid updates
+- Competitive losses directly attributed to slow expert discovery (BCG 48hrs vs. Accenture 4 days)
+- Search returns too many irrelevant results - 500 results, most outdated
+- Expert profile data is inaccurate and not trustworthy
+- Content reuse is nearly impossible - teams recreate work constantly
+- McKinsey alumni benchmark against superior internal tools
+- Mobile performance is a blocker for partner adoption
+- Would actively champion AKX if it demonstrably worked
+- Time constraint is critical - needs answers in 5 minutes, not 50

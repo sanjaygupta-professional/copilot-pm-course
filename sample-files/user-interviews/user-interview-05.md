@@ -1,63 +1,71 @@
-# User Interview #5: Customer Success Manager Persona
+# Stakeholder Interview #5: Project Manager Persona
 
-**Participant:** James Park
-**Role:** Customer Success Manager
-**Company:** TaskFlow (our own team!)
-**TaskFlow Plan:** Enterprise (internal use, 45 users)
-**Date:** October 10, 2024
-**Interviewer:** Senior PM
-**Duration:** 30 minutes
+**Participant:** Kevin Park
+**Role:** Project Manager, Cloud & Infrastructure
+**Location:** Seattle, WA
+**Tenure:** 7 years at Accenture
+**Current Project:** Multi-cloud implementation for insurance client
+**Products Used:** ADH (daily), AKX (weekly)
+**Date:** February 11, 2025
+**Interviewer:** Senior Product Owner
+**Duration:** 35 minutes
 
 ---
 
 ## Background
 
-James manages customer success for TaskFlow's enterprise accounts. He's been with the company for 2 years. His team uses TaskFlow internally to track customer issues, onboarding progress, and escalations.
+Kevin manages a large cloud implementation project with a team of 35 consultants. He's been at Accenture for 7 years and has managed projects ranging from $5M to $50M in value. He's meticulous about project tracking but frustrated by the tools available.
 
 ---
 
 ## Interview
 
-**Q: How does your team use TaskFlow?**
+**Q: How does ADH fit into your daily work?**
 
-James: "We track everything in TaskFlow - customer onboarding projects, support escalations, account health check-ins, feature requests from customers. Each enterprise customer has a project. We update tasks as we move through onboarding milestones or resolve issues."
+Kevin: "Every day I'm supposed to update project status in ADH. Budget burn rate, milestone progress, risks, team utilization. In theory it's supposed to take 15 minutes. In practice, it takes me an hour because the interface is clunky, data entry is painful, and I'm duplicating information I've already captured elsewhere."
 
-**Q: What's working well for your use case?**
+**Q: Tell me about the status reporting challenge.**
 
-James: "The ability to track multiple customers in parallel is great. I can see at a glance which customers are at risk, which are in onboarding, which need check-ins. Custom fields help - we tag by customer tier, ARR, health score. And linking to Slack is helpful for getting quick updates."
+Kevin: "I have multiple stakeholders who want status updates. The client wants a weekly status call with slides. The delivery manager wants a different format. The practice lead wants high-level metrics. Finance wants project financial updates. I'm basically creating the same content four different ways. ADH should be generating these reports for me, but it doesn't."
 
-**Q: What pain points do you encounter?**
+**Q: What about the project health indicators in ADH?**
 
-James: "The mobile experience is tough. I'm often checking customer status on the go - between meetings, at conferences, traveling. The mobile web version is clunky. I can't easily update tasks or add notes. Sometimes I wait until I'm back at my laptop, which delays customer responses."
+Kevin: "They're useless. The system shows 'green' if I mark it green. It doesn't actually assess project health. If I'm burning budget 20% faster than planned, the system doesn't know or care. I have to manually calculate that and update the status. What I want is: ADH looks at hours logged, budget consumed, milestones completed, and tells me 'Hey, you're trending toward a 15% overrun.' Automatically."
 
-**Q: You mentioned customer onboarding - how does that work?**
+**Q: How do you handle resource requests?**
 
-James: "I've created a master onboarding template - a checklist of 20+ tasks every enterprise customer goes through. But here's the thing: I have to manually recreate it for each new customer. Would save so much time if I could just duplicate a template project. I've literally copy-pasted the same project structure 15 times this quarter."
+Kevin: "Right now it's email and spreadsheets. I need a data engineer starting April 1. I submit a request, it goes into a queue, someone manually reviews it, looks for available people. Takes days, sometimes weeks. By the time I get someone, my timeline has slipped. I've started requesting resources earlier than I need them, just to buffer the slow process."
 
-**Q: Tell me about tracking customer feedback.****
+**Q: What about when you need to find experts for a specific technical challenge?**
 
-James: "Customers request features all the time. I create tasks for each request, tag them, try to spot patterns. But it's manual. Like, five customers might request dark mode, and I have to remember to mention that in our next product sync. Would be cool if TaskFlow could automatically surface: 'Hey, 5 customers in the last month requested this.'"
+Kevin: "That's where AKX comes in, theoretically. I search for 'Azure Kubernetes migration' experts, I get a list. But I don't know who's good. I usually end up asking my delivery manager or posting in Teams channels. The expert search in AKX is a starting point but not the answer."
 
-**Q: How do you use notifications?**
+**Q: Tell me about team utilization tracking.**
 
-James: "They're overwhelming. I get notified for every comment, every update. I've tried turning some off, but then I miss critical escalations. What I really need is smart notifications - like, alert me immediately if a task is tagged 'urgent' or if a P0 customer has an update, but batch everything else into a morning digest."
+Kevin: "My team is supposed to log time in ADH. Some do it daily, some do it weekly, some forget until someone reminds them. The mobile time entry is terrible, so people avoid it. The data ends up being 2-3 weeks stale. When Elena asks me about team utilization, I have to chase people down to update their timesheets before I can answer accurately."
 
-**Q: What about collaboration with other teams?**
+**Q: What would make your job easier?**
 
-James: "I work closely with product, engineering, and sales. Sometimes a customer issue needs engineering help - I'll tag someone, they might not see it for hours. Would be great to have SLAs or auto-escalation. Like, if a P0 customer task hasn't been touched in 2 hours, automatically notify my manager."
+Kevin: "Three things. First, automated status reports - pull data from the system and generate a report I can customize. Second, real health indicators that actually look at data and tell me when something's wrong. Third, faster resource allocation - I should be able to see who's available and request them in minutes, not days."
 
-**Q: If you had a magic wand for one feature?**
+**Q: How does this compare to tools at other firms?**
 
-James: "Templates. Seriously. The amount of time I spend recreating the same project structure for each customer is ridiculous. After that, better mobile. And yeah, dark mode - I work late doing customer check-ins in different time zones."
+Kevin: "I hear mixed things. Friends at Deloitte complain too, but they say things are improving. BCG apparently has better tools, at least that's what consultants who've worked there tell me. McKinsey is supposed to be gold standard but they're smaller, so maybe it's just easier. At our scale, everything is harder."
+
+**Q: Any final thoughts?**
+
+Kevin: "The fundamental problem is that ADH feels like it was designed for finance and HR, not for project managers. The interface, the workflows, the reports - they're not oriented toward how I actually manage a project. It's like someone built a system and then said 'PMs can use it too.' We need tools built for us."
 
 ---
 
 ## Key Insights
-- Template library would save significant time (manual project recreation)
-- Mobile experience critical for on-the-go customer management
-- Notification overload (needs smart filtering/urgency-based)
-- Dark mode requested (late hours due to time zone coverage)
-- Pattern detection from customer feedback desired
-- SLA/auto-escalation features needed
-- Cross-team collaboration could be improved (tagging not always effective)
-- Custom fields working well for segmentation
+- Status reporting is duplicative - same content reformatted for different stakeholders
+- Project health indicators are manual, not automated based on actual data
+- Resource requests take days/weeks - started requesting early as a buffer
+- Time entry is stale due to poor mobile experience and consultant compliance
+- Expert search in AKX is a starting point but doesn't provide quality signals
+- Wants automated health alerts based on budget burn, milestone tracking
+- ADH designed for finance/HR, not project managers - workflow mismatch
+- Status update that should take 15 minutes takes an hour
+- Would benefit from auto-generated reports with customization options
+- Competitive comparison suggests firms are all struggling, but some improving

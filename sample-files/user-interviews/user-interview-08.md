@@ -1,64 +1,76 @@
-# User Interview #8: Junior PM Persona
+# Stakeholder Interview #8: Executive Sponsor Perspective
 
-**Participant:** Priya Singh
-**Role:** Associate Product Manager
-**Company:** FinTech Startup (65 employees, Series A)
-**TaskFlow Plan:** Pro (company-wide, 50 users)
-**Date:** October 13, 2024
-**Interviewer:** Senior PM
-**Duration:** 24 minutes
+**Participant:** Richard Thorne
+**Role:** Chief Knowledge Officer
+**Location:** New York, NY
+**Tenure:** 22 years at Accenture
+**Responsibility:** Executive sponsor for AKX
+**Products Used:** AKX (occasional, receives reports)
+**Date:** February 14, 2025
+**Interviewer:** Senior Product Owner
+**Duration:** 30 minutes
 
 ---
 
 ## Background
 
-Priya is a junior PM who joined the company 4 months ago, fresh out of university. This is her first PM role. She manages a small feature squad and is learning TaskFlow alongside learning PM fundamentals.
+Richard is the Chief Knowledge Officer and executive sponsor for AKX. He's responsible for knowledge strategy across Accenture and reports to the CEO on knowledge management initiatives. He provides the executive perspective on internal product investments and adoption challenges.
 
 ---
 
 ## Interview
 
-**Q: How's your experience with TaskFlow as a new PM?**
+**Q: What's your vision for AKX?**
 
-Priya: "It's been a learning curve! I'd never used a tool like this before. At first I was overwhelmed - where do I put tasks? How do I organize projects? What's the right level of detail? But I'm getting better. I basically copied how my manager structures things and adapted from there."
+Richard: "Simply put: any Accenture employee should be able to find any expert or any knowledge asset in under 5 minutes. Today it takes hours, sometimes days. We have 700,000 people creating incredible work, and most of it is invisible. We're paying the cost of reinvention every single day."
 
-**Q: What made the onboarding hard?**
+**Q: What does that cost look like?**
 
-Priya: "Just the blank screen feeling. I created my first project and was like... now what? I didn't know the best practices. Should I create one big project or multiple small ones? How should I organize tasks? Eventually I asked my manager to share their project as a template. That helped a ton. But I wish TaskFlow had given me some starter templates to learn from."
+Richard: "We did a study. Conservative estimate: $200 million per year in duplicated effort. Consultants recreating proposals, analyses, frameworks that already exist. That's not even counting the opportunity cost - deals we lose because we can't mobilize expertise fast enough. The BCG deal Sarah Mitchell mentioned? That's $20 million we lost because we couldn't identify a blockchain expert in 48 hours."
 
-**Q: What's working well for you now?**
+**Q: Why hasn't AKX solved this already?**
 
-Priya: "Once I got the hang of it, it's pretty intuitive. Creating tasks, assigning people, adding due dates - all straightforward. The comments are great for discussing features with engineers. And I love that I can search quickly. The speed is nice - no waiting for pages to load like some tools I used in school."
+Richard: "Underinvestment, honestly. We've spent years iterating on features without fixing the fundamental problem: search doesn't work. The platform is technically capable. We have the content. We have the experts. But if you can't find them, none of it matters. We've been polishing the edges while the core is broken."
 
-**Q: What's frustrating?**
+**Q: What's your expectation for AI search?**
 
-Priya: "Notifications are crazy! I get notified for every little thing. At first I tried to read them all, but it was overwhelming - 30+ notifications a day. Now I mostly ignore them and just check TaskFlow directly. Also, I work late sometimes (trying to prove myself, you know?) and the bright white interface is harsh. Everyone's been talking about wanting dark mode."
+Richard: "It needs to be transformational. Not incremental improvement - transformational. If AI search delivers what it promises - relevant results, quality filtering, expert matching - we should see WAU increase from 43% to 60%+ within a year. That's the bar. Anything less means we've failed again."
 
-**Q: How do you use TaskFlow on mobile?**
+**Q: What about adoption challenges?**
 
-Priya: "I check it on my phone during my commute or when I'm away from my desk. But it's not great - lots of scrolling, hard to update tasks, easier to just make a mental note and update later on my laptop. Would be cool if the mobile experience was smoother."
+Richard: "We have a credibility problem. Consultants have tried AKX, it's failed them, they've given up. Getting them to try again requires marketing, training, executive sponsorship - the whole change management apparatus. And it requires the product to actually work this time. If we launch AI search and it's mediocre, we've spent our credibility. We don't get another chance."
 
-**Q: Tell me about creating your weekly updates.**
+**Q: How do you think about ROI for these investments?**
 
-Priya: "Oh, I spend way too much time on this. Every week I have to summarize what shipped, what's in progress, what's blocked. I manually go through all my tasks, copy stuff into a doc, format it nicely. Takes like 20-30 minutes. I've seen senior PMs have these polished update formats, and I'm like, how do they do it so fast? If there was a template or automated way to generate updates from task status, that'd be amazing."
+Richard: "Every hour a consultant saves searching for content is an hour they can bill to a client. If we save 4 hours per week per consultant who uses AKX, and we have 300,000 weekly users, that's 1.2 million hours per week. At average billing rates, that's enormous value. Plus the qualitative benefits: better proposals win more deals, faster expert mobilization wins competitive situations, happier consultants means lower attrition."
 
-**Q: What would make TaskFlow easier for new PMs like you?**
+**Q: What keeps you up at night about this initiative?**
 
-Priya: "Templates and examples! Show me how experienced PMs structure projects. Give me starter templates for common things - like 'feature development project' or 'weekly update format.' And maybe a beginner's guide built into the tool? Right now I'm learning by trial and error and asking colleagues."
+Richard: "Two things. First, execution. We've launched 'improved search' before. It didn't work. The team needs to actually deliver this time. Second, adoption. We can build great features, but if consultants don't use them, it doesn't matter. Change management is as important as product development. They need to work in parallel."
 
-**Q: Any other feedback?**
+**Q: What do you need from the product team?**
 
-Priya: "The search is great, I use it constantly. Keyboard shortcuts would be cool - I've seen senior people use them and they're so fast. And yeah, dark mode for late work sessions. Overall though, I'm learning to like it. Just wish the onboarding for new users was better."
+Richard: "Transparency and accountability. Don't tell me what you think I want to hear. Tell me the truth - what's working, what's not, what you need. I can help remove obstacles, secure resources, get executive air cover. But only if I know what's really happening. And I need measurable progress. Monthly WAU numbers. Search satisfaction scores. Time-to-expert metrics. Show me the data."
+
+**Q: What's the competitive pressure like?**
+
+Richard: "Real. McKinsey's knowledge center is legendary. BCG is investing heavily in AI-powered tools. Even Deloitte is modernizing. Our consultants compare us to competitors constantly. 'At McKinsey, I could find anything.' I hear that all the time. We have scale advantages - more content, more experts, more reach. But scale is only an advantage if we can leverage it. Right now, scale is a liability because we can't navigate it."
+
+**Q: Final message for the team?**
+
+Richard: "This matters. Not just for metrics, but for our people. Consultants are frustrated. They want tools that work. They want to find expertise, not recreate wheels. If we fix this, we make their lives better, we make the company more competitive, we reduce waste. It's rare that a product investment has this much potential impact. Don't waste the opportunity."
 
 ---
 
 ## Key Insights
-- Onboarding experience confusing for new users (blank screen problem)
-- Templates would accelerate learning curve
-- Dark mode requested (late work hours)
-- Notification overload (30+/day, now ignores most)
-- Mobile experience subpar
-- Wants guidance on PM best practices within tool
-- Manual time spent on weekly updates (20-30 min/week)
-- Keyboard shortcuts would improve power user trajectory
-- Learning by copying colleagues' project structures
+- Vision: Any employee finds any expert or knowledge asset in under 5 minutes (currently hours/days)
+- Quantified cost: $200M+ per year in duplicated effort, plus lost deals
+- Root cause: Underinvestment in core search functionality over years of edge improvements
+- AI search bar: Must be transformational, not incremental - 43% to 60%+ WAU
+- Credibility problem: Past failures mean consultants have given up on AKX
+- ROI math: 4 hours/week saved × 300K users = 1.2M hours/week saved
+- Two risks: Execution (actually delivering) and adoption (getting people to use it)
+- Needs from team: Transparency, accountability, measurable progress with real data
+- Competitive pressure: McKinsey, BCG, even Deloitte ahead or investing heavily
+- Scale is currently liability (can't navigate) - should be advantage
+- Stakes: "Don't waste the opportunity" - rare high-impact initiative

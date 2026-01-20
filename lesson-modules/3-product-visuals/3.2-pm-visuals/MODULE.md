@@ -1,4 +1,4 @@
-# Module 3.2: Creating PM Visuals
+# Module 3.2: Creating PM Visuals (Enterprise Edition)
 
 **Duration:** 25 minutes
 **Prerequisites:** Module 3.1 completed
@@ -8,429 +8,477 @@
 ## What You'll Learn
 
 By the end of this module, you will:
-1. Create user persona illustrations
-2. Generate journey maps and flow diagrams
-3. Build product roadmap visuals
-4. Create marketing and launch assets
-5. Develop a consistent visual library
+1. Create enterprise stakeholder persona illustrations
+2. Generate journey maps and adoption flow diagrams
+3. Build enterprise roadmap and governance visuals
+4. Create internal launch and change management assets
+5. Develop a consistent visual library for enterprise presentations
 
 ---
 
-## PM Visual Types
+## Enterprise PM Visual Types
 
-PMs commonly need these visual assets:
+Internal enterprise PMs commonly need these visual assets:
 
 | Visual Type | Use Case |
 |-------------|----------|
-| **Personas** | User research, team alignment |
-| **Journey Maps** | UX documentation, problem identification |
-| **Flowcharts** | Process documentation, technical specs |
-| **Roadmaps** | Planning, stakeholder communication |
-| **Marketing Assets** | Launch materials, app store graphics |
-| **Presentation Graphics** | Pitch decks, all-hands meetings |
+| **Stakeholder Personas** | User research, steering committee presentations |
+| **Adoption Journeys** | Change management, training materials |
+| **Process Diagrams** | Governance documentation, approval flows |
+| **Roadmaps** | Steering committee updates, portfolio reviews |
+| **Internal Launch Assets** | Change management communications, training |
+| **Presentation Graphics** | Steering committee decks, executive briefings |
 
 Let's create each type!
 
 ---
 
-## 1. User Persona Illustrations
+## 1. Enterprise Stakeholder Persona Illustrations
 
 ### Basic Persona Image
 
 ```
-Create a professional headshot-style illustration of a 
-persona named Sarah Chen:
-- Female, mid-30s, Asian American
-- Enterprise IT administrator
-- Professional and confident
-- Modern office background
-- Clean, corporate illustration style
-- Warm, approachable expression
+Create a professional headshot-style illustration of an
+enterprise persona named Priya Sharma:
+- Female, mid-40s, South Asian
+- Partner and Practice Lead at a consulting firm
+- Authoritative, strategic, time-constrained
+- Executive attire (formal business)
+- Modern corporate office background
+- Clean, professional illustration style
+- Confident, no-nonsense expression
 ```
 
-### Exercise: Create TaskFlow Personas
+### Exercise: Create Accenture Personas
 
-Generate images for all three TaskFlow personas:
+Generate images for all three Accenture personas:
 
-**Sarah Chen (Enterprise Admin):**
+**Priya Sharma (Partner & Practice Lead):**
 ```
-Create a professional illustration of Sarah Chen:
-- Female, mid-30s, Asian American
-- IT administrator at a large company
-- Confident, organized, detail-oriented
-- Professional attire (business casual)
-- Modern, clean office background
-- Illustration style: modern corporate, clean lines
-```
-
-**Mike Rodriguez (IC Engineer):**
-```
-Create a professional illustration of Mike Rodriguez:
-- Male, late 20s, Hispanic
-- Software engineer
-- Focused, tech-savvy, efficient
-- Casual attire (hoodie or t-shirt)
-- Desk with multiple monitors background
-- Illustration style: modern tech, slightly informal
+Create a professional illustration of Priya Sharma:
+- Female, mid-40s, South Asian
+- Partner at a global consulting firm, 18 years experience
+- Authoritative, strategic, always between meetings
+- Formal executive attire (suit)
+- Executive conference room background
+- Illustration style: corporate, premium, polished
+- Expression: confident, decisive
 ```
 
-**Alex Thompson (Team Lead):**
+**Marcus Johnson (Senior Consultant):**
 ```
-Create a professional illustration of Alex Thompson:
-- Gender-neutral/androgynous, early 30s
-- Team lead at a growing startup
-- Collaborative, organized, supportive
-- Smart casual attire
-- Open office/collaboration space background
-- Illustration style: warm, approachable
+Create a professional illustration of Marcus Johnson:
+- Male, early 30s, African American
+- Senior consultant at a consulting firm, 5 years experience
+- Analytical, efficient, compares to competitors
+- Business casual attire (dress shirt, no tie)
+- Modern open office with laptop background
+- Illustration style: professional, approachable
+- Expression: focused, thoughtful
+```
+
+**Elena Rodriguez (Delivery Manager):**
+```
+Create a professional illustration of Elena Rodriguez:
+- Female, early 40s, Hispanic/Latina
+- Delivery Manager at a consulting firm, 12 years experience
+- Organized, data-driven, manages multiple projects
+- Professional business attire
+- Office with project dashboards visible in background
+- Illustration style: professional, competent
+- Expression: organized, attentive
 ```
 
 ---
 
-## 2. Journey Maps and Flow Diagrams
+## 2. Adoption Journeys and Flow Diagrams
 
-### User Journey Visual
+### Adoption Journey Visual (for Change Management)
 
 ```
-Create an illustrated user journey map showing the TaskFlow 
-onboarding flow:
+Create an illustrated adoption journey map showing the AKX
+(knowledge platform) adoption flow:
 
 5 stages from left to right:
-1. Sign Up (person at laptop, excited)
-2. Create Project (organizing documents)
-3. Add Tasks (writing/planning)
-4. Invite Team (connecting with others)
-5. Daily Active (productive team)
+1. Awareness (person receiving communication)
+2. First Login (person at laptop, curious)
+3. First Search (finding information, satisfied)
+4. Regular Use (productive consultant)
+5. Champion (person helping colleagues)
 
 Style: Modern flat illustration, connected by a dotted line path
-Colors: Blue to green gradient progression
+Colors: Blue to green gradient progression (brand colors)
 Mood: Progressive, achievement-focused
+Include small icons representing each stage
 ```
 
-### Onboarding Flow Diagram
+### Enterprise Approval Flow Diagram
 
 ```
-Create a flowchart diagram showing:
+Create a flowchart diagram showing enterprise governance:
 
-START → Sign Up Form → Verify Email → Create First Project 
-→ Add Tasks → Invite Team → Tutorial Complete → Dashboard
+Investment Approval Flow:
+START → Product Owner Proposal → VP Review → Steering Committee
+→ [Decision Diamond: <$500K or >$500K]
+→ If <$500K: Sponsor Approval → Proceed
+→ If >$500K: Executive Committee → Finance Review → Proceed
 
-Style: Clean, minimal flowchart
-Shapes: Rounded rectangles connected by arrows
-Colors: Blue shapes, white background, gray arrows
-Include: Small icons in each box
+Style: Clean, professional flowchart
+Shapes: Rounded rectangles, diamond for decisions
+Colors: Corporate blue, green for approvals, gray for process
+Include: Small governance icons in each box
+Professional enough for steering committee presentation
+```
+
+### Adoption Funnel Diagram
+
+```
+Create a funnel diagram showing enterprise tool adoption:
+
+Funnel stages (top to bottom, narrowing):
+1. Provisioned Users (700,000)
+2. Logged In (350,000)
+3. Searched (245,000)
+4. Found Useful (171,500)
+5. Weekly Active (120,000)
+
+Style: Clean funnel visualization
+Colors: Gradient from light blue (top) to dark blue (bottom)
+Include percentage labels on each stage
+Professional enough for steering committee metrics review
 ```
 
 ---
 
-## 3. Product Roadmap Visuals
+## 3. Enterprise Roadmap Visuals
 
-### Timeline Roadmap
+### Portfolio Roadmap
 
 ```
-Create a product roadmap visualization for TaskFlow:
+Create a product roadmap visualization for internal tools portfolio:
 
 Timeline: Q1 → Q2 → Q3 → Q4
 
-Q1 (Now): 
-- Onboarding Wizard (large)
-- Mobile App Beta (medium)
+AKX (Knowledge Platform) Track:
+- Q1: AI-Powered Search (large, in progress)
+- Q2: Expert Matching (large)
+- Q3: Content Quality Scoring (medium)
 
-Q2 (Next):
-- Slack Integration (large)
-- Advanced Reporting (medium)
+ADH (Delivery Hub) Track:
+- Q1: Utilization Dashboard (medium, in progress)
+- Q2: AKX Integration (medium)
+- Q3: Predictive Analytics (large)
 
-Q3 (Later):
-- AI Task Suggestions (large)
-
-Q4 (Future):
-- Workflow Automation (large)
-
-Style: Modern horizontal timeline
-Color code: Blue for shipped, Green for in progress, 
-           Gray for planned
-Clean, professional, presentation-ready
+Style: Modern horizontal timeline with two swim lanes
+Color code: Blue for AKX, Green for ADH
+         Solid for committed, Outline for planned
+Clean, professional, steering committee ready
 ```
 
-### Feature Prioritization Matrix
+### Enterprise Prioritization Matrix
 
 ```
-Create a 2x2 prioritization matrix visualization:
+Create a 2x2 prioritization matrix for enterprise initiatives:
 
-Y-axis: Impact (Low to High)
-X-axis: Effort (Low to High)
+Y-axis: Business Impact (Low to High)
+X-axis: Change Management Complexity (Low to High)
 
-Quadrants with features:
-- Top-Left (High Impact, Low Effort): "Slack Integration", "Quick Wins"
-- Top-Right (High Impact, High Effort): "Mobile App", "Big Bets"
-- Bottom-Left (Low Impact, Low Effort): "Minor Fixes", "Fill-ins"
-- Bottom-Right (Low Impact, High Effort): "Nice to Have", "Avoid"
+Quadrants with initiatives:
+- Top-Left (High Impact, Low Complexity): "AI Search", "Quick Wins"
+- Top-Right (High Impact, High Complexity): "Full Mobile Redesign", "Strategic Bets"
+- Bottom-Left (Low Impact, Low Complexity): "Minor Fixes", "Easy Wins"
+- Bottom-Right (Low Impact, High Complexity): "Defer", "Low Priority"
 
 Style: Clean corporate diagram
-Colors: Green (top-left), Yellow (top-right), 
-        Light blue (bottom-left), Red (bottom-right)
+Colors: Green (top-left), Yellow (top-right),
+        Light blue (bottom-left), Gray (bottom-right)
+Professional for steering committee prioritization discussion
 ```
 
 ---
 
-## 4. Marketing and Launch Assets
+## 4. Internal Launch and Change Management Assets
 
-### App Store Screenshot
-
-```
-Create an app store screenshot for TaskFlow:
-
-Show a mobile phone displaying:
-- Clean project dashboard
-- Task cards in columns
-- Bottom navigation bar
-- Modern, professional UI
-
-Add:
-- "Manage projects effortlessly" text at top
-- TaskFlow logo
-- Clean gradient background (blue to purple)
-
-Style: Polished app store marketing
-Dimensions: Portrait phone mockup style
-```
-
-### Social Media Announcement
+### Internal Announcement Graphic
 
 ```
-Create a social media graphic announcing TaskFlow's new feature:
+Create an internal communications graphic for AKX AI Search launch:
 
 Visual elements:
-- "New Feature" badge
-- Simple illustration of team collaboration
-- TaskFlow logo
-- "Onboarding Wizard" title
-- Tagline: "Get your team started in minutes"
+- "Coming Soon" or "Now Available" badge
+- Simple illustration of person finding knowledge quickly
+- Accenture-style corporate aesthetic
+- "AI-Powered Search" title
+- Tagline: "Find what you need in seconds, not hours"
 
-Style: Eye-catching, modern social media graphic
-Colors: TaskFlow brand blue (#2563EB), accent purple
-Size: Square format for Instagram/LinkedIn
+Style: Professional internal communications graphic
+Colors: Corporate blue, clean white background
+Size: Wide banner format for email/Teams announcement
+NOT external marketing style - this is internal
 ```
 
-### Launch Email Header
+### Change Management Training Visual
 
 ```
-Create an email header graphic for a product launch:
+Create a training illustration for AKX onboarding:
+
+Show: Three-step getting started process
+1. Search (magnifying glass, search bar)
+2. Find (document results, relevant content)
+3. Connect (network of people, experts)
+
+Style: Clean iconographic illustration
+Colors: Consistent blue palette
+Simple enough to use in training materials
+Include "Get Started with AKX" header concept
+```
+
+### Adoption Campaign Poster
+
+```
+Create an internal adoption campaign visual:
 
 Content:
-- "Introducing Smart Onboarding" headline
-- Abstract illustration of people and technology
-- Celebratory but professional mood
-- TaskFlow branding
+- "AKX: Your Knowledge Advantage"
+- Illustration showing consultant finding expert help quickly
+- Stats callout: "2 minutes to find what you need"
+- Clean, motivational but not overly promotional
 
-Style: Clean, corporate email banner
-Dimensions: Wide banner (600x200 concept)
-Colors: Blue gradient with white text
+Style: Internal campaign poster
+Colors: Corporate, professional
+Mood: Encouraging adoption, not hard-sell
+Would be displayed on internal channels/screens
 ```
 
 ---
 
-## 5. Presentation Graphics
+## 5. Enterprise Presentation Graphics
 
-### Title Slide Background
+### Steering Committee Title Slide Background
 
 ```
 Create a presentation title slide background:
 
-- Abstract geometric pattern
-- Subtle, professional
-- Blue and white color scheme
+- Abstract geometric pattern suggesting connectivity
+- Subtle, professional, executive-appropriate
+- Corporate blue and white color scheme
 - Space for title text in center
-- Modern, tech company aesthetic
+- Modern enterprise aesthetic
 - Clean and not distracting
 
-Style: Corporate presentation background
+Style: Executive presentation background
 Should work with white text overlaid
+Professional enough for C-suite presentation
 ```
 
-### Data Visualization Enhancement
+### Adoption Metrics Visualization
 
 ```
-Create an illustration to accompany activation metrics:
+Create an illustration to accompany adoption metrics:
 
 Show:
-- Funnel visualization concept (abstract)
-- 35% → 45% journey represented visually
-- Upward growth indication
-- Users progressing through stages
+- Upward trending adoption concept
+- 43% → 60% progress journey represented visually
+- Users engaging with platform
+- Success/growth indication
 
 Style: Modern infographic illustration
 Colors: Blue to green gradient (progress)
-Clean, presentation-ready
+Clean, steering committee presentation ready
+Data visualization enhancement, not the data itself
+```
+
+### Portfolio Overview Visual
+
+```
+Create a visual showing internal tools portfolio:
+
+Show two connected platforms:
+- AKX (Knowledge) - represented by brain/books icon
+- ADH (Delivery) - represented by project/people icon
+- Connection between them (integration arrows)
+- "Knowledge to Delivery" value proposition concept
+
+Style: Clean conceptual diagram
+Colors: Different but complementary colors for each
+Professional, abstract, conceptual
+Executive-friendly visual for portfolio discussions
 ```
 
 ---
 
-## Building a Visual Library
+## Building an Enterprise Visual Library
 
-### Creating Consistency
+### Creating Consistency for Enterprise
 
-For consistent visuals across your work:
+For consistent visuals across your enterprise work:
 
-1. **Define your style** - Pick one illustration style
-2. **Lock in colors** - Use specific brand colors
-3. **Save prompts** - Keep successful prompts for reuse
-4. **Use templates** - Start with proven prompts
+1. **Follow brand guidelines** - Use approved corporate colors
+2. **Keep it professional** - Internal ≠ informal
+3. **Design for executives** - Clean, minimal, clear
+4. **Save prompts** - Keep successful prompts for reuse
 
-### Prompt Template Library
+### Prompt Template Library for Enterprise
 
-**For Personas:**
+**For Stakeholder Personas:**
 ```
 Create a professional illustration of [NAME]:
 - [Gender], [age range], [ethnicity if relevant]
-- [Role/job title]
-- [Key personality traits]
-- [Attire description]
-- [Background setting]
-- Illustration style: [your chosen style]
+- [Role at consulting firm], [years experience]
+- [Key personality traits relevant to role]
+- [Attire description appropriate to seniority]
+- [Background setting matching their work context]
+- Illustration style: corporate, professional
+- Expression: [appropriate to their persona]
 ```
 
-**For Flow Diagrams:**
+**For Enterprise Flow Diagrams:**
 ```
-Create a [type] diagram showing:
-[Steps numbered and connected]
-Style: [clean/minimal/detailed]
-Shapes: [rectangles/circles/icons]
-Colors: [color scheme]
-Layout: [horizontal/vertical/grid]
+Create a [type] diagram showing [process]:
+[Steps numbered and connected with decision points]
+Style: Clean, professional, governance-appropriate
+Shapes: Rounded rectangles, diamonds for decisions
+Colors: Corporate blue, professional palette
+Layout: [horizontal/vertical] flow
+Include: Relevant icons for each step
+Professional enough for steering committee presentation
 ```
 
-**For Marketing:**
+**For Internal Communications:**
 ```
-Create a [platform] graphic for [purpose]:
-Visual elements: [list elements]
+Create an internal [announcement/training/campaign] graphic:
+Visual elements: [list specific elements]
 Text to include: [headlines/taglines]
-Style: [marketing/corporate/casual]
-Brand colors: [specific colors]
-Mood: [emotion/feeling]
+Style: Professional internal communications
+Colors: Corporate palette, not external marketing
+Mood: [encouraging/informative/celebratory]
+Purpose: [change management/training/awareness]
 ```
 
 ---
 
-## Designer for Polish
+## Designer for Enterprise Polish
 
 Use Microsoft Designer for final touches:
 
-### Common Enhancements
+### Common Enterprise Enhancements
 
-1. **Add accurate text** - Overlay text on images
-2. **Insert logos** - Add your brand logo
-3. **Create templates** - Build reusable designs
-4. **Remove backgrounds** - Isolate subjects
-5. **Add brand elements** - Consistent headers/footers
+1. **Add approved text** - Use exact corporate messaging
+2. **Insert logos** - Add appropriate brand elements
+3. **Ensure accessibility** - Alt text, contrast ratios
+4. **Create templates** - Reusable designs for recurring needs
+5. **Format for channels** - Email, Teams, screens, decks
 
-### Workflow: Copilot → Designer
+### Workflow: Copilot → Designer → Delivery
 
 1. Generate base image in Copilot
 2. Download the image
 3. Open in Designer
-4. Add text, logos, enhancements
+4. Add corporate text, logos, enhancements
 5. Export in needed format/size
+6. Get brand/communications approval if needed
+7. Distribute through appropriate channels
 
 ---
 
-## Credit-Efficient Workflow
+## Credit-Efficient Workflow for Enterprise
 
 With limited credits, be strategic:
 
 ### Before Generating
 
-1. Write your prompt fully
-2. Review for missing details
-3. Reference successful past prompts
-4. Be specific about style and colors
+1. Write your prompt fully with enterprise context
+2. Specify "professional/corporate/executive-ready"
+3. Reference successful past enterprise prompts
+4. Be specific about colors matching brand guidelines
 
 ### Batch Similar Work
 
 Generate all personas in one session:
 - Similar prompts iterate better
-- Consistent style across images
+- Consistent style across stakeholder images
 - Efficient use of your time
 
-### Reuse and Adapt
+### Reuse Across Enterprise
 
-- Save all generated images
-- Many images work across contexts
+- Save all generated images to shared drive
+- Many visuals work across presentations
 - Minor edits in Designer vs. regenerating
+- Build a shared enterprise visual library
 
 ---
 
 ## Module Complete!
 
 You now know:
-- ✅ How to create user persona illustrations
-- ✅ How to generate journey maps and diagrams
-- ✅ How to build roadmap visuals
-- ✅ How to create marketing assets
-- ✅ How to build a consistent visual library
+- ✅ How to create enterprise stakeholder persona illustrations
+- ✅ How to generate adoption journeys and governance diagrams
+- ✅ How to build enterprise roadmap visuals
+- ✅ How to create internal launch and change management assets
+- ✅ How to build a consistent enterprise visual library
 
 ---
 
 ## Course Complete! 🎉
 
-Congratulations on completing the Microsoft Copilot for Product Managers course!
+Congratulations on completing the Microsoft Copilot for Enterprise Product Managers course!
 
 ### What You've Learned
 
 **Level 1: Foundation**
 - Copilot basics and workspace setup
-- First PM tasks (meetings, interviews, communications)
-- Researcher and Analyst agents
-- Persona prompting for perspectives
+- First enterprise PM tasks (steering committees, stakeholder interviews)
+- Researcher and Analyst agents for enterprise
+- Persona prompting for enterprise stakeholders (MDs, CKOs, Consultants)
 - Building context with Memory
 
-**Level 2: Advanced PM Work**
-- Writing PRDs with Copilot as thinking partner
-- Analyzing product data
-- Product strategy and frameworks
+**Level 2: Advanced Enterprise PM Work**
+- Writing Enterprise PRDs with business cases and governance
+- Analyzing adoption and utilization data
+- Enterprise portfolio strategy and steering committee alignment
 
 **Level 3: Product Visuals**
 - Image generation basics
-- PM-specific visuals and assets
+- Enterprise PM-specific visuals and assets
 
-### Estimated Time Savings
+### Estimated Time Savings for Enterprise PMs
 
 | Task | Weekly Savings |
 |------|----------------|
-| Meeting processing | 2 hours |
-| Research synthesis | 1.5 hours |
-| Communications | 1 hour |
-| Data analysis | 1 hour |
-| Document drafting | 2 hours |
-| **Total** | **7+ hours/week** |
+| Steering committee prep | 2 hours |
+| Stakeholder research synthesis | 1.5 hours |
+| Multi-audience communications | 1 hour |
+| Data analysis and ROI | 1.5 hours |
+| PRD and business case drafting | 2 hours |
+| **Total** | **8+ hours/week** |
 
 ### Next Steps
 
-1. **Practice daily** - Use Copilot for real work
-2. **Build your prompt library** - Save what works
-3. **Share with your team** - Multiply the impact
-4. **Stay updated** - Copilot evolves rapidly
+1. **Practice with real work** - Use Copilot for actual steering committees
+2. **Build your enterprise prompt library** - Save what works for your context
+3. **Share with your team** - Multiply the impact across the product org
+4. **Stay updated** - Copilot evolves rapidly; keep learning
 
 ---
 
-## Quick Reference: All Prompt Types
+## Quick Reference: Enterprise Prompt Types
 
 | Category | Prompt Pattern |
 |----------|---------------|
-| **Meeting Notes** | "Analyze and extract action items..." |
-| **Research Synthesis** | "Analyze for patterns and insights..." |
-| **Multi-Audience** | "Transform for Slack/Executive/Wiki..." |
-| **Engineering Review** | "As a senior engineer, evaluate..." |
-| **Executive Review** | "As VP Product, assess..." |
-| **PRD Section** | "Draft the [section] based on..." |
-| **Data Analysis** | "Analyze this data for..." |
-| **Strategy Framework** | "Apply [SWOT/Porter's/RICE] to..." |
-| **Image Generation** | "Create [subject], [style], [mood]..." |
+| **Steering Committee Notes** | "Analyze for action items, decisions, risks..." |
+| **Stakeholder Synthesis** | "Analyze interviews by role and business impact..." |
+| **Multi-Audience Comms** | "Transform for Partners/Consultants/Executives..." |
+| **MD Perspective** | "As a Managing Director, evaluate..." |
+| **CKO Perspective** | "As Chief Knowledge Officer, assess..." |
+| **Enterprise PRD** | "Draft with business case, RACI, governance..." |
+| **Adoption Analysis** | "Analyze funnel for bottlenecks and ROI..." |
+| **Portfolio Strategy** | "Apply enterprise strategic framework to..." |
+| **Enterprise Visuals** | "Create professional [subject] for [audience]..." |
 
 ---
 
 **Thank you for completing the course!**
 
-You're now equipped to work smarter with Microsoft Copilot.
+You're now equipped to work smarter with Microsoft Copilot as an enterprise PM.
 
-Go ship great products! 🚀
+Go drive adoption and demonstrate business value! 🚀

@@ -1,63 +1,71 @@
-# User Interview #7: Sales Operations Lead Persona
+# Stakeholder Interview #7: Practice Operations Lead
 
-**Participant:** Marcus Williams
-**Role:** Sales Operations Lead
-**Company:** Enterprise SaaS Co (280 employees, Series C)
-**TaskFlow Plan:** Enterprise (sales team of 25)
-**Date:** October 12, 2024
-**Interviewer:** Senior PM
-**Duration:** 29 minutes
+**Participant:** Robert Chen
+**Role:** Practice Operations Lead, Strategy & Consulting
+**Location:** New York, NY
+**Tenure:** 11 years at Accenture
+**Responsibility:** Operations support for Strategy practice (1,200 consultants)
+**Products Used:** ADH (daily), AKX (weekly)
+**Date:** February 13, 2025
+**Interviewer:** Senior Product Owner
+**Duration:** 35 minutes
 
 ---
 
 ## Background
 
-Marcus manages sales operations, tracking deal progress, onboarding new sales reps, and coordinating between sales, marketing, and customer success. His team adopted TaskFlow 5 months ago to complement Salesforce.
+Robert manages operations for the Strategy & Consulting practice in North America. He handles resource allocation, utilization tracking, forecasting, and practice-level reporting. He works closely with partners and delivery managers to ensure the practice runs efficiently.
 
 ---
 
 ## Interview
 
-**Q: How does TaskFlow fit into your sales workflow?**
+**Q: How does ADH fit into your daily work?**
 
-Marcus: "We use Salesforce for deal tracking, but we use TaskFlow for everything around deals - follow-up tasks, deal reviews, customer onboarding coordination. Each big deal gets a TaskFlow project where we coordinate all the moving pieces - legal review, security questionnaire, custom demo, pricing approval."
+Robert: "ADH is supposed to be my source of truth for everything - who's staffed where, who's available, what the utilization picture looks like. In reality, I spend half my day chasing data that should be in ADH but isn't, or correcting data that's wrong."
 
-**Q: What's working well?**
+**Q: What's the utilization visibility challenge?**
 
-Marcus: "The visibility is great. I can see where deals are getting stuck. Sales reps update tasks, I can check in without micromanaging. We can loop in legal, security, whoever we need. Much better than the scattered email threads we had before."
+Robert: "We're supposed to be at 85% utilization. To know where we actually are, I need accurate data on who's staffed and for how many hours. ADH says we're at 82%. But I know that's wrong because half the data is stale. Some consultants haven't logged time in two weeks. Some project assignments aren't updated. When I manually audit a sample, actual utilization is somewhere between 78% and 86%. That's a huge range when every percentage point is millions of dollars."
 
-**Q: What's frustrating?**
+**Q: Tell me about resource allocation at the practice level.**
 
-Marcus: "I travel constantly - meeting customers, attending sales kickoffs, visiting field offices. The mobile experience is rough. I need to check deal status on the go, add quick notes, reassign tasks. The mobile web version works, but it's slow and clunky. I end up waiting until I'm back at my hotel to do updates."
+Robert: "Partners need people for their projects. Consultants need projects to stay busy. My job is matching supply and demand. In theory, ADH helps me see who's available. In practice, the availability data is 2-4 weeks stale. So I'm making staffing decisions based on outdated information. Someone shows as 'available' but they got staffed last week. Someone shows as 'on project' but they're rolling off in two days."
 
-**Q: You mentioned onboarding new sales reps - how does that work?**
+**Q: What about forecasting?**
 
-Marcus: "Huge pain point. We have a 30-day onboarding program for new reps - product training, shadowing calls, first solo demo, quota ramp. I have a master checklist, but I manually recreate it for each new hire. We're hiring 2-3 reps per quarter. If I could just duplicate a template project, that'd save me hours. Right now it's copy-paste hell."
+Robert: "Forecasting is a nightmare. I need to predict: In 90 days, how many consultants will be available? What skills will we have? What skills will we need? I build this manually in Excel, pulling data from multiple sources, making assumptions, updating weekly. It takes hours. And the forecast is probably 65% accurate. Which means we're constantly surprised by gaps or oversupply."
 
-**Q: How do you handle deal reviews?**
+**Q: How do you handle bench management?**
 
-Marcus: "Every week we review all active deals. I go through TaskFlow, check task completion, spot blockers. But it's manual - I'm literally opening each project, scanning tasks, making notes. Would be awesome if TaskFlow could auto-generate a deal status report. Like, 'These 3 deals have overdue tasks, these 2 are blocked, these 5 are on track.'"
+Robert: "Bench is expensive - consultants not billable but still on payroll. I need to know who's on bench, for how long, what skills they have. ADH gives me a list, but it's not real-time. Someone might be on bench in ADH but already tentatively assigned to a project. Someone might show as staffed but their project got canceled yesterday. I have to verify every piece of data."
 
-**Q: Tell me about notifications.**
+**Q: What reporting do you provide to leadership?**
 
-Marcus: "Too many. Way too many. Our team is fast-paced - deals move quickly, tasks get updated constantly. I get probably 60-70 notifications a day. I've had to turn most off. But then sometimes I miss a critical update - like, legal has a question blocking a deal. I need smart notifications - urgent stuff immediately, everything else once daily."
+Robert: "Weekly utilization report, monthly capacity forecast, quarterly skills gap analysis. Creating these reports takes me 4-5 hours per week. I'm pulling data from ADH, cleaning it, formatting it, adding commentary. The same basic report every week, manually assembled. Should be automated."
 
-**Q: What about dark mode?**
+**Q: What would transform how you work?**
 
-Marcus: "Our sales team would love it. They work late prepping for next-day meetings, catching up on the East Coast or calling APAC. The bright white screen at 10pm is not ideal. I've heard this request from multiple reps."
+Robert: "Real-time data. If ADH actually had current information - who's staffed where, who's available, what skills people have - my job would be different. I could spend time on analysis and strategy instead of data chasing and verification. Give me a dashboard that I can trust on Monday morning, and I'm 10x more effective."
 
-**Q: If you could have one feature?**
+**Q: How does this compare to what you've heard about competitors?**
 
-Marcus: "Templates, hands down. The amount of duplicate work we do setting up onboarding projects, recurring deal review checklists, quarterly planning structures - it's massive. We'd save hours every month. After that, better reporting and mobile improvements."
+Robert: "McKinsey apparently has better staffing systems. BCG is investing heavily in their resource management. We have the scale that makes this hard - 700,000 people is a different challenge than 50,000. But that's also an excuse. We have the data, we just don't use it well. Other firms with similar scale, like Deloitte, seem to be making more progress."
+
+**Q: Final thoughts?**
+
+Robert: "The irony is that we sell operational excellence to clients. Efficiency, optimization, data-driven decision making. And our own internal operations run on spreadsheets and tribal knowledge. If a client saw how we manage our own utilization, they'd laugh. We need to eat our own cooking."
 
 ---
 
 ## Key Insights
-- Templates critical (onboarding reps, deal workflows)
-- Mobile experience inadequate (frequent travel)
-- Notification overload extreme (60-70/day)
-- Dark mode requested by sales team (late evening work)
-- Reporting/analytics manual and time-consuming
-- Visibility into deal progress working well
-- Integration with Salesforce would be valuable
-- Time savings estimate: Hours per month with templates
+- Utilization data in ADH is inaccurate - actual utilization could be 78-86% vs. reported 82%
+- Availability data is 2-4 weeks stale - leads to bad staffing decisions
+- Forecasting is 65% accurate and takes hours of manual work
+- Bench management requires constant data verification
+- Weekly reporting takes 4-5 hours - manual data assembly
+- Wants real-time, trustworthy dashboard for Monday morning
+- Competitor comparison: McKinsey and BCG apparently ahead
+- Scale (700K employees) is a challenge but also an excuse
+- Self-aware irony: "We sell operational excellence, run on spreadsheets"
+- Every percentage point of utilization = millions of dollars

@@ -1,452 +1,576 @@
-# TaskFlow Product Overview
+# Accenture Internal Products Overview
 
-**Your complete guide to the TaskFlow product**
+**Your complete guide to AKX and ADH**
 
 ---
 
-## What is TaskFlow?
+## Overview
 
-TaskFlow is a project management SaaS for remote teams. Think **"Asana meets Linear"** - beautiful like Linear, functional like Asana, but built specifically for how remote teams work.
+You own two internal products that serve Accenture's 700,000+ employees:
+
+1. **Accenture Knowledge Exchange (AKX)** - Knowledge management and expert discovery
+2. **Accenture Delivery Hub (ADH)** - Project delivery and resource management
+
+These products are critical infrastructure for how Accenture operates. Unlike external B2B products, your "customers" are employees, adoption is influenced by mandates and culture, and success is measured by enterprise-wide efficiency rather than revenue.
+
+---
+
+## Product 1: Accenture Knowledge Exchange (AKX)
+
+### What is AKX?
+
+AKX is Accenture's internal knowledge management platform. Think **"Google for Accenture"** - a unified search and discovery experience for finding past work, methodologies, and subject matter experts.
 
 ### Core Value Proposition
 
-**For remote teams who struggle with scattered work and unclear priorities,** TaskFlow is a project management tool **that provides context-rich task management and async collaboration.** Unlike Asana (complex, expensive) or Trello (too simple), TaskFlow **balances simplicity with power, at 50% lower cost.**
+**For Accenture consultants who struggle with finding relevant past work and experts,** AKX is an enterprise knowledge platform **that provides intelligent search, expert discovery, and content curation.** Unlike searching scattered SharePoint sites, AKX **delivers relevant results quickly, surfaces experts, and reduces duplicate work.**
 
 ---
 
-## Product Philosophy
+### Product Philosophy
 
-### Key Principles
+**Key Principles:**
 
-**1. Async-first design**
-- No real-time coordination required
-- Rich context on every task
-- Updates work across timezones
-- Comments replace meetings
+**1. Relevance over comprehensiveness**
+- Quality search results, not everything that exists
+- Surfacing the best 10 results, not 10,000
+- Freshness and quality signals matter
 
-**2. Context over status**
-- Every task answers: What? Why? Who? When? How?
-- No cryptic task titles
-- Full background always attached
-- Reduces "what's this about?" questions
+**2. Expert-centric design**
+- People are as important as documents
+- Connect users with experts, not just content
+- Enable collaboration, not just consumption
 
-**3. Speed matters**
-- Sub-second page loads
-- Keyboard shortcuts everywhere
-- No loading spinners
-- Instant search
+**3. Integrated into workflows**
+- Available where consultants work (Office, Teams)
+- Quick answers, not tool-switching
+- Mobile-first for traveling consultants
 
-**4. Opinionated with escape hatches**
-- Strong defaults (workflows that work)
-- Flexibility when needed
-- Not overwhelming with options
-
-**5. Beautiful and functional**
-- Design quality matters
-- UI guides users to success
-- Delightful micro-interactions
+**4. Trust through curation**
+- Verified content with clear provenance
+- Subject matter expert endorsements
+- Clear content lifecycle management
 
 ---
 
-## Core Features
+### Core Features
 
-### 1. Task Management
+#### 1. Intelligent Search
 
 **What users can do:**
-- Create tasks with rich descriptions (markdown support)
-- Assign to team members
-- Set due dates, priorities, tags
-- Add attachments, links, context
-- Subtasks for complex work
-- Custom fields (text, number, select, date)
+- Natural language search ("cloud migration case studies for banking")
+- Filter by industry, capability, content type, date
+- Preview documents without downloading
+- Save searches and set alerts
 
 **Our differentiation:**
-- **Context cards:** Every task has built-in space for context (why, background, decisions)
-- **Rich descriptions:** Full markdown, embeds, code blocks
-- **Smart defaults:** Priority, owner, due date auto-suggested based on patterns
+- **Semantic search:** Understands intent, not just keywords
+- **Quality ranking:** Surfaces best content first, not just newest
+- **Expert boosting:** Includes SME-authored content prominently
 
-### 2. Projects & Organization
+**Current performance:**
+- Average search time: 8 minutes (target: 2 minutes)
+- Search success rate: 67% (target: 85%)
+- Results relevance score: 3.2/5 (target: 4.0/5)
+
+#### 2. Expert Discovery
 
 **What users can do:**
-- Create projects (collections of tasks)
-- Multiple views: List, Board (Kanban), Calendar, Timeline (Gantt)
-- Filter and sort tasks
-- Saved views (custom filters)
-- Project templates
+- Search for experts by skill, industry, topic
+- View expert profiles with credentials, past work, availability
+- Request introductions through the platform
+- Follow experts for updates
 
 **Our differentiation:**
-- **View memory:** Tool remembers your preferred view per project
-- **Smart filters:** Natural language ("My tasks due this week")
-- **Project status:** Auto-calculated based on task completion
+- **Verified credentials:** Skills validated by project history
+- **Availability signals:** Real-time staffing status from ADH
+- **Warm introductions:** Mutual connections highlighted
 
-### 3. Collaboration
+**Current performance:**
+- Expert search usage: 12,000 searches/week
+- Expert connection rate: 34% (target: 50%)
+- Time to expert: 2.3 days average (target: 4 hours)
+
+#### 3. Content Library
 
 **What users can do:**
-- Comment on tasks (threaded discussions)
-- @mention team members
-- React with emojis
-- Subscribe to task updates
-- Activity feed (what's happening)
+- Browse curated collections by industry, capability, topic
+- Access proposal templates, case studies, methodologies
+- Download and customize approved content
+- Rate and review content
 
 **Our differentiation:**
-- **Comment summaries:** AI-generated summary of long threads
-- **Decision tracking:** Mark comments as "Decision" (findable later)
-- **Context preservation:** Every update includes full context
+- **Curated collections:** Practice leads maintain quality libraries
+- **Version control:** Always access latest approved version
+- **Usage analytics:** See what content performs well
 
-### 4. Notifications
+**Current state:**
+- 2.3 million documents indexed
+- 50,000 curated "gold standard" documents
+- 450 official methodologies and frameworks
+
+#### 4. Personal Knowledge Hub
 
 **What users can do:**
-- Email, in-app, Slack, mobile notifications
-- Granular preferences (what to get notified about)
-- Digest mode (batched notifications)
-- Snooze notifications
+- Save favorite content and searches
+- Build personal collections
+- Track contribution metrics
+- Set personalized recommendations
 
 **Our differentiation:**
-- **Smart batching:** Multiple updates → one notification
-- **Contextual notifications:** Includes enough context to act without clicking
-- **Timezone aware:** Notifications only during work hours
-
-### 5. Integrations
-
-**What users can do:**
-- **Slack:** Post updates, create tasks, get notifications
-- **GitHub:** Link PRs to tasks, auto-update status
-- **Figma:** Embed designs, link to tasks
-- **Google Drive:** Attach docs, preview in-app
-- **Calendar:** Sync due dates (Google Cal, Outlook)
-
-**Our differentiation:**
-- **Two-way sync:** Changes in TaskFlow update connected tools
-- **Context flow:** Integrations pull in context automatically
-
-### 6. Reporting & Analytics
-
-**What users can do:**
-- Team velocity (tasks completed over time)
-- Cycle time (time to complete)
-- Burndown charts
-- Custom reports (filter by anything)
-- Export to CSV
-
-**Our differentiation:**
-- **Automatic insights:** "Team velocity decreased 20% - investigate"
-- **Predictive analytics:** "At current pace, project will finish 3 days late"
+- **AI recommendations:** "Based on your work, you might find..."
+- **Contribution tracking:** For promotion portfolios
+- **Learning integration:** Connected to training recommendations
 
 ---
 
-## User Personas (Detailed)
+### AKX User Personas
 
-### Persona 1: Sarah (Enterprise Admin)
+**Primary:** Marcus (Senior Consultant)
+- Uses AKX daily for project work
+- Needs fast, relevant search results
+- Values templates and examples
 
-**Demographics:**
-- Age: 35-45
-- Role: IT Admin / Operations Lead
-- Company: 500+ employees
-- Location: Remote (various)
+**Secondary:** Priya (Partner)
+- Uses AKX for expert discovery and proposal content
+- Needs results in minutes, not hours
+- Mobile-first usage between meetings
 
-**Goals:**
-- Centralize tools (reduce tool sprawl)
-- Ensure security and compliance
-- Control access and permissions
-- Reduce costs
-
-**Pain Points:**
-- Teams using 20+ tools (scattered work)
-- No visibility into what's happening
-- Security concerns (who has access to what?)
-- Hard to onboard new employees (too many tools)
-
-**Jobs to be Done:**
-- When a new employee joins, consolidate their tool access in one place
-- When auditors ask for access logs, provide comprehensive audit trail
-- When evaluating tools, ensure they meet enterprise security standards
-
-**TaskFlow Features They Love:**
-- SSO (Single Sign-On) integration
-- Advanced permissions (role-based access)
-- Audit logs (who did what, when)
-- Admin dashboard (org-wide visibility)
-- Bulk user management
-
-**Quote:** *"I need to know who has access to what, and I need to be able to revoke it instantly if someone leaves."*
+**Tertiary:** Elena (Delivery Manager)
+- Occasional use for project templates
+- Needs best practices and lessons learned
 
 ---
 
-### Persona 2: Mike (IC Engineer)
+### AKX Metrics
 
-**Demographics:**
-- Age: 25-35
-- Role: Individual Contributor Engineer
-- Company: 50-200 employees (startup)
-- Location: Remote (global)
+#### North Star Metric
 
-**Goals:**
-- Clear task assignments (what to work on)
-- Minimize context switching
-- Deep work time (no interruptions)
-- Simple, fast tools
+**Weekly Active Users (WAU):** Employees who complete at least one meaningful action per week
 
-**Pain Points:**
-- Unclear priorities (what's most important?)
-- Meetings interrupt focus time
-- Task descriptions lack technical detail
-- Slow, bloated tools
-
-**Jobs to be Done:**
-- When starting work, quickly see what's highest priority
-- When blocked, easily communicate blockers without meetings
-- When finishing a task, immediately see what's next
-
-**TaskFlow Features They Love:**
-- Keyboard shortcuts (navigate without mouse)
-- GitHub integration (PRs linked to tasks)
-- Rich markdown (code blocks, technical detail)
-- Fast performance (no lag)
-- Clean, minimal UI
-
-**Quote:** *"Just tell me what to build, give me the context, and let me focus. Don't make me hunt for information."*
-
----
-
-### Persona 3: Alex (Team Lead)
-
-**Demographics:**
-- Age: 30-40
-- Role: Engineering Manager / Team Lead
-- Company: 100-500 employees
-- Location: Remote (various)
-
-**Goals:**
-- Team visibility (who's working on what)
-- Identify blockers early
-- Balanced workload (no one overloaded)
-- Predictable delivery
-
-**Pain Points:**
-- Hard to see team capacity
-- Blockers discovered too late
-- Standup meetings waste time
-- Team members overloaded or underutilized
-
-**Jobs to be Done:**
-- When planning a sprint, see team capacity and assign work accordingly
-- When someone is blocked, identify it without asking in meetings
-- When reporting to leadership, show team progress clearly
-
-**TaskFlow Features They Love:**
-- Team dashboard (everyone's tasks at a glance)
-- Workload view (who's overloaded)
-- Blocked task visibility (red flags)
-- Sprint reports (velocity, burndown)
-- Comment summaries (catch up on discussions quickly)
-
-**Quote:** *"I need to know if my team is on track without having to ask them individually every day."*
-
----
-
-## Product Roadmap (Simplified)
-
-### Already Shipped (Current Product)
-
-✅ Core task management
-✅ Projects with multiple views
-✅ Comments and @mentions
-✅ Basic integrations (Slack, GitHub)
-✅ Email notifications
-✅ Custom fields
-✅ Search
-✅ Mobile web (responsive)
-
-### In Progress (Q4 2024 - Q1 2025)
-
-🚧 **Mobile apps** (iOS and Android native)
-🚧 **SSO integration** (SAML, OAuth)
-🚧 **Advanced permissions** (role-based access control)
-🚧 **Audit logs** (compliance, enterprise)
-🚧 **Improved onboarding** (templates, tours)
-
-### Planned (Q2-Q3 2025)
-
-📅 **Dark mode** (user-requested feature)
-📅 **Time tracking** (hours logged per task)
-📅 **Resource management** (capacity planning)
-📅 **Custom workflows** (status transitions, automations)
-📅 **API v2** (better integrations)
-
-### Research Phase (Exploring)
-
-🔬 **AI features** (smart task suggestions, auto-categorization)
-🔬 **Whiteboarding** (visual collaboration)
-🔬 **Goals & OKRs** (strategic planning)
-🔬 **Portfolio management** (multiple projects)
-
----
-
-## Product Metrics
-
-### North Star Metric
-
-**Weekly Active Teams** - Teams that complete at least one task per week
+**Definition:** Search, expert lookup, document access, or content save
 
 **Why this metric?**
-- Indicates real usage (not just logins)
-- Measures team collaboration (not individual)
-- Leading indicator of retention
-- Correlates with revenue
+- Indicates real engagement (not just logins)
+- Leading indicator of knowledge reuse
+- Correlates with reduced duplicate work
 
-**Current:** 850 weekly active teams
-**Goal (Q1 2025):** 1,200 weekly active teams
+**Current:** 43% WAU (301,000 weekly users)
+**Target (EOY):** 60% WAU (420,000 weekly users)
 
----
+#### Product Health Metrics
 
-### Product Health Metrics
+**Adoption:**
+- WAU: 43% (target: 60%)
+- DAU: 18% (target: 25%)
+- New user activation (first search within 7 days): 67% (target: 80%)
 
-**Activation:**
-- **Definition:** User completes first task within 7 days of signup
-- **Current:** 45%
-- **Target:** 60%
-- **Why it matters:** Activated users are 5x more likely to become paying customers
+**Engagement:**
+- Searches per user per week: 4.2 (target: 6.0)
+- Documents accessed per search: 2.1 (target: 3.5)
+- Expert connections per week: 4,300 (target: 8,000)
 
-**Retention:**
-- **Definition:** % of users active in month N who are active in month N+1
-- **Current:** 65%
-- **Target:** 75%
-- **Why it matters:** Retention drives LTV (lifetime value)
+**Satisfaction:**
+- NPS: +12 (industry average for internal tools: +8, target: +20)
+- Search satisfaction rating: 3.2/5 (target: 4.0/5)
+- Support tickets per 1,000 users: 15 (target: 8)
 
-**Time to Value:**
-- **Definition:** Time from signup to first task completed
-- **Current:** 45 minutes (median)
-- **Target:** 15 minutes
-- **Why it matters:** Faster value = higher activation
-
-**Viral Coefficient:**
-- **Definition:** Average invites sent per user × invite acceptance rate
-- **Current:** 1.2 (barely viral)
-- **Target:** 1.5+ (truly viral)
-- **Why it matters:** Viral growth reduces CAC (customer acquisition cost)
+**Business Impact:**
+- Estimated time saved per user: 2.3 hours/week (target: 4 hours/week)
+- Duplicate work reduction: 18% (estimated, target: 30%)
+- Proposal content reuse rate: 45% (target: 65%)
 
 ---
 
-## Pricing & Packaging
+### AKX Roadmap
 
-### Current Plans
+#### Currently Shipping (This Quarter)
 
-**Free Plan:**
-- Up to 10 users
-- Unlimited tasks and projects
-- Basic integrations
-- 7-day activity history
-- Community support
+- AI-powered semantic search
+- Expert profile enhancements
+- Mobile app improvements
+- Integration with Microsoft 365 Copilot
 
-**Pro Plan ($12/user/month):**
-- Unlimited users
-- Unlimited activity history
-- Advanced integrations
-- Custom fields
-- Priority support
-- Advanced reporting
+#### Next Quarter
 
-**Enterprise Plan (Custom pricing):**
-- Everything in Pro
-- SSO (SAML, OAuth)
-- Advanced permissions
-- Audit logs
-- Dedicated support
-- SLA guarantees
-- Custom contracts
+- Real-time expert availability from ADH
+- Content quality scoring
+- Personalized recommendations engine
+- Proposal builder with template library
 
-### Competitive Pricing
+#### Future (6+ months)
 
-| Tool | Entry Price | Mid-tier | Enterprise |
-| --- | --- | --- | --- |
-| **TaskFlow** | Free | $12/user/mo | Custom |
-| Asana | Free (limited) | $13.49/user/mo | $30.49/user/mo |
-| Monday.com | $8/user/mo | $10/user/mo | $16/user/mo |
-| Linear | $8/user/mo | $12/user/mo | Custom |
-| ClickUp | Free | $7/user/mo | $12/user/mo |
+- AI-generated content summaries
+- Automatic content tagging
+- Expert matching for project staffing
+- Competitive intelligence module
 
-**Our strategy:** Competitive on price, better on value.
+---
+
+## Product 2: Accenture Delivery Hub (ADH)
+
+### What is ADH?
+
+ADH is Accenture's project delivery and resource management platform. Think **"Mission Control for Delivery Managers"** - a real-time view of project health, resource utilization, and capacity planning.
+
+### Core Value Proposition
+
+**For delivery managers who struggle with project visibility and resource planning,** ADH is a delivery management platform **that provides real-time project health, resource utilization, and capacity forecasting.** Unlike manual spreadsheets and status meetings, ADH **automates reporting, predicts staffing needs, and surfaces risks early.**
+
+---
+
+### Product Philosophy
+
+**Key Principles:**
+
+**1. Automation over manual effort**
+- Status should update itself, not require reports
+- Data should flow between systems automatically
+- Eliminate duplicate data entry
+
+**2. Early warning over post-mortem**
+- Surface risks before they become problems
+- Predictive analytics over historical reporting
+- Enable proactive management
+
+**3. Single source of truth**
+- One place for project data
+- Eliminate spreadsheet proliferation
+- Trusted data for decision-making
+
+**4. Manager-centric design**
+- Built for delivery managers, not executives
+- Actionable insights, not just dashboards
+- Quick access on any device
+
+---
+
+### Core Features
+
+#### 1. Project Health Dashboard
+
+**What users can do:**
+- View all projects at a glance (RAG status)
+- Drill into project details
+- See risk and issue summary
+- Track milestones and deliverables
+
+**Our differentiation:**
+- **Auto-calculated health:** Based on actual data, not PM optimism
+- **Trend analysis:** Is project getting better or worse?
+- **Cross-project view:** Compare across portfolio
+
+**Current performance:**
+- Projects with accurate health status: 67% (target: 95%)
+- Average dashboard load time: 4.2 seconds (target: 2 seconds)
+- Manager satisfaction with visibility: 3.4/5 (target: 4.5/5)
+
+#### 2. Resource Management
+
+**What users can do:**
+- View team utilization and availability
+- Search for available consultants by skill
+- Create staffing requests
+- Forecast future capacity needs
+
+**Our differentiation:**
+- **Real-time availability:** Updated daily from project data
+- **Skills-based search:** Find by capability, not just name
+- **Forecasting:** Predict availability 90 days out
+
+**Current performance:**
+- Utilization visibility: 67% (target: 95%)
+- Staffing request fulfillment time: 5.2 days (target: 2 days)
+- Forecast accuracy: 65% (target: 85%)
+
+#### 3. Status Reporting
+
+**What users can do:**
+- Generate weekly status reports automatically
+- Customize report templates
+- Distribute to stakeholders
+- Archive historical reports
+
+**Our differentiation:**
+- **Auto-generation:** Pull data from system, not manual entry
+- **Template library:** Practice-specific formats
+- **Distribution automation:** Right reports to right people
+
+**Current state:**
+- Manual reporting time: 4 hours/week per project (target: 30 minutes)
+- Reports generated via system: 35% (target: 80%)
+- Stakeholder satisfaction with reports: 3.6/5 (target: 4.5/5)
+
+#### 4. Capacity Planning
+
+**What users can do:**
+- View demand vs. supply over time
+- Model staffing scenarios
+- Identify skills gaps
+- Plan hiring needs
+
+**Our differentiation:**
+- **Rolling forecast:** Updated weekly with actuals
+- **Scenario modeling:** "What if we win this deal?"
+- **Skills gap analysis:** Where are we short?
+
+**Current state:**
+- Forecasting horizon: 30 days (target: 90 days)
+- Planning accuracy: 65% (target: 85%)
+- Usage of planning features: 23% of delivery managers (target: 60%)
+
+---
+
+### ADH User Personas
+
+**Primary:** Elena (Delivery Manager)
+- Uses ADH daily for project oversight
+- Needs real-time health visibility
+- Values automated reporting
+
+**Secondary:** Priya (Partner)
+- Uses ADH for resource availability
+- Needs staffing for new pursuits
+- Values quick lookups between meetings
+
+**Tertiary:** Marcus (Senior Consultant)
+- Uses ADH for time entry
+- Needs visibility into his utilization
+- Values accurate project assignment data
+
+---
+
+### ADH Metrics
+
+#### North Star Metric
+
+**Utilization Visibility Score:** % of consultant hours with accurate, real-time tracking
+
+**Definition:** Consultants with current project assignment, accurate hours, and skill profile
+
+**Why this metric?**
+- Indicates data quality and completeness
+- Enables accurate resource planning
+- Correlates with utilization improvement
+
+**Current:** 67% visibility
+**Target (EOY):** 95% visibility
+
+#### Product Health Metrics
+
+**Data Quality:**
+- Utilization visibility: 67% (target: 95%)
+- Project status accuracy: 72% (target: 90%)
+- Skills profile completeness: 58% (target: 80%)
+
+**Efficiency:**
+- Status reporting time: 4 hours/week (target: 30 minutes)
+- Staffing request fulfillment: 5.2 days (target: 2 days)
+- Dashboard load time: 4.2 seconds (target: 2 seconds)
+
+**Satisfaction:**
+- NPS: +8 (target: +18)
+- Delivery manager satisfaction: 3.4/5 (target: 4.5/5)
+- Consultant satisfaction (time entry): 2.8/5 (target: 3.8/5)
+
+**Business Impact:**
+- Utilization improvement: +0.5 percentage points attributed to ADH
+- Project delivery on-time rate: 82% (target: 92%)
+- Staffing cost reduction: $8M annually (target: $20M)
+
+---
+
+### ADH Roadmap
+
+#### Currently Shipping (This Quarter)
+
+- Automated status report generation
+- Mobile time entry improvements
+- Integration with financial systems
+- Skills profile enhancements
+
+#### Next Quarter
+
+- Predictive project health scoring
+- AI-powered staffing recommendations
+- Real-time bench notifications
+- Resource scenario planning
+
+#### Future (6+ months)
+
+- Client satisfaction integration
+- Automated risk identification
+- Portfolio optimization recommendations
+- Advanced workforce analytics
+
+---
+
+## How AKX and ADH Work Together
+
+### Integration Points
+
+**1. Expert Availability:**
+- AKX shows expert profiles
+- ADH provides real-time availability
+- Users see "Available in 2 weeks" on expert cards
+
+**2. Project Context:**
+- ADH tracks project assignments
+- AKX uses this for content recommendations
+- "Relevant to your current project..."
+
+**3. Skills & Experience:**
+- Consultants maintain skills in ADH
+- AKX surfaces experts based on verified skills
+- Project history proves expertise
+
+**4. Content Attribution:**
+- ADH tracks who worked on what
+- AKX attributes content to project teams
+- Enables "Find work by this team"
+
+### User Journeys Across Products
+
+**Priya (Partner) Journey:**
+1. Client asks about blockchain expertise
+2. Searches AKX for experts → finds Marcus
+3. Checks ADH for Marcus's availability → available in 3 weeks
+4. Uses AKX to find proposal content → finds relevant case study
+5. Staffs Marcus on the project via ADH
+
+**Elena (Delivery Manager) Journey:**
+1. Needs to staff a cloud architect
+2. Searches ADH for available consultants with AWS skills
+3. Reviews candidate profiles in AKX for past work
+4. Creates staffing request in ADH
+5. Uses AKX to find onboarding materials for new team member
+
+---
+
+## Enterprise Context
+
+### How Internal Products Differ from External Products
+
+| Aspect | External B2B Product | Internal Enterprise Product |
+| --- | --- | --- |
+| **Users** | Paying customers | Employees (no choice) |
+| **Revenue** | Direct (subscriptions) | Indirect (efficiency gains) |
+| **Adoption** | User chooses to use | Mandated or encouraged |
+| **Competition** | Other products in market | Shadow IT, workarounds, status quo |
+| **Success metric** | Revenue, retention | Adoption, efficiency, satisfaction |
+| **Pricing** | Per-user or usage | Internal budget allocation |
+| **Sales process** | Procurement | Steering committee approval |
+| **Change management** | Customer success | Internal communications, training |
+
+### Governance Structure
+
+**AKX Steering Committee:**
+- Richard Thorne (CKO) - Executive Sponsor
+- Jennifer Walsh (VP Internal Digital Products) - Product Lead
+- David Kim (MD Technology) - Business Representative
+- Sarah Mitchell (MD Strategy) - Business Representative
+- You (Senior Product Owner) - Product Owner
+
+**ADH Steering Committee:**
+- Maya Patel (CPO) - Executive Sponsor
+- Jennifer Walsh (VP Internal Digital Products) - Product Lead
+- Elena Rodriguez (Delivery Manager) - User Representative
+- Finance Representative - Budget and ROI
+- You (Senior Product Owner) - Product Owner
+
+### Funding Model
+
+**Annual Operating Budget:**
+- AKX: $8M (team, infrastructure, licensing, support)
+- ADH: $5M (team, infrastructure, licensing, support)
+
+**Investment Approval:**
+- < $50K: Product Owner approval
+- $50K - $100K: VP approval
+- $100K - $500K: Business case + Sponsor approval
+- > $500K: Steering Committee approval
+
+### Business Case Requirements
+
+For features requiring investment approval:
+
+1. **Problem Statement:** What business problem does this solve?
+2. **User Impact:** How many users affected? What's the time savings?
+3. **Financial Impact:** ROI calculation (cost savings, revenue enablement)
+4. **Stakeholder Analysis:** Who supports this? Who might resist?
+5. **Implementation Plan:** Timeline, resources, dependencies
+6. **Risk Assessment:** What could go wrong? Mitigation plans
+7. **Success Metrics:** How will we measure success?
 
 ---
 
 ## Technology Stack
 
-**Frontend:**
-- React + TypeScript
-- Tailwind CSS
-- React Query (data fetching)
-- WebSockets (real-time updates)
+**AKX:**
+- Frontend: React + TypeScript, Fluent UI
+- Backend: .NET Core, Azure Functions
+- Search: Azure Cognitive Search (AI-enhanced)
+- Database: Azure SQL, Cosmos DB
+- Infrastructure: Azure (PaaS)
+- Integration: Microsoft Graph API, SharePoint
 
-**Backend:**
-- Node.js + Express
-- PostgreSQL (primary database)
-- Redis (caching, sessions)
-- S3 (file storage)
+**ADH:**
+- Frontend: Angular, PrimeNG
+- Backend: Java Spring Boot
+- Database: Oracle, Redis
+- Infrastructure: Azure (IaaS + PaaS)
+- Integration: Workday, SAP, ServiceNow
 
-**Infrastructure:**
-- AWS (hosting)
-- CloudFront (CDN)
-- Terraform (infrastructure as code)
-
-**Mobile:**
-- React Native (iOS and Android)
-- Shared backend APIs
-
----
-
-## Product Principles in Action
-
-### Example: How we built Comments
-
-**Principle: Async-first**
-- Rich text editor (not just plain text)
-- Threading (organized discussions)
-- Email integration (reply via email)
-- Notification digests (not interrupt-driven)
-
-**Principle: Context over status**
-- Comments stay attached to task (never orphaned)
-- Quote specific parts of previous comments
-- Mark decisions explicitly (findable later)
-
-**Principle: Speed matters**
-- Comments load instantly (optimistic UI)
-- Keyboard shortcut to add comment (Cmd+Shift+C)
-- No page reload needed
-
-**Result:** 80% of teams use comments daily (high engagement)
+**Shared:**
+- Identity: Azure Active Directory
+- Analytics: Power BI, Application Insights
+- DevOps: Azure DevOps, Terraform
+- Mobile: React Native (shared codebase)
 
 ---
 
-## Your Projects This Quarter
+## Your Current Projects
 
-As the Senior PM for Activation & Onboarding, you're working on:
+### AKX Projects (Q1-Q2)
 
-**Project 1: Onboarding Redesign**
-- Goal: Increase activation from 45% → 60%
-- Timeline: Q1 2025
-- Status: In progress
+**Project 1: AI-Powered Search**
+- Goal: Improve search relevance and speed
+- Timeline: Q1 (in progress)
+- Status: Development phase
+- Key metrics: Search time 8 min → 4 min, satisfaction 3.2 → 4.0
 
-**Project 2: Dark Mode**
-- Goal: Ship most-requested feature
-- Timeline: Q1 2025
-- Status: PRD complete, starting dev
+**Project 2: Expert Matching**
+- Goal: Surface relevant experts automatically
+- Timeline: Q1-Q2
+- Status: Requirements gathering
+- Key metrics: Time to expert 2.3 days → 4 hours
 
-**Project 3: Template Library**
-- Goal: Faster time to value
-- Timeline: Q2 2025
+**Project 3: Mobile Experience**
+- Goal: Partner-friendly mobile app
+- Timeline: Q2
+- Status: Design phase
+- Key metrics: Mobile MAU 15% → 35%
+
+### ADH Projects (Q1-Q2)
+
+**Project 4: Automated Status Reports**
+- Goal: Eliminate manual status reporting
+- Timeline: Q1 (in progress)
+- Status: Development phase
+- Key metrics: Reporting time 4 hours → 30 minutes
+
+**Project 5: Predictive Staffing**
+- Goal: AI-powered resource recommendations
+- Timeline: Q2
 - Status: Research phase
+- Key metrics: Staffing time 5 days → 2 days
+
+**Project 6: Financial Integration**
+- Goal: Real-time project financials
+- Timeline: Q2
+- Status: Requirements gathering
+- Key metrics: Forecast accuracy 65% → 85%
 
 ---
 
-## Product Documentation
-
-All product documentation lives in:
-- **Notion:** Product specs, PRDs, research
-- **Figma:** Designs, mockups, design system
-- **GitHub:** Technical specs, API docs
-- **TaskFlow:** Roadmap, feature tracking (we dogfood!)
-
----
-
-**Throughout this course, you'll write PRDs, generate user stories, analyze research, and plan features for TaskFlow. You're not learning in a vacuum - you're working on a real (fictional) product! 🎯**
+**Throughout this course, you'll write PRDs, analyze data, and plan features for AKX and ADH. Understanding both products and how they serve different personas is critical for making good product decisions.**

@@ -1,70 +1,75 @@
-# User Interview #3: Team Lead Persona
+# Stakeholder Interview #3: Delivery Manager Persona
 
-**Participant:** Lisa Patel
-**Role:** Engineering Manager
-**Company:** DataFlow (220 employees, Series B)
-**TaskFlow Plan:** Pro (team of 8 engineers)
-**Date:** October 8, 2024
-**Interviewer:** Senior PM
-**Duration:** 32 minutes
+**Participant:** Elena Rodriguez
+**Role:** Delivery Manager, Technology Consulting
+**Location:** Atlanta, GA (remote)
+**Tenure:** 12 years at Accenture
+**Portfolio:** 8 active projects, 120 consultants
+**Products Used:** ADH (primary), AKX (occasional)
+**Date:** February 7, 2025
+**Interviewer:** Senior Product Owner
+**Duration:** 50 minutes
 
 ---
 
 ## Background
 
-Lisa manages a distributed engineering team - 8 engineers across 4 timezones. She's been an engineering manager for 3 years, was a senior engineer before that. Her team has been using TaskFlow for about 4 months.
+Elena manages delivery for a portfolio of technology implementation projects across multiple clients. She oversees 8 active projects with 120 consultants. She's known for being data-driven and systematic, but frustrated by the manual effort required to maintain visibility across her portfolio.
 
 ---
 
 ## Interview
 
-**Q: How does TaskFlow fit into your team's workflow?**
+**Q: Walk me through how you start your typical week.**
 
-Lisa: "We do two-week sprints. At the start of each sprint, I create a project in TaskFlow with all the tasks. Engineers pull tasks as they complete work. I check the board daily to see who's working on what, identify any blockers. We've basically eliminated standup meetings - everyone just updates their tasks and I can see status at a glance."
+Elena: "Monday morning, I need to know: Are my projects on track? Are there risks I need to escalate? Do I have resource gaps coming? Right now, that takes me about 3 hours. I log into ADH, but the data is often stale. PMs are supposed to update project status, but half of them don't. So I'm messaging each PM: 'Is Project X really on track?' Meanwhile, I have a status meeting with leadership at 10am and I'm scrambling to compile something trustworthy."
 
-**Q: What's working well?**
+**Q: What would you expect from ADH that you're not getting?**
 
-Lisa: "The workload view is great. I can see if someone has too many tasks assigned and rebalance. Before TaskFlow, I had no visibility - I'd find out someone was overloaded when they're already burned out. Now I can catch it early. The board view is also good for sprint planning - we drag tasks into the sprint and assign them."
+Elena: "Real-time project health. Not what the PM says the status is, but what the data says. If a project is burning budget faster than planned, I want to see that. If hours are tracking higher than estimated, flag it. If milestones are slipping, show me automatically. I shouldn't have to ask - the system should tell me."
 
-**Q: What's not working well?**
+**Q: Tell me about resource management challenges.**
 
-Lisa: "Reporting is painful. Every week I have to report up to the VP of Engineering - are we on track, what's blocked, what's the velocity. Right now I manually count completed tasks and make a slide deck. TaskFlow has some reports but they're basic. I want automatic burndown charts, velocity trends, forecasting. Like 'at current pace, you'll finish 2 days late.'"
+Elena: "It's a nightmare. Right now I have two projects that need a Salesforce architect starting next month. I search ADH for available Salesforce architects, I get a list, but the availability data is weeks old. So I start calling around - is this person actually available? Oh, they got staffed on something else last week. The data wasn't updated. By the time I find someone, the project is delayed."
 
-**Q: Tell me about blockers.**
+**Q: How much time do you spend on status reporting?**
 
-Lisa: "Blockers are CRITICAL for me. When an engineer is blocked, I need to know immediately. Right now they have to manually tag a task as blocked and write a comment. I wish blocked tasks were more visible - like, red flag, alert me somehow. Or even better, if a task hasn't been updated in 3 days, automatically flag it as potentially blocked."
+Elena: "Too much. At least 4 hours a week. I have different templates for different stakeholders. The practice lead wants one view, the client wants another, finance wants project financial status. I'm basically copying and pasting data between systems, reformatting it, adding commentary. Friday afternoon is just status report preparation. It should be automated."
 
-**Q: How do you use TaskFlow for team visibility?**
+**Q: What about forecasting and capacity planning?**
 
-Lisa: "I have a dashboard saved with my team's tasks. I check it 3-4 times a day. I can see who's heads-down on work, who just finished something and needs a new task. But the dashboard is pretty basic. I want to see more - like, how many tasks each person completed this week, average cycle time, that kind of thing. Help me spot patterns."
+Elena: "Terrible. I need to know: In 60 days, how many consultants will be rolling off projects? What skills do I need for the pipeline? Right now, I'm building spreadsheets manually. I pull data from ADH, adjust for what I know that isn't in the system, make educated guesses. The forecast is probably 65% accurate at best. Which means we're constantly surprised by gaps."
 
-**Q: What about cross-team collaboration?**
+**Q: How do you use AKX in your role?**
 
-Lisa: "My team works with the design team and the product team. TaskFlow is okay for this but could be better. Sometimes designers attach Figma links, sometimes they don't. Sometimes PMs write detailed specs, sometimes they don't. I wish there were requirements - like, 'this task can't be started until a Figma mockup is attached.' Enforce the process a bit."
+Elena: "Occasionally. When I'm onboarding a new project manager, I look for project plan templates, lessons learned from similar projects. The search is hit or miss - sometimes I find good stuff, sometimes I waste an hour finding nothing. For project templates specifically, I've saved a few good ones locally. Faster than searching every time."
 
-**Q: How do you handle onboarding new engineers?**
+**Q: What would ideal tools look like for you?**
 
-Lisa: "I create a training project with tasks like 'set up dev environment,' 'complete first code review,' etc. Works okay. But I'm basically rebuilding this for each new hire. A template would be nice - I could just duplicate the onboarding project. Actually, templates for common project types would be great - sprint planning, hiring pipeline, etc."
+Elena: "A dashboard I can glance at Monday morning and immediately know: These 2 projects need attention, these 6 are fine. Here are your resource gaps for the next 90 days. Here's your status report for the practice lead, auto-generated with real data. I want to spend time managing delivery, not managing data. The system should do the data work."
 
-**Q: What features would make your job easier?**
+**Q: How do you handle project risks currently?**
 
-Lisa: "Better reporting, definitely. Automatic insights - like, 'velocity decreased 20% this sprint, investigate.' Workload forecasting - 'if you assign these 5 tasks, Mike will be overloaded.' Blocked task visibility. And honestly, dark mode - half my team works late and they keep asking for it."
+Elena: "Project managers are supposed to log risks in ADH, but they don't consistently. Or they log them but don't escalate. So I find out about issues in status meetings, which is too late. I want the system to identify risks automatically - 'Hey, this project just exceeded 90% of budget with 50% of work remaining, you should look at it.' Don't wait for a human to flag it."
 
-**Q: How does TaskFlow compare to tools you've used before?**
+**Q: How does this compare to tools you've used before?**
 
-Lisa: "We used Jira before. Jira is powerful but SO complicated. TaskFlow is refreshing - it's simple but not TOO simple. It does what we need without overwhelming us with options. But we're hitting the limits now. As the team grows, I need more manager-level features. Right now it's great for individual contributors, but us managers need more tools."
+Elena: "I worked at Deloitte for two years early in my career. Their tools weren't perfect, but I hear they've invested heavily recently. My peers there talk about real-time dashboards, predictive staffing. We're behind. And it's frustrating because we have the data - it's just not surfaced in a useful way."
+
+**Q: Anything else we should know?**
+
+Elena: "Time entry is a pain point for my consultants. They complain about it constantly. The mobile experience is clunky. If we made time entry easier, we'd get better data, which would make everything else more accurate. It's a virtuous cycle that we're not capturing."
 
 ---
 
 ## Key Insights
-- Team visibility is primary use case
-- Workload view highly valued (prevent burnout)
-- Reporting is major pain point (manual, time-consuming)
-- Needs automatic insights and forecasting
-- Blocked task visibility critical but currently manual
-- Dashboard is useful but too basic (wants metrics)
-- Templates would help (onboarding, common projects)
-- Cross-team collaboration could be better (required fields)
-- Dark mode requested by team
-- Tool is good for ICs but lacking manager-level features
-- Eliminated standup meetings (async status updates)
+- Spends 3+ hours Monday morning compiling project status manually - data in ADH is stale
+- Wants automated health indicators based on actual data, not PM self-reports
+- Resource availability data is weeks old - leads to double-booking and delays
+- Status reporting takes 4+ hours per week - different formats for different stakeholders
+- Forecasting is only 65% accurate due to manual processes and stale data
+- Risks aren't logged consistently - discovers issues too late
+- Wants predictive alerts: budget burns, milestone slips, resource gaps
+- Deloitte peer comparison suggests competitors are investing heavily
+- Time entry friction causes data quality problems downstream
+- Saves templates locally because search is unreliable

@@ -1,262 +1,338 @@
-MONDAY 10/7 - BUSY DAY
+THURSDAY 2/13 - HEAVY MEETING DAY
 
-=== Meeting 1: Product sync w/ Sarah & Jordan (9am) ===
+=== Meeting 1: AKX Steering Committee (9am) ===
 
-attendees: sarah (head of product), jordan (design), me
-context: weekly product sync
+attendees: richard thorne (CKO, sponsor), jennifer walsh (VP internal digital), david kim (MD tech practice), sarah mitchell (MD strategy practice), me
 
-- talked about Q4 priorities
-- Sarah wants to push dark mode up in priority
-  - "most requested feature by far"
-  - engineering team asking for it (mike specifically)
-  - might help with retention?
+context: monthly steering committee for AKX
 
-jordan showed initial mockups for dark mode
-- looks good! really clean
-- uses our existing color system
-- question: what about user-uploaded images? contrast issues?
-- jordan will investigate
+richard kicked off - "where are we on WAU?"
+- current: 43% (same as last month basically)
+- target: 60% by fiscal year end
+- he's concerned we're not moving fast enough
 
-ONBOARDING discussion:
-sarah: "we need to hit 60% activation by end of Q1"
-- current: 45% (not great)
-- time to first task completion: 45 min (too slow)
-- competitor linear: ~15 min
+jennifer showed the roadmap slide
+- AI search: in development (on track for Q2)
+- expert matching: requirements gathering
+- mobile improvements: design phase
 
-ideas discussed:
-- template library (pre-built projects users can start with)
-- better first-run experience
-- video tutorials? (jordan says maybe not, users skip videos)
-- interactive tour (jordan likes this)
+david kim (tech practice): "my team complains search is terrible"
+- "they search for SAP S/4HANA migration experience, get 500 results"
+- "most results are from 2019 - completely outdated"
+- "people give up after 2-3 searches and just email their network"
+
+sarah mitchell (strategy practice): "same issue"
+- "McKinsey people who joined us say their knowledge center is so much better"
+- "we're losing competitive positioning - partners can't find expertise fast enough"
+- "lost a deal last month - client asked for blockchain expertise, took us 4 days to find someone"
+  - competitor (BCG) had their team identified in 48 hours
+
+DISCUSSION: AI Search priority
+richard: "this is the #1 priority. nothing else matters until search works"
+me: "AI search is in development, we're targeting Q2 launch"
+david: "Q2 is too late. can we accelerate?"
+
+jennifer: "team is constrained. mobile app work is ongoing"
+richard: "mobile can slip. search is more important."
+jennifer: "I'll discuss with the team"
+
+sarah mentioned expert profiles are outdated
+- "people don't update their skills"
+- "project history isn't complete"
+- "can't trust the data"
+
+me: we're exploring automatic profile updates from ADH
+- pull skills from project assignments
+- validate with managers
+- david liked this idea
 
 ACTION ITEMS:
-- me: research what competitors do for onboarding (asana, linear, clickup)
-- jordan: wireframes for interactive tour concept
-- sarah: talk to customer success about common activation blockers
+- jennifer: assess if we can accelerate AI search (Q2 → Q1 end)
+- me: draft proposal for automatic skill profile updates
+- david: identify 3 practice leads to pilot improved search
+- sarah: share the competitive loss analysis (BCG deal)
 
-also talked about mobile app progress
-- on track for Q1 launch (good news!)
-- alex (mobile PM) demoing beta next week
+richard closing: "I'm presenting to the CEO next month. Need to show progress."
+- pressure is HIGH
+- adoption numbers need to move
 
----
-
-=== Meeting 2: Stakeholder check-in w/ Mike (CTO) (11:30am) ===
-
-mike (cto) wants to discuss notifications system
-
-CONTEXT:
-notifications are messy right now
-- too many emails (users complaining)
-- not enough context in notifications
-- mobile notifications not working great
-- users miss important updates
-
-Mike's perspective:
-"engineering team is drowning in notifications"
-- average engineer gets 40-50 notifications/day
-- most are noise
-- important stuff gets buried
-
-discussed:
-1. smart batching (group similar notifications)
-   - mike: "like github does it - one email for multiple events"
-   - me: makes sense, but need to define what gets batched
-
-2. notification preferences need overhaul
-   - current: binary (on/off per notification type)
-   - need: granular (by project, by person, by urgency)
-
-3. digest mode
-   - batch non-urgent notifications
-   - send once daily (or twice daily?)
-   - mike: "i want morning digest, not constant interruptions"
-
-4. timezone-aware notifications
-   - don't notify at 2am!
-   - respect working hours
-   - mike mentioned they built this at his last company
-
-TECHNICAL CONSIDERATIONS:
-- notification service currently synchronous (slows down API)
-- need to move to async queue (redis? kafka?)
-- mike estimates 2 sprint effort
-- need database schema changes (preferences table redesign)
-
-CONCERNS from Mike:
-- team is at capacity (mobile app work)
-- this would push dark mode back
-- suggests Q2 instead of Q1?
-
-my take: notifications are important but dark mode is more visible
-sarah might disagree - need to discuss priorities
-
-ACTION:
-- me: draft PRD for notification improvements
-- me: talk to customer success - how many tickets are notification-related?
-- me: competitive analysis (how do other tools handle this?)
-- mike: technical spec if we decide to move forward
-
-random note: mike mentioned engineer happiness survey results
-- tools satisfaction: 7.2/10 (down from 7.8 last quarter)
-- dark mode came up multiple times in comments
-- performance issues mentioned (3 people)
+side conversation with david after:
+- "technology practice is your biggest advocate, but also your harshest critic"
+- "we have 80,000 consultants who need this to work"
+- suggested I shadow some of his team to understand search pain points
 
 ---
 
-=== Meeting 3: Planning session - Template Library (2pm) ===
+=== Meeting 2: Change Management Planning (11am) ===
 
-brainstorming session for template library project
-attendees: me, jordan (design), alex (mobile pm), jamie (eng lead)
+attendees: me, lisa chen (change management lead), tom rodriguez (communications), priya's EA (scheduling)
 
-BACKGROUND:
-users take forever to get started
-new user flow:
-1. sign up
-2. stare at empty workspace
-3. ... now what?
-4. manually create first project
-5. manually create first tasks
-6. finally start using product (45 min later!)
+context: planning adoption campaign for AI search launch
 
-GOAL: get users to value faster
+lisa: "feature launches fail when change management is an afterthought"
+- "we need to start comms planning NOW, not when the feature ships"
+- "people won't discover AI search on their own - need active promotion"
 
-TEMPLATE LIBRARY CONCEPT:
-pre-built project templates users can use
-- "product launch"
-- "sprint planning"
-- "hiring pipeline"
-- "content calendar"
-- "bug tracking"
-- etc.
+ADOPTION STRATEGY discussion:
 
-discussion:
+lisa's framework:
+1. awareness (know it exists)
+2. desire (want to use it)
+3. knowledge (know how to use it)
+4. ability (can actually use it)
+5. reinforcement (keep using it)
 
-jordan: "we should show templates immediately after signup"
-- modal: "choose a template to get started"
-- can skip (create blank project)
-- templates have real tasks, not just structure
+current state:
+- awareness is OK (people know AKX exists)
+- desire is LOW (don't trust search results, gave up)
+- knowledge is LOW (don't know tips/tricks)
+- ability is OK (UI is relatively intuitive)
+- reinforcement is LOW (no ongoing engagement)
 
-me: "how many templates do we need?"
-- jordan: "start with 5-7, expand later"
-- too many = paradox of choice
-- too few = not enough variety
+PROPOSED CAMPAIGN:
 
-alex: "mobile app should have templates too"
-- consistent experience
-- mobile users probably need templates more (smaller screen, harder to setup)
+tom: "we should target by role - partners need different messaging than consultants"
 
-jamie (eng): "template data structure?"
-- json files? database records?
-- need versioning (templates evolve)
-- need to support custom fields (templates might use them)
+partner messaging (priya's persona):
+- "find experts in 5 minutes, not 5 days"
+- "win more deals with faster team identification"
+- business impact focused
+
+consultant messaging (marcus's persona):
+- "stop recreating work that already exists"
+- "find templates and examples instantly"
+- efficiency focused
+
+delivery manager messaging (elena's persona):
+- "find project plans and lessons learned"
+- "staff projects with the right skills"
+- project success focused
+
+CHANNELS:
+- global town hall announcement (richard)
+- practice-specific webinars (MDs)
+- email campaign (3-part series)
+- Teams channel notifications
+- in-app banners and tutorials
+- "AKX Champions" program in each practice
+
+lisa: "we need executive sponsorship visible"
+- richard should do a video
+- MDs should endorse in practice meetings
+- "if leadership doesn't use it, why should I?"
+
+TIMELINE:
+- week 1: pre-launch comms ("something big is coming")
+- week 2: launch announcement
+- weeks 3-4: training webinars
+- weeks 5-8: reinforcement campaign
+- week 8+: measure and adjust
 
 CONCERNS:
-jamie: "templates are tricky"
-- users customize templates
-- template updates don't affect existing projects
-- or DO they? (might be a feature!)
+tom: "competing priorities - there's always something"
+- company town hall next month
+- fiscal year end communications
+- need to find the right window
 
-me: "privacy/security?"
-- enterprise customers might want PRIVATE templates
-- team-specific templates (not just global)
-- sarah mentioned this before
+lisa: "training capacity is limited"
+- can only run 10-15 webinars
+- suggest self-paced learning modules instead
+- partner with L&D team
 
-COMPETITIVE RESEARCH NOTES:
-- Asana has template library (huge! 100+ templates)
-  - organized by category
-  - some are "certified" by Asana
-  - users can create/share templates
-- notion has templates (inline, good UX)
-- clickup has templates (overwhelming, too many options)
-- linear: NO templates (interesting! they just have blank projects)
-
-OPEN QUESTIONS:
-1. template discovery - how do users find templates?
-2. template customization - edit before creating project?
-3. community templates - let users share?
-4. template analytics - which templates are popular?
-
-jamie's technical estimate: 3-4 sprints
-- template storage system
-- template rendering logic
-- UI for browsing templates
-- UI for creating from template
-- versioning system (if we want updates)
-
-alex: "can this wait until after mobile app ships?"
-- team capacity issue again
-- mobile app = Q1 priority
-- this might be Q2
-
-DECISION: need to prioritize with Sarah
-- is template library Q1 or Q2?
-- ties into activation OKR (important!)
-- but team capacity is constrained
+METRICS to track:
+- campaign reach (how many saw comms)
+- webinar attendance
+- search usage before/after
+- satisfaction surveys
 
 ACTION ITEMS:
-- me: write one-pager on template library (scope, goals, timeline)
-- me: gather data on activation drop-off (where do users abandon?)
-- jordan: quick mockups of template selection UI
-- jamie: more detailed technical estimate
-- alex: check if mobile app needs template support at launch (or later?)
+- me: confirm launch date with jennifer
+- lisa: draft change management plan (by next friday)
+- tom: create comms calendar and messaging
+- me: coordinate with priya's team for practice pilot
+- lisa: schedule stakeholder alignment meetings
+
+tom: "oh, also - richard wants a steering committee update deck by EOD friday"
+- need to summarize all this
+- ugh, more powerpoint
+
+---
+
+=== Meeting 3: Technical Integration Review (2pm) ===
+
+attendees: me, raj patel (tech lead), amit singh (ADH team), maya chen (security)
+
+context: reviewing integration between AKX and ADH for real-time expert availability
+
+raj explaining current state:
+- AKX shows expert profiles
+- ADH has real-time staffing data
+- NO integration currently
+- "we pull a monthly data dump - always stale"
+
+PROBLEM:
+- priya searches for expert in AKX
+- profile says "available"
+- actually, that person got staffed 2 weeks ago
+- frustrating experience, erodes trust
+
+PROPOSED SOLUTION:
+raj: "real-time API integration"
+- ADH exposes availability endpoint
+- AKX queries on profile load
+- "available", "on project (ends MM/DD)", "on bench"
+
+amit (ADH): "we can build the API"
+- concern: performance at scale
+- 700K+ employees
+- can't query for every profile view
+- need caching strategy
+
+raj's suggestion:
+- cache availability data (refresh hourly)
+- real-time query only for "detailed view"
+- background sync overnight for full data
+
+maya (security): "data classification concerns"
+- availability data is HR-sensitive
+- who can see who's on bench?
+- "partners can see their practice, not all practices"
+- need role-based access
+
+OPEN QUESTIONS:
+1. what exactly do we show?
+   - just available/not available?
+   - or project name and end date?
+   - amit: "project name might be confidential"
+
+2. skill matching accuracy
+   - ADH skill data vs AKX skill data
+   - they don't always match
+   - need single source of truth
+   - raj: "this is a bigger project"
+
+3. what about contractors?
+   - raj: "contractors aren't in ADH consistently"
+   - amit: "separate system for contingent workforce"
+   - me: out of scope for now, but note it
+
+TECHNICAL ESTIMATE (raj):
+- API development (ADH side): 2 sprints
+- integration code (AKX side): 2 sprints
+- testing and rollout: 1 sprint
+- total: 5 sprints (~10 weeks)
+
+SECURITY REQUIREMENTS (maya):
+- all data in transit encrypted
+- audit logging on access
+- consent framework (GDPR concerns for EU employees)
+- data retention policy
+
+amit raised data sync issues
+- employee terminations
+- transfers between practices
+- leave of absence status
+- "edge cases are endless"
+
+DECISION: proceed with MVP
+- show "available now" or "on project"
+- no project details in v1
+- partner-level visibility only
+- revisit expanded features later
+
+ACTION ITEMS:
+- raj: detailed technical spec (2 weeks)
+- amit: ADH API design and estimate
+- maya: security review document
+- me: update PRD with technical constraints
+- me: get sponsor sign-off on MVP scope
+
+raj after meeting: "this is going to be harder than it looks"
+- data quality issues in both systems
+- "garbage in, garbage out"
+- suggests data cleanup initiative in parallel
 
 ---
 
 RANDOM NOTES / PARKING LOT:
 
-- sarah wants to discuss API v2 roadmap next week
-- customer success escalated enterprise customer asking about custom SSO
-  (we have SAML but they want some other protocol? need to investigate)
-- mike mentioned performance regression in search (looking into it)
-- marketing wants to do a dark mode launch campaign (getting ahead of ourselves?)
-- someone on slack mentioned competitor "motion" (haven't heard of them - need to check out)
+- jennifer mentioned budget review coming up (march)
+  - need to prepare justification for additional headcount
+  - ROI analysis needed
 
-personal reminder: need to review alex's mobile PRD by wednesday
+- david kim wants a "practice dashboard" in AKX
+  - see all expertise in his practice
+  - track knowledge contributions
+  - "my practice creates content, other practices consume it - I want credit"
 
-UPCOMING THIS WEEK:
-- tuesday: customer interview (enterprise admin from salesforce)
-- wednesday: design review (dark mode final mockups)
-- thursday: sprint planning
-- friday: all-hands
+- complaints about AKX performance on mobile
+  - multiple people mentioned this
+  - "takes 10+ seconds to load"
+  - need to prioritize mobile performance
 
-data to pull:
-- activation funnel breakdown (where are drop-offs?)
-- notification ticket volume (last 3 months)
-- feature request frequency (dark mode vs templates vs notifications)
-- survey results (nps, user satisfaction)
+- heard from lisa: some partners don't even know AKX exists!
+  - "I've been here 15 years, never heard of it"
+  - brand awareness campaign needed
+
+- sarah's assistant mentioned executive dashboard request
+  - CKO wants weekly metrics automatically
+  - currently manual slide deck every week
+  - could save hours
+
+- overheard in hallway: deloitte is investing heavily in their knowledge platform
+  - competitive pressure increasing
+  - BCG's AI tools are apparently impressive
+  - need to move faster
 
 ---
 
 PRIORITIES EMERGING:
-1. mobile app (committed, Q1)
-2. dark mode (highly requested, team morale, relatively quick)
-3. activation/onboarding (OKR-critical, but what exactly?)
-   - templates? interactive tour? both?
-4. notifications (pain point, but complex, might be Q2)
-5. enterprise features (sso variants, advanced permissions - ongoing)
+1. AI search (CRITICAL - richard's #1 priority)
+2. expert availability integration (enables expert matching)
+3. adoption campaign (no point building if no one uses it)
+4. mobile performance (partners are mobile)
+5. data quality (underlying issue for everything)
 
-need to get clarity from sarah on what's actually Q1 vs Q2
+need to balance feature development with adoption work
+can't do everything at once - capacity constrained
 
 ---
 
 FOLLOW-UPS NEEDED:
-✓ competitive research on onboarding (me)
-- PRD for notifications (me)
-- one-pager on template library (me)
-- talk to customer success re: notifications & activation (me)
-- review mobile PRD (me)
-- wireframes for interactive tour (jordan)
-- dark mode final mockups (jordan)
-- technical spec for notifications (mike)
-- technical estimate for templates (jamie)
+✓ reviewed steering committee notes
+- draft proposal for automatic skill profiles (me)
+- change management plan draft (lisa)
+- comms calendar (tom)
+- technical spec for integration (raj)
+- ADH API design (amit)
+- security review (maya)
+- practice pilot coordination with david's team (me)
+- ROI analysis for budget review (me)
+- steering committee deck by friday (me)
 
-busy week ahead!
+way too much on my plate...
+
+---
+
+UPCOMING THIS WEEK:
+- friday: steering committee deck due
+- monday: change management review
+- tuesday: technical deep dive with raj
+- wednesday: 1:1 with jennifer
+- thursday: practice shadowing with david's team
+
+data to pull:
+- AKX usage by practice (who's using, who's not?)
+- search success rate trends (is it getting worse?)
+- expert connection rates (are people finding experts?)
+- ADH data quality metrics (how stale is the data?)
+- competitive analysis (what's BCG doing?)
 
 ---
 
 ═══════════════════════════════════════════════════════════════════════════════
-📋 PROCESSED BY CLAUDE CODE
-🕐 Generated: January 10, 2026 at 3:45 PM
+PROCESSED BY COPILOT
+Generated: February 13, 2025 at 5:30 PM
 ═══════════════════════════════════════════════════════════════════════════════
 
 # ACTION ITEMS SUMMARY
@@ -265,57 +341,76 @@ busy week ahead!
 
 ## By Owner
 
-### You (PM)
+### You (Senior Product Owner)
 | Action Item | Meeting | Priority | Due Date |
 |-------------|---------|----------|----------|
-| Research competitor onboarding (Asana, Linear, ClickUp) | Product Sync | High | Wed 10/9 |
-| Draft PRD for notification improvements | CTO Check-in | High | Fri 10/11 |
-| Talk to Customer Success re: notification tickets | CTO Check-in | Medium | Thu 10/10 |
-| Competitive analysis on notifications | CTO Check-in | Medium | Fri 10/11 |
-| Write one-pager on template library | Template Planning | High | Fri 10/11 |
-| Gather activation drop-off data | Template Planning | Medium | Thu 10/10 |
-| Review Alex's mobile PRD | Parking Lot | Medium | Wed 10/9 |
+| Draft proposal for automatic skill profile updates | Steering Committee | High | Mon 2/17 |
+| Confirm AI search launch date with Jennifer | Change Management | High | Fri 2/14 |
+| Coordinate with Priya's team for practice pilot | Change Management | Medium | Mon 2/17 |
+| Update PRD with technical constraints | Technical Review | High | Tue 2/18 |
+| Get sponsor sign-off on MVP scope | Technical Review | High | Wed 2/19 |
+| Steering committee update deck | Parking Lot | High | Fri 2/14 |
+| ROI analysis for budget review | Parking Lot | Medium | Fri 2/28 |
 
-### Jordan (Design)
+### Jennifer Walsh (VP Internal Digital Products)
 | Action Item | Meeting | Priority | Due Date |
 |-------------|---------|----------|----------|
-| Investigate dark mode contrast for user images | Product Sync | Medium | Fri 10/11 |
-| Wireframes for interactive tour concept | Product Sync | High | Mon 10/14 |
-| Quick mockups of template selection UI | Template Planning | Medium | Mon 10/14 |
-| Dark mode final mockups | Parking Lot | High | Wed 10/9 |
+| Assess if AI search can be accelerated (Q2 → Q1) | Steering Committee | Critical | Mon 2/17 |
 
-### Sarah (Head of Product)
+### David Kim (MD Technology Practice)
 | Action Item | Meeting | Priority | Due Date |
 |-------------|---------|----------|----------|
-| Talk to Customer Success about activation blockers | Product Sync | High | Fri 10/11 |
+| Identify 3 practice leads to pilot improved search | Steering Committee | Medium | Fri 2/21 |
 
-### Mike (CTO)
+### Sarah Mitchell (MD Strategy Practice)
 | Action Item | Meeting | Priority | Due Date |
 |-------------|---------|----------|----------|
-| Technical spec for notifications (if moving forward) | CTO Check-in | Medium | TBD |
+| Share competitive loss analysis (BCG deal) | Steering Committee | Medium | Fri 2/14 |
 
-### Jamie (Eng Lead)
+### Lisa Chen (Change Management Lead)
 | Action Item | Meeting | Priority | Due Date |
 |-------------|---------|----------|----------|
-| More detailed technical estimate for templates | Template Planning | Medium | Fri 10/11 |
+| Draft change management plan | Change Management | High | Fri 2/21 |
+| Schedule stakeholder alignment meetings | Change Management | Medium | Mon 2/17 |
 
-### Alex (Mobile PM)
+### Tom Rodriguez (Communications)
 | Action Item | Meeting | Priority | Due Date |
 |-------------|---------|----------|----------|
-| Check if mobile app needs template support at launch | Template Planning | Medium | Fri 10/11 |
+| Create comms calendar and messaging | Change Management | High | Fri 2/21 |
+
+### Raj Patel (Tech Lead)
+| Action Item | Meeting | Priority | Due Date |
+|-------------|---------|----------|----------|
+| Detailed technical spec for integration | Technical Review | High | Thu 2/27 |
+
+### Amit Singh (ADH Team)
+| Action Item | Meeting | Priority | Due Date |
+|-------------|---------|----------|----------|
+| ADH API design and estimate | Technical Review | High | Thu 2/27 |
+
+### Maya Chen (Security)
+| Action Item | Meeting | Priority | Due Date |
+|-------------|---------|----------|----------|
+| Security review document | Technical Review | High | Thu 2/27 |
 
 ---
 
 ## Key Decisions Needed
-1. **Q1 vs Q2 prioritization** - Clarify with Sarah what's actually committed
-2. **Notification redesign timing** - Q1 or Q2? Depends on capacity
-3. **Template library scope** - Start with 5-7 templates, mobile support later?
+1. **AI Search Acceleration** - Can we move from Q2 to Q1 end? Jennifer assessing capacity
+2. **Expert Availability MVP Scope** - Approved: show available/on project only, no details
+3. **Adoption Campaign Timing** - Need to find window that doesn't conflict with fiscal year end comms
+
+## Critical Risks Identified
+- **Competitive Pressure**: BCG beat us on a deal due to faster expert identification (4 days vs 48 hours)
+- **Executive Visibility**: CKO presenting to CEO next month, needs to show progress
+- **Data Quality**: Both AKX and ADH have stale/incomplete data affecting feature reliability
 
 ## This Week's Calendar
-- **Tuesday 10/8**: Customer interview (enterprise admin, Salesforce)
-- **Wednesday 10/9**: Design review (dark mode mockups)
-- **Thursday 10/10**: Sprint planning
-- **Friday 10/11**: All-hands
+- **Friday 2/14**: Steering committee deck due
+- **Monday 2/17**: Change management review
+- **Tuesday 2/18**: Technical deep dive with Raj
+- **Wednesday 2/19**: 1:1 with Jennifer
+- **Thursday 2/20**: Practice shadowing with David's team
 
 ---
-*Generated from 3 meetings on Monday 10/7*
+*Generated from 3 meetings on Thursday 2/13*
