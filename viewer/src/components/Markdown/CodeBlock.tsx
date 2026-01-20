@@ -3,6 +3,48 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 import { Copy, Check } from 'lucide-react'
 
+// Custom terminal green theme based on oneDark
+const terminalGreen = {
+  ...oneDark,
+  'pre[class*="language-"]': {
+    ...oneDark['pre[class*="language-"]'],
+    background: '#1a1a2e',
+  },
+  'code[class*="language-"]': {
+    ...oneDark['code[class*="language-"]'],
+    color: '#4ade80', // Terminal green
+  },
+  // Override token colors to use green shades
+  comment: { color: '#6b7280' },
+  prolog: { color: '#6b7280' },
+  doctype: { color: '#6b7280' },
+  cdata: { color: '#6b7280' },
+  punctuation: { color: '#86efac' },
+  property: { color: '#4ade80' },
+  tag: { color: '#22c55e' },
+  boolean: { color: '#a7f3d0' },
+  number: { color: '#a7f3d0' },
+  constant: { color: '#4ade80' },
+  symbol: { color: '#4ade80' },
+  selector: { color: '#86efac' },
+  'attr-name': { color: '#86efac' },
+  string: { color: '#86efac' },
+  char: { color: '#86efac' },
+  builtin: { color: '#22c55e' },
+  inserted: { color: '#4ade80' },
+  operator: { color: '#d1d5db' },
+  entity: { color: '#4ade80' },
+  url: { color: '#4ade80' },
+  variable: { color: '#4ade80' },
+  atrule: { color: '#86efac' },
+  'attr-value': { color: '#86efac' },
+  keyword: { color: '#22c55e' },
+  function: { color: '#4ade80' },
+  'class-name': { color: '#22c55e' },
+  regex: { color: '#86efac' },
+  important: { color: '#22c55e', fontWeight: 'bold' },
+}
+
 interface CodeBlockProps {
   children: string
   language?: string
@@ -58,7 +100,7 @@ export function CodeBlock({ children, language, inline }: CodeBlockProps) {
 
       <SyntaxHighlighter
         language={lang}
-        style={oneDark}
+        style={terminalGreen}
         customStyle={{
           margin: 0,
           padding: '1rem',
